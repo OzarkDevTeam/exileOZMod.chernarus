@@ -4020,140 +4020,140 @@ class CfgExileArsenal
 	
 		//Awper
 
-	class hlc_rifle_awcovert { quality = 0; price = 0; };
-	class hlc_rifle_awcovert_BL	 { quality = 0; price = 0; };
-	class hlc_rifle_awcovert_FDE	 { quality = 0; price = 0; };
-	class hlc_rifle_awmagnum { quality = 0; price = 0; };
-	class hlc_rifle_awmagnum_BL	 { quality = 0; price = 0; };
-	class hlc_rifle_awMagnum_FDE_ghillie { quality = 0; price = 0; };
-	class hlc_rifle_awMagnum_BL_ghillie { quality = 0; price = 0; };
-	class hlc_rifle_awMagnum_OD_ghillie { quality = 0; price = 0; };
+	class hlc_rifle_awcovert { quality = 1; price = 550; };
+	class hlc_rifle_awcovert_BL	 { quality = 1; price = 550; };
+	class hlc_rifle_awcovert_FDE	 { quality = 1; price = 550; };
+	class hlc_rifle_awmagnum { quality = 1; price = 550; };
+	class hlc_rifle_awmagnum_BL	 { quality = 1; price = 550; };
+	class hlc_rifle_awMagnum_FDE_ghillie { quality = 1; price = 550; };
+	class hlc_rifle_awMagnum_BL_ghillie { quality = 1; price = 550; };
+	class hlc_rifle_awMagnum_OD_ghillie { quality = 1; price = 550; };
 		//Ammo
-	class hlc_5rnd_300WM_FMJ_AWM { quality = 0; price = 0; };
-	class hlc_5rnd_300WM_AP_AWM { quality = 0; price = 0; };
-	class hlc_5rnd_300WM_BTSP_AWM { quality = 0; price = 0; };
-	class hlc_5rnd_300WM_mk248_AWM { quality = 0; price = 0; };
-	class hlc_5rnd_300WM_SBT_AWM { quality = 0; price = 0; };
+	class hlc_5rnd_300WM_FMJ_AWM { quality = 1; price = 30; };
+	class hlc_5rnd_300WM_AP_AWM { quality = 1; price = 30; };
+	class hlc_5rnd_300WM_BTSP_AWM { quality = 1; price = 30; };
+	class hlc_5rnd_300WM_mk248_AWM { quality = 1; price = 30; };
+	class hlc_5rnd_300WM_SBT_AWM { quality = 1; price = 30; };
 
 		//Fal
 	
-	class hlc_rifle_l1a1slr { quality = 0; price = 0; };
-	class hlc_rifle_SLR { quality = 0; price = 0; };
-	class hlc_rifle_STG58F { quality = 0; price = 0; };
-	class hlc_rifle_FAL5061 { quality = 0; price = 0; };
-	class hlc_rifle_c1A1	 { quality = 0; price = 0; };
-	class hlc_rifle_LAR	 { quality = 0; price = 0; };
-	class hlc_rifle_SLRchopmod { quality = 0; price = 0; };
-	class hlc_rifle_falosw { quality = 0; price = 0; };
-	class hlc_rifle_osw_GL { quality = 0; price = 0; };
+	class hlc_rifle_l1a1slr { quality = 1; price = 550; };
+	class hlc_rifle_SLR { quality = 1; price = 550; };
+	class hlc_rifle_STG58F { quality = 1; price = 550; };
+	class hlc_rifle_FAL5061 { quality = 1; price = 550; };
+	class hlc_rifle_c1A1	 { quality = 1; price = 550; };
+	class hlc_rifle_LAR	 { quality = 1; price = 550; };
+	class hlc_rifle_SLRchopmod { quality = 1; price = 550; };
+	class hlc_rifle_falosw { quality = 1; price = 550; };
+	class hlc_rifle_osw_GL { quality = 1; price = 550; };
 
-	class hlc_optic_PVS4FAL { quality = 0; price = 0; };
-	class hlc_optic_suit	 { quality = 0; price = 0; };
-	class hlc_muzzle_snds_fal { quality = 0; price = 0; };
+	class hlc_optic_PVS4FAL { quality = 1; price = 150; };
+	class hlc_optic_suit	 { quality = 1; price = 150; };
+	class hlc_muzzle_snds_fal { quality = 1; price = 50; };
 		//Ammo
-	class hlc_20Rnd_762x51_B_fal { quality = 0; price = 0; };
-	class hlc_20Rnd_762x51_t_fal { quality = 0; price = 0; };
-	class hlc_20Rnd_762x51_S_fal { quality = 0; price = 0; };
-	class hlc_50rnd_762x51_M_FAL { quality = 0; price = 0; };
+	class hlc_20Rnd_762x51_B_fal { quality = 1; price = 30; };
+	class hlc_20Rnd_762x51_t_fal { quality = 1; price = 30; };
+	class hlc_20Rnd_762x51_S_fal { quality = 1; price = 30; };
+	class hlc_50rnd_762x51_M_FAL { quality = 1; price = 30; };
 
 		//G3
 
-	class hlc_rifle_g3sg1	 { quality = 0; price = 0; };
-	class hlc_rifle_psg1 { quality = 0; price = 0; };
-	class hlc_rifle_g3a3	 { quality = 0; price = 0; };
-	class hlc_rifle_g3ka4	 { quality = 0; price = 0; };
-	class HLC_Rifle_g3ka4_GL { quality = 0; price = 0; };
-	class hlc_rifle_hk51	 { quality = 0; price = 0; };
-	class hlc_rifle_hk53 { quality = 0; price = 0; };
+	class hlc_rifle_g3sg1	 { quality = 1; price = 550; };
+	class hlc_rifle_psg1 { quality = 1; price = 550; };
+	class hlc_rifle_g3a3	 { quality = 1; price = 550; };
+	class hlc_rifle_g3ka4	 { quality = 1; price = 550; };
+	class HLC_Rifle_g3ka4_GL { quality = 1; price = 550; };
+	class hlc_rifle_hk51	 { quality = 1; price = 550; };
+	class hlc_rifle_hk53 { quality = 1; price = 550; };
 		//Attatchments
-	class hlc_muzzle_snds_HK33 { quality = 0; price = 0; };
-	class hlc_muzzle_snds_G3 { quality = 0; price = 0; };
-	class HLC_Optic_ZFSG1 { quality = 0; price = 0; };
-	class hlc_optic_accupoint_g3 { quality = 0; price = 0; };
+	class hlc_muzzle_snds_HK33 { quality = 1; price = 50; };
+	class hlc_muzzle_snds_G3 { quality = 1; price = 50; };
+	class HLC_Optic_ZFSG1 { quality = 1; price = 150; };
+	class hlc_optic_accupoint_g3 { quality = 1; price = 50; };
 		//Ammo
-	class hlc_20Rnd_762x51_B_G3 { quality = 0; price = 0; };
-	class hlc_20rnd_762x51_T_G3 { quality = 0; price = 0; };
-	class hlc_50rnd_762x51_M_G3 { quality = 0; price = 0; };
+	class hlc_20Rnd_762x51_B_G3 { quality = 1; price = 30; };
+	class hlc_20rnd_762x51_T_G3 { quality = 1; price = 30; };
+	class hlc_50rnd_762x51_M_G3 { quality = 1; price = 30; };
 
 		//AR15
 
-	class hlc_rifle_RU556 { quality = 0; price = 0; };
-	class hlc_rifle_RU5562 { quality = 0; price = 0; };
-	class hlc_rifle_Colt727 { quality = 0; price = 0; };
-	class hlc_rifle_Colt727_GL { quality = 0; price = 0; };
-	class hlc_rifle_bcmjack { quality = 0; price = 0; };
-	class hlc_rifle_SAMR { quality = 0; price = 0; };
+	class hlc_rifle_RU556 { quality = 1; price = 550; };
+	class hlc_rifle_RU5562 { quality = 1; price = 550; };
+	class hlc_rifle_Colt727 { quality = 1; price = 550; };
+	class hlc_rifle_Colt727_GL { quality = 1; price = 550; };
+	class hlc_rifle_bcmjack { quality = 1; price = 550; };
+	class hlc_rifle_SAMR { quality = 1; price = 550; };
 		//Ammo
-	class hlc_30rnd_556x45_EPR { quality = 0; price = 0; };
-	class hlc_30rnd_556x45_SOST { quality = 0; price = 0; };
-	class hlc_30rnd_556x45_SPR { quality = 0; price = 0; };
+	class hlc_30rnd_556x45_EPR { quality = 1; price = 30; };
+	class hlc_30rnd_556x45_SOST { quality = 1; price = 30; };
+	class hlc_30rnd_556x45_SPR { quality = 1; price = 30; };
 		//Attatchments
-	class hlc_muzzle_556NATO_KAC { quality = 0; price = 0; };
+	class hlc_muzzle_556NATO_KAC { quality = 1; price = 50; };
 
 		//.300 AR 15
 
-	class hlc_rifle_honeybadger { quality = 0; price = 0; };
-	class hlc_rifle_honeybase { quality = 0; price = 0; };
-	class hlc_rifle_vendimus { quality = 0; price = 0; };
-	class hlc_rifle_Bushmaster300 { quality = 0; price = 0; };
+	class hlc_rifle_honeybadger { quality = 1; price = 550; };
+	class hlc_rifle_honeybase { quality = 1; price = 550; };
+	class hlc_rifle_vendimus { quality = 1; price = 550; };
+	class hlc_rifle_Bushmaster300 { quality = 1; price = 550; };
 		//Ammo
-	class 29rnd_300BLK_STANAG_T { quality = 0; price = 0; };
-	class 29rnd_300BLK_STANAG_S { quality = 0; price = 0; };
-	class 29rnd_300BLK_STANAG { quality = 0; price = 0; };
+	class 29rnd_300BLK_STANAG_T { quality = 1; price = 30; };
+	class 29rnd_300BLK_STANAG_S { quality = 1; price = 30; };
+	class 29rnd_300BLK_STANAG { quality = 1; price = 30; };
 		//Attatchments
-	class hlc_muzzle_300blk_KAC { quality = 0; price = 0; };
+	class hlc_muzzle_300blk_KAC { quality = 1; price = 50; };
 
 		//Springfield.
 
-	class hlc_rifle_M1903A1_unertl { quality = 0; price = 0; };
-	class hlc_rifle_M1903A1 { quality = 0; price = 0; };
+	class hlc_rifle_M1903A1_unertl { quality = 1; price = 550; };
+	class hlc_rifle_M1903A1 { quality = 1; price = 550; };
 		//Ammo
-	class hlc_5rd_3006_1903 { quality = 0; price = 0; };
+	class hlc_5rd_3006_1903 { quality = 1; price = 30; };
 
 		//ACR
 
-	class hlc_rifle_ACR_Carb_black { quality = 0; price = 0; };
-	class hlc_rifle_ACR_Carb_green { quality = 0; price = 0; };
-	class hlc_rifle_ACR_Carb_tan { quality = 0; price = 0; };
-	class hlc_rifle_ACR_full_black { quality = 0; price = 0; };
-	class hlc_rifle_ACR_full_green { quality = 0; price = 0; };
-	class hlc_rifle_ACR_full_tan { quality = 0; price = 0; };
-	class hlc_rifle_ACR_mid_black { quality = 0; price = 0; };
-	class hlc_rifle_ACR_mid_green { quality = 0; price = 0; };
-	class hlc_rifle_ACR_mid_tan { quality = 0; price = 0; };
-	class hlc_rifle_ACR_SBR_black { quality = 0; price = 0; };
-	class hlc_rifle_ACR_SBR_green { quality = 0; price = 0; };
-	class hlc_rifle_ACR_SBR_tan { quality = 0; price = 0; };
+	class hlc_rifle_ACR_Carb_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR_Carb_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR_Carb_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR_full_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR_full_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR_full_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR_mid_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR_mid_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR_mid_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR_SBR_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR_SBR_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR_SBR_tan { quality = 1; price = 550; };
 
 		//Ammo
-	class hlc_30rnd_556x45_EPR { quality = 0; price = 0; };
-	class hlc_30rnd_556x45_SOST { quality = 0; price = 0; };
-	class hlc_30rnd_556x45_SPR { quality = 0; price = 0; };
+	class hlc_30rnd_556x45_EPR { quality = 1; price = 30; };
+	class hlc_30rnd_556x45_SOST { quality = 1; price = 30; };
+	class hlc_30rnd_556x45_SPR { quality = 1; price = 30; };
 
 		//ACR68
 
-	class hlc_rifle_ACR68_aron { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_Carb_black { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_Carb_green { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_Carb_tan { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_full_black { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_full_green { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_full_tan { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_mid_black { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_mid_green { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_mid_tan { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_SBR_black { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_SBR_green { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_SBR_tan { quality = 0; price = 0; };
-	class hlc_rifle_ACR68_Squant { quality = 0; price = 0; };
+	class hlc_rifle_ACR68_aron { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_Carb_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_Carb_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_Carb_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_full_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_full_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_full_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_mid_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_mid_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_mid_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_SBR_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_SBR_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_SBR_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_Squant { quality = 1; price = 550; };
 		//Ammo
-	class hlc_30rnd_68x43_FMJ { quality = 0; price = 0; };
-	class hlc_30rnd_68x43_OTM { quality = 0; price = 0; };
-	class hlc_30rnd_68x43_MFMJ { quality = 0; price = 0; };
-	class hlc_30rnd_68x43_MIRDIM { quality = 0; price = 0; };
-	class hlc_30rnd_68x43_Tracer { quality = 0; price = 0; };
-	class hlc_30rnd_68x43_Tracer { quality = 0; price = 0; };
-	class hlc_30rnd_68x43_IRDIM { quality = 0; price = 0; };
+	class hlc_30rnd_68x43_FMJ { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_OTM { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_MFMJ { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_MIRDIM { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_Tracer { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_Tracer { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_IRDIM { quality = 1; price = 30; };
 };
 
 
