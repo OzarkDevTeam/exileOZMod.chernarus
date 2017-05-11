@@ -2716,6 +2716,1444 @@ class CfgExileArsenal
 	class Exile_Item_FlagStolen8						{ quality = 1; price = 40000; sellPrice = 40000; };
 	class Exile_Item_FlagStolen9						{ quality = 1; price = 45000; sellPrice = 45000; };
 	class Exile_Item_FlagStolen10						{ quality = 1; price = 50000; sellPrice = 50000; };
+	
+	///////////////////////////////////////////////////////////////////////////////
+	// CUP Weapons #CUPEDITS
+	///////////////////////////////////////////////////////////////////////////////
+	class CUP_arifle_AK74										{ quality = 1; price = 550; };
+	class CUP_arifle_AK74M										{ quality = 1; price = 550; };
+	class CUP_arifle_AK74_GL									{ quality = 1; price = 550; };
+	class CUP_arifle_AK74_GL_kobra								{ quality = 1; price = 550; };
+	class CUP_arifle_AKS										{ quality = 1; price = 550; };
+	class CUP_arifle_AKS_Gold									{ quality = 1; price = 550; };
+	class CUP_arifle_AKS74										{ quality = 1; price = 550; };
+	class CUP_arifle_AKS74_kobra								{ quality = 1; price = 550; };
+	class CUP_arifle_AKS74_pso									{ quality = 1; price = 550; };
+	class CUP_arifle_AKS74_NSPU									{ quality = 1; price = 550; };
+	class CUP_arifle_AKS74_Goshawk								{ quality = 1; price = 550; };
+	class CUP_arifle_AKS74U										{ quality = 1; price = 550; };
+	class CUP_arifle_AKS74UN_kobra_snds							{ quality = 1; price = 550; };
+	class CUP_arifle_AK107										{ quality = 1; price = 550; };
+	class CUP_arifle_AK107_kobra								{ quality = 1; price = 550; };
+	class CUP_arifle_AK107_pso									{ quality = 1; price = 550; };
+	class CUP_arifle_AK107_GL									{ quality = 1; price = 550; };
+	class CUP_arifle_AK107_GL_kobra								{ quality = 1; price = 550; };
+	class CUP_arifle_AK107_GL_pso								{ quality = 1; price = 550; };
+	class CUP_arifle_AKM										{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_A1									{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_A1_Holo_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_A1_Aco_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_A1_MRCO_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_A1_ZDDot_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_GL									{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_GL_Hamr_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_GL_ZDDot_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_A2									{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_A2_Holo_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_A2_Aco_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds				{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_B									{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805_B_GL									{ quality = 1; price = 550; };
+	class CUP_arifle_CZ805B_GL_ACOG_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_FNFAL										{ quality = 1; price = 550; };
+	class CUP_arifle_FNFAL_railed								{ quality = 1; price = 550; };
+	class CUP_arifle_FNFAL_ANPVS4								{ quality = 1; price = 550; };
+	class CUP_arifle_G36A										{ quality = 1; price = 550; };
+	class CUP_arifle_G36A_camo									{ quality = 1; price = 550; };
+	class CUP_arifle_G36K										{ quality = 1; price = 550; };
+	class CUP_arifle_G36K_camo									{ quality = 1; price = 550; };
+	class CUP_arifle_G36C										{ quality = 1; price = 550; };
+	class CUP_arifle_G36C_holo_snds								{ quality = 1; price = 550; };
+	class CUP_arifle_G36C_camo									{ quality = 1; price = 550; };
+	class CUP_arifle_G36C_camo_holo_snds						{ quality = 1; price = 550; };
+	class CUP_arifle_L85A2										{ quality = 1; price = 550; };
+	class CUP_arifle_L85A2_Holo_laser							{ quality = 1; price = 550; };
+	class CUP_arifle_L85A2_SUSAT_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_L85A2_CWS_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_L85A2_ACOG_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_L85A2_GL									{ quality = 1; price = 550; };
+	class CUP_arifle_L85A2_GL_Holo_laser						{ quality = 1; price = 550; };
+	class CUP_arifle_L85A2_GL_SUSAT_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_L85A2_GL_ACOG_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_M16A2										{ quality = 1; price = 550; };
+	class CUP_arifle_M16A2_GL									{ quality = 1; price = 550; };
+	class CUP_arifle_M16A4_Base									{ quality = 1; price = 550; };
+	class CUP_arifle_M16A4_GL									{ quality = 1; price = 550; };
+	class CUP_arifle_M16A4_Aim_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_M16A4_ACOG_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_M16A4_GL_Laser								{ quality = 1; price = 550; };
+	class CUP_arifle_M16A4_GL_ACOG_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_BUIS_GL								{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_BUIS_camo_GL							{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_BUIS_desert_GL						{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1										{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_camo									{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_black									{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_desert								{ quality = 1; price = 550; };
+	class CUP_arifle_M4A3_desert								{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_camo_Aim								{ quality = 1; price = 550; };
+	class CUP_arifle_M4A3_desert_Aim_Flashlight					{ quality = 1; price = 550; };
+	class CUP_arifle_M4A3_desert_GL_ACOG_Laser					{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_Aim									{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_camo_AIM_snds							{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_GL_Holo_Flashlight					{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_GL_ACOG_Flashlight					{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_camo_GL_Holo_Flashlight				{ quality = 1; price = 550; };
+	class CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds			{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58P										{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58V										{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58V_ACOG_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58V_Aim_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58RIS1									{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58RIS1_Aco_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58RIS2									{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58RIS2_Arco_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58RIS2_gl								{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58P_des									{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58V_camo									{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58RIS1_des								{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58RIS1_camo_Aco_Laser					{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58RIS2_camo								{ quality = 1; price = 550; };
+	class CUP_arifle_Sa58RIS2_camo_Arco_Laser					{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_STD										{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_STD_FG									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_STD_FG_Holo_Laser							{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_STD_FG_LeupoldMk4CQT_Laser				{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_STD_SFG									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_STD_EGLM									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_STD_EGLM_ACOG_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_STD_EGLM_ANPAS13c1_Laser_mfsup			{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_CQC										{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_CQC_FG									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds						{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_CQC_SFG									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_CQC_SFG_Holo								{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_CQC_EGLM									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_CQC_EGLM_Holo_Laser_mfsup					{ quality = 1; price = 550; };
+	class CUP_arifle_Mk16_SV										{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_CQC										{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_CQC_FG									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_CQC_SFG									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_CQC_EGLM									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_STD										{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_STD_FG									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_STD_SFG									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_STD_EGLM									{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_CQC_SFG_Aim_mfsup							{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_STD_FG_Aim_Laser_snds						{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_STD_EGL_ElcanSpecter_Laser				{ quality = 1; price = 550; };
+	class CUP_arifle_Mk17_STD_FG_ANPAS13c1_Laser_Snds				{ quality = 1; price = 550; };
+	class CUP_arifle_Mk20										    { quality = 1; price = 550; };
+	class CUP_arifle_Mk20_LeupoldMk4MRT								{ quality = 1; price = 550; };
+	class CUP_arifle_Mk20_SB11420_snds								{ quality = 1; price = 550; };
+	class CUP_arifle_XM8_Carbine									{ quality = 1; price = 550; };
+	class CUP_arifle_XM8_Carbine_GL									{ quality = 1; price = 550; };
+	class CUP_arifle_xm8_sharpshooter								{ quality = 1; price = 550; };
+	class CUP_arifle_XM8_Compact									{ quality = 1; price = 550; };
+	class CUP_arifle_XM8_Compact_Rail								{ quality = 1; price = 550; };
+	class CUP_arifle_XM8_Compact_Holo_Flashlight					{ quality = 1; price = 550; };
+	class CUP_arifle_XM8_Railed										{ quality = 1; price = 550; };
+	class CUP_arifle_XM8_Railed_ANPAS13c1_Laser						{ quality = 1; price = 550; };
+	class CUP_arifle_XM8_Railed_ANPAS13c1_Laser_snds				{ quality = 1; price = 550; };
+	class CUP_arifle_XM8_Railed_Holo_Laser_snds						{ quality = 1; price = 550; };
+	class CUP_arifle_XM8_Carbine_FG									{ quality = 1; price = 550; };
+	class CUP_RPK_74												{ quality = 1; price = 550; };
+	class CUP_lmg_Pecheneg											{ quality = 1; price = 550; };
+	class CUP_Pecheneg												{ quality = 1; price = 550; };
+	class CUP_lmg_PKM												{ quality = 1; price = 550; };
+	class CUP_PK													{ quality = 1; price = 550; };
+	class CUP_lmg_UK59												{ quality = 1; price = 550; };
+	class CUP_UK59_ACR												{ quality = 1; price = 550; };
+	class CUP_arifle_L86A2											{ quality = 1; price = 550; };
+	class CUP_arifle_L86A2_ACOG										{ quality = 1; price = 550; };
+	class CUP_lmg_L110A1											{ quality = 1; price = 550; };
+	class CUP_lmg_L110A1_Aim_Laser									{ quality = 1; price = 550; };
+	class CUP_BAF_L110A1_Aim										{ quality = 1; price = 550; };
+	class CUP_lmg_L7A2												{ quality = 1; price = 550; };
+	class CUP_BAF_L7A2_GPMG											{ quality = 1; price = 550; };
+	class CUP_lmg_M249_ElcanM145_Laser								{ quality = 1; price = 550; };
+	class CUP_lmg_M249_Laser										{ quality = 1; price = 550; };
+	class CUP_lmg_M249_ANPAS13c2_Laser								{ quality = 1; price = 550; };
+	class CUP_lmg_M249												{ quality = 1; price = 550; };
+	class CUP_M249_m145_EP1											{ quality = 1; price = 550; };
+	class CUP_lmg_M240												{ quality = 1; price = 550; };
+	class CUP_lmg_M240_ElcanM143									{ quality = 1; price = 550; };
+	class CUP_lmg_M60A4												{ quality = 1; price = 550; };
+	class CUP_lmg_Mk48_des											{ quality = 1; price = 550; };
+	class CUP_lmg_Mk48_wdl											{ quality = 1; price = 550; };
+	class CUP_lmg_Mk48_des_Aim_Laser								{ quality = 1; price = 550; };
+	class CUP_lmg_Mk48_wdl_Aim_Laser								{ quality = 1; price = 550; };
+	class CUP_arifle_MG36											{ quality = 1; price = 550; };
+	class CUP_arifle_MG36_camo										{ quality = 1; price = 550; };
+	class CUP_MG36													{ quality = 1; price = 550; };
+	class CUP_MG36_camo												{ quality = 1; price = 550; };
+	class CUP_M249_EP1												{ quality = 1; price = 550; };
+	class CUP_M249_TWS_EP1											{ quality = 1; price = 550; };
+	class CUP_M249													{ quality = 1; price = 550; };
+	class CUP_M240													{ quality = 1; price = 550; };
+	class CUP_m240_scoped_EP1										{ quality = 1; price = 550; };
+	class CUP_M240_veh_W											{ quality = 1; price = 550; };
+	class CUP_M240_veh2_W											{ quality = 1; price = 550; };
+	class CUP_M240_Coax_M1_Abrams_W									{ quality = 1; price = 550; };
+	class CUP_M240_Loader_M1_Abrams_W								{ quality = 1; price = 550; };
+	class CUP_M60A4_EP1												{ quality = 1; price = 550; };
+	class CUP_Mk_48_DES_EP1											{ quality = 1; price = 550; };
+	class CUP_Mk_48													{ quality = 1; price = 550; };
+	class CUP_srifle_AWM_des										{ quality = 1; price = 550; };
+	class CUP_srifle_AWM_wdl										{ quality = 1; price = 550; };
+	class CUP_srifle_AWM_des_SBPMII									{ quality = 1; price = 550; };
+	class CUP_srifle_AWM_wdl_SBPMII									{ quality = 1; price = 550; };
+	class CUP_srifle_CZ550											{ quality = 1; price = 550; };
+	class CUP_huntingrifle											{ quality = 1; price = 550; };
+	class CUP_srifle_CZ750											{ quality = 1; price = 550; };
+	class CUP_srifle_CZ750_SOS_bipod								{ quality = 1; price = 550; };
+	class CUP_CZ_750_S1_ACR											{ quality = 1; price = 550; };
+	class CUP_srifle_DMR											{ quality = 1; price = 550; };
+	class CUP_srifle_DMR_LeupoldMk4									{ quality = 1; price = 550; };
+	class CUP_srifle_M14											{ quality = 1; price = 550; };
+	class CUP_srifle_M14_Aim										{ quality = 1; price = 550; };
+	class CUP_DMR													{ quality = 1; price = 550; };
+	class CUP_M14_EP1												{ quality = 1; price = 550; };
+	class CUP_srifle_M24_des										{ quality = 1; price = 550; };
+	class CUP_srifle_M24_wdl										{ quality = 1; price = 550; };
+	class CUP_srifle_M24_ghillie									{ quality = 1; price = 550; };
+	class CUP_srifle_M24_des_LeupoldMk4LRT							{ quality = 1; price = 550; };
+	class CUP_srifle_M24_wdl_LeupoldMk4LRT							{ quality = 1; price = 550; };
+	class CUP_M24													{ quality = 1; price = 550; };
+	class CUP_M24_des_EP1											{ quality = 1; price = 550; };
+	class CUP_srifle_M40A3											{ quality = 1; price = 550; };
+	class CUP_M40A3													{ quality = 1; price = 550; };
+	class CUP_M110_TWS_EP1											{ quality = 1; price = 550; };
+	class CUP_M110_NVG_EP1											{ quality = 1; price = 550; };
+	class CUP_srifle_M110											{ quality = 1; price = 550; };
+	class CUP_srifle_M110_ANPAS13c2				{ quality = 1; price = 550; };
+	class CUP_srifle_M110_ANPVS10				{ quality = 1; price = 550; };
+	class CUP_SVD				{ quality = 1; price = 550; };
+	class CUP_SVD_CAMO				{ quality = 1; price = 550; };
+	class CUP_SVD_des_EP1				{ quality = 1; price = 550; };
+	class CUP_SVD_NSPU_EP1				{ quality = 1; price = 550; };
+	class CUP_srifle_SVD				{ quality = 1; price = 550; };
+	class CUP_srifle_SVD_des				{ quality = 1; price = 550; };
+	class CUP_srifle_SVD_des_ghillie_pso				{ quality = 1; price = 550; };
+	class CUP_srifle_SVD_wdl_ghillie				{ quality = 1; price = 550; };
+	class CUP_srifle_SVD_pso				{ quality = 1; price = 550; };
+	class CUP_srifle_SVD_Des_pso				{ quality = 1; price = 550; };
+	class CUP_srifle_SVD_NSPU				{ quality = 1; price = 550; };
+	class CUP_srifle_VSSVintorez				{ quality = 1; price = 550; };
+	class CUP_srifle_VSSVintorez_pso				{ quality = 1; price = 550; };
+	class CUP_VSS_vintorez				{ quality = 1; price = 550; };
+	class CUP_srifle_LeeEnfield				{ quality = 1; price = 550; };
+	class CUP_LeeEnfield				{ quality = 1; price = 550; };
+	class CUP_srifle_AS50				{ quality = 1; price = 550; };
+	class CUP_srifle_AS50_SBPMII				{ quality = 1; price = 550; };
+	class CUP_srifle_AS50_AMPAS13c2				{ quality = 1; price = 550; };
+	class CUP_BAF_AS50_scoped				{ quality = 1; price = 550; };
+	class CUP_PMC_AS50_scoped				{ quality = 1; price = 550; };
+	class CUP_BAF_AS50_TWS				{ quality = 1; price = 550; };
+	class CUP_PMC_AS50_TWS				{ quality = 1; price = 550; };
+	class CUP_srifle_ksvk				{ quality = 1; price = 550; };
+	class CUP_srifle_ksvk_PSO3				{ quality = 1; price = 550; };
+	class CUP_ksvk				{ quality = 1; price = 550; };
+	class CUP_srifle_M107_Base				{ quality = 1; price = 550; };
+	class CUP_srifle_M107_LeupoldVX3				{ quality = 1; price = 550; };
+	class CUP_srifle_M107_ANPAS13c2				{ quality = 1; price = 550; };
+	class CUP_M107				{ quality = 1; price = 550; };
+	class CUP_M107_TWS_EP1				{ quality = 1; price = 550; };
+	class CUP_sgun_AA12				{ quality = 1; price = 550; };
+	class CUP_AA12_PMC				{ quality = 1; price = 550; };
+	class CUP_sgun_M1014				{ quality = 1; price = 550; };
+	class CUP_M1014				{ quality = 1; price = 550; };
+	class CUP_sgun_Saiga12K				{ quality = 1; price = 550; };
+	class CUP_Saiga12K				{ quality = 1; price = 550; };
+	class CUP_smg_bizon				{ quality = 1; price = 550; };
+	class CUP_smg_bizon_snds				{ quality = 1; price = 550; };
+	class CUP_bizon				{ quality = 1; price = 550; };
+	class CUP_bizon_silenced				{ quality = 1; price = 550; };
+	class CUP_smg_EVO				{ quality = 1; price = 550; };
+	class CUP_smg_EVO_MRad_Flashlight				{ quality = 1; price = 550; };
+	class CUP_smg_EVO_MRad_Flashlight_Snds				{ quality = 1; price = 550; };
+	class CUP_Evo_mrad_ACR				{ quality = 1; price = 550; };
+	class CUP_Evo_sd_ACR				{ quality = 1; price = 550; };
+	class CUP_Evo_ACR				{ quality = 1; price = 550; };
+	class CUP_smg_MP5SD6				{ quality = 1; price = 550; };
+	class CUP_smg_MP5A5				{ quality = 1; price = 550; };
+	class CUP_MP5SD				{ quality = 1; price = 550; };
+	class CUP_MP5A5				{ quality = 1; price = 550; };
+	class CUP_hgun_Colt1911 				{ quality = 1; price = 550; };
+	class CUP_hgun_Colt1911_snds				{ quality = 1; price = 550; };
+	class CUP_Colt1911				{ quality = 1; price = 550; };
+	class CUP_hgun_Compact				{ quality = 1; price = 550; };
+	class CUP_hgun_Duty				{ quality = 1; price = 550; };
+	class CUP_hgun_Duty_M3X				{ quality = 1; price = 550; };
+	class CUP_hgun_Phantom				{ quality = 1; price = 550; };
+	class CUP_hgun_Phantom_Flashlight				{ quality = 1; price = 550; };
+	class CUP_hgun_Phantom_Flashlight_snds				{ quality = 1; price = 550; };
+	class CUP_CZ_75_D_COMPACT				{ quality = 1; price = 550; };
+	class CUP_CZ_75_P_07_DUTY				{ quality = 1; price = 550; };
+	class CUP_CZ_75_SP_01_PHANTOM				{ quality = 1; price = 550; };
+	class CUP_CZ_75_SP_01_PHANTOM_SD				{ quality = 1; price = 550; };
+	class CUP_hgun_glock17_flashlight				{ quality = 1; price = 550; };
+	class CUP_hgun_glock17_flashlight_snds				{ quality = 1; price = 550; };
+	class CUP_hgun_glock17_snds				{ quality = 1; price = 550; };
+	class CUP_Glock17_EP1				{ quality = 1; price = 550; };
+	class CUP_hgun_M9				{ quality = 1; price = 550; };
+	class CUP_hgun_M9_snds				{ quality = 1; price = 550; };
+	class CUP_M9				{ quality = 1; price = 550; };
+	class CUP_M9SD				{ quality = 1; price = 550; };
+	class CUP_hgun_Makarov				{ quality = 1; price = 550; };
+	class CUP_Makarov				{ quality = 1; price = 550; };
+	class CUP_MakarovSD				{ quality = 1; price = 550; };
+	class CUP_hgun_PB6P9				{ quality = 1; price = 550; };
+	class CUP_hgun_PB6P9_snds				{ quality = 1; price = 550; };
+	class CUP_hgun_SA61				{ quality = 1; price = 550; };
+	class CUP_Sa61_EP1				{ quality = 1; price = 550; };
+	class CUP_hgun_MicroUzi				{ quality = 1; price = 550; };
+	class CUP_hgun_MicroUzi_snds				{ quality = 1; price = 550; };
+	class CUP_UZI_EP1				{ quality = 1; price = 550; };
+	class CUP_UZI_SD_EP1				{ quality = 1; price = 550; };
+	class CUP_hgun_TaurusTracker455				{ quality = 1; price = 550; };
+	class CUP_Revolver_EP1				{ quality = 1; price = 550; };
+	class CUP_hgun_TaurusTracker455_gold				{ quality = 1; price = 550; };
+	class CUP_Revolver_gold_EP1				{ quality = 1; price = 550; };
+	class CUP_glaunch_M32				{ quality = 1; price = 550; };
+	class CUP_M32_EP1				{ quality = 1; price = 550; };
+	class CUP_glaunch_M79				{ quality = 1; price = 550; };
+	class CUP_M79_EP1				{ quality = 1; price = 550; };
+	class CUP_glaunch_Mk13				{ quality = 1; price = 550; };
+	class CUP_Mk13_EP1				{ quality = 1; price = 550; };
+	class CUP_launch_9K32Strela				{ quality = 1; price = 550; };
+	class CUP_Strela				{ quality = 1; price = 550; };
+	class CUP_launch_Igla				{ quality = 1; price = 550; };
+	class CUP_Igla				{ quality = 1; price = 550; };
+	class CUP_launch_FIM92Stinger				{ quality = 1; price = 550; };
+	class CUP_Stinger				{ quality = 1; price = 550; };
+	class CUP_launch_M47				{ quality = 1; price = 550; };
+	class CUP_M47Launcher_EP1				{ quality = 1; price = 550; };
+	class CUP_launch_MAAWS				{ quality = 1; price = 550; };
+	class CUP_launch_MAAWS_Scope				{ quality = 1; price = 550; };
+	class CUP_MAAWS				{ quality = 1; price = 550; };
+	class CUP_launch_Metis				{ quality = 1; price = 550; };
+	class CUP_MetisLauncher				{ quality = 1; price = 550; };
+	class CUP_launch_NLAW				{ quality = 1; price = 550; };
+	class CUP_BAF_NLAW_Launcher				{ quality = 1; price = 550; };
+	class CUP_launch_Javelin				{ quality = 1; price = 550; };
+	class CUP_Javelin				{ quality = 1; price = 550; };
+	class CUP_launch_Mk153Mod0				{ quality = 1; price = 550; };
+	class CUP_launch_Mk153Mod0_SMAWOptics				{ quality = 1; price = 550; };
+	class CUP_SMAW				{ quality = 1; price = 550; };
+	class CUP_launch_RPG7V				{ quality = 1; price = 550; };
+	class CUP_RPG7V				{ quality = 1; price = 550; };
+	class CUP_launch_RPG18				{ quality = 1; price = 550; };
+	class CUP_RPG18				{ quality = 1; price = 550; };
+	class CUP_launch_M136				{ quality = 1; price = 550; };
+	class CUP_M136				{ quality = 1; price = 550; };
+	class CUP_30Rnd_545x39_AK_M 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_TE1_White_Tracer_545x39_AK_M 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M 				{ quality = 1; price = 30; };
+	class CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_556x45_G36 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_TE1_Red_Tracer_556x45_G36 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_TE1_Green_Tracer_556x45_G36 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_556x45_BetaCMag 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE4_Green_Tracer_556x45_M249 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE4_Red_Tracer_556x45_M249 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249 				{ quality = 1; price = 30; };
+	class CUP_200Rnd_TE4_Green_Tracer_556x45_M249 				{ quality = 1; price = 30; };
+	class CUP_200Rnd_TE4_Red_Tracer_556x45_M249 				{ quality = 1; price = 30; };
+	class CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249 				{ quality = 1; price = 30; };
+	class CUP_200Rnd_TE1_Red_Tracer_556x45_M249 				{ quality = 1; price = 30; };
+	class CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1 				{ quality = 1; price = 30; };
+	class CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1 				{ quality = 1; price = 30; };
+	class CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1 				{ quality = 1; price = 30; };
+	class CUP_10x_303_M 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_Sa58_M 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_Sa58_M_TracerG 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_Sa58_M_TracerR 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_Sa58_M_TracerY 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_762x39_AK47_M 				{ quality = 1; price = 30; };
+	class CUP_5Rnd_762x51_M24 				{ quality = 1; price = 30; };
+	class CUP_5x_22_LR_17_HMR_M 				{ quality = 1; price = 30; };
+	class CUP_10Rnd_762x51_CZ750 				{ quality = 1; price = 30; };
+	class CUP_10Rnd_762x51_CZ750_Tracer 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_762x51_FNFAL_M 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_762x51_DMR 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Red_Tracer_762x51_DMR 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Green_Tracer_762x51_DMR 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_White_Tracer_762x51_DMR 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_762x51_B_SCAR 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Green_Tracer_762x51_SCAR 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_White_Tracer_762x51_SCAR 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_762x51_B_M110 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Yellow_Tracer_762x51_M110 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Red_Tracer_762x51_M110 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Green_Tracer_762x51_M110 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_White_Tracer_762x51_M110 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_762x51_CZ805B 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Yellow_Tracer_762x51_CZ805B 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Red_Tracer_762x51_CZ805B 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Green_Tracer_762x51_CZ805B 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_White_Tracer_762x51_CZ805B 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE4_White_Tracer_762x51_M240_M 				{ quality = 1; price = 30; };
+	class CUP_200Rnd_TE4_White_Tracer_762x51_M240_M 				{ quality = 1; price = 30; };
+	class CUP_200Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M 				{ quality = 1; price = 30; };
+	class CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M 				{ quality = 1; price = 30; };
+	class CUP_1200Rnd_TE4_White_Tracer_762x51_M240_M 				{ quality = 1; price = 30; };
+	class CUP_1200Rnd_TE4_Red_Tracer_762x51_M240_M 				{ quality = 1; price = 30; };
+	class CUP_2000Rnd_TE5_White_Tracer_762x51_M134_M 				{ quality = 1; price = 30; };
+	class CUP_2000Rnd_TE1_White_Tracer_762x51_M134_M 				{ quality = 1; price = 30; };
+	class CUP_2000Rnd_TE5_Red_Tracer_762x51_M134_M 				{ quality = 1; price = 30; };
+	class CUP_2000Rnd_TE1_Red_Tracer_762x51_M134_M 				{ quality = 1; price = 30; };
+	class CUP_4000Rnd_TE5_White_Tracer_762x51_M134_M 				{ quality = 1; price = 30; };
+	class CUP_4000Rnd_TE5_Red_Tracer_762x51_M134_M 				{ quality = 1; price = 30; };
+	class CUP_10Rnd_762x54_SVD_M 				{ quality = 1; price = 30; };
+	class CUP_50Rnd_UK59_762x54R_Tracer 				{ quality = 1; price = 30; };
+	class CUP_10Rnd_B_765x17_Ball_M 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_B_765x17_Ball_M 				{ quality = 1; price = 30; };
+	class CUP_5Rnd_86x70_L115A1 				{ quality = 1; price = 30; };
+	class CUP_8Rnd_9x18_Makarov_M 				{ quality = 1; price = 30; };
+	class CUP_8Rnd_9x18_MakarovSD_M 				{ quality = 1; price = 30; };
+	class CUP_10Rnd_9x19_Compact 				{ quality = 1; price = 30; };
+	class CUP_15Rnd_9x19_M9 				{ quality = 1; price = 30; };
+	class CUP_17Rnd_9x19_glock17 				{ quality = 1; price = 30; };
+	class CUP_18Rnd_9x19_Phantom 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_9x19_EVO 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_9x19_UZI 				{ quality = 1; price = 30; };
+	class CUP_30Rnd_9x19_MP5 				{ quality = 1; price = 30; };
+	class CUP_64Rnd_9x19_Bizon_M 				{ quality = 1; price = 30; };
+	class CUP_64Rnd_Green_Tracer_9x19_Bizon_M 				{ quality = 1; price = 30; };
+	class CUP_64Rnd_Red_Tracer_9x19_Bizon_M 				{ quality = 1; price = 30; };
+	class CUP_64Rnd_White_Tracer_9x19_Bizon_M 				{ quality = 1; price = 30; };
+	class CUP_64Rnd_Yellow_Tracer_9x19_Bizon_M 				{ quality = 1; price = 30; };
+	class CUP_10Rnd_9x39_SP5_VSS_M 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_9x39_SP5_VSS_M 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_45ACP_M 				{ quality = 1; price = 30; };
+	class CUP_7Rnd_45ACP_1911 				{ quality = 1; price = 30; };
+	class CUP_5Rnd_127x99_as50_M 				{ quality = 1; price = 30; };
+	class CUP_10Rnd_127x99_M107 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_127x99_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE4_Red_Tracer_127x99_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE4_Green_Tracer_127x99_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE4_Yellow_Tracer_127x99_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE4_White_Tracer_127x99_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE1_Red_Tracer_127x99_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE1_Green_Tracer_127x99_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE1_Yellow_Tracer_127x99_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE1_White_Tracer_127x99_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE3_LRT5_Green_Tracer_127x107_DSHKM_M 				{ quality = 1; price = 30; };
+	class CUP_100Rnd_TE3_LRT5_127x107_DSHKM_M 				{ quality = 1; price = 30; };
+	class CUP_5Rnd_127x108_KSVK_M 				{ quality = 1; price = 30; };
+	class CUP_8Rnd_B_Saiga12_74Slug_M 				{ quality = 1; price = 30; };
+	class CUP_8Rnd_B_Saiga12_74Pellets_M 				{ quality = 1; price = 30; };
+	class CUP_8Rnd_B_Beneli_74Slug 				{ quality = 1; price = 30; };
+	class CUP_8Rnd_B_Beneli_74Pellets 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_B_AA12_Pellets 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_B_AA12_74Slug 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_B_AA12_HE 				{ quality = 1; price = 30; };
+	class CUP_750Rnd_TE2_Red_Tracer_M197_20mm_AP_M 				{ quality = 1; price = 30; };
+	class CUP_50Rnd_TE2_LRT4_Green_Tracer_23mm_KPVB_APHE_M 				{ quality = 1; price = 30; };
+	class CUP_520Rnd_TE2_23mm_GSh23L_APHE_M 				{ quality = 1; price = 30; };
+	class CUP_300Rnd_TE1_White_Tracer_25mm_GAU12_M 				{ quality = 1; price = 30; };
+	class CUP_300Rnd_TE1_Red_Tracer_25mm_GAU12_M 				{ quality = 1; price = 30; };
+	class CUP_300Rnd_TE1_Green_Tracer_25mm_GAU12_M 				{ quality = 1; price = 30; };
+	class CUP_300Rnd_TE1_Yellow_Tracer_25mm_GAU12_M 				{ quality = 1; price = 30; };
+	class CUP_29Rnd_30mm_AGS30_M 				{ quality = 1; price = 30; };
+	class CUP_150Rnd_TE1_White_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_150Rnd_TE1_Red_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_150Rnd_TE1_Green_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_150Rnd_TE1_Yellow_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_150Rnd_TE1_White_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_150Rnd_TE1_Red_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_150Rnd_TE1_Green_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_150Rnd_TE1_Yellow_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_230Rnd_TE1_White_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_230Rnd_TE1_Red_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_230Rnd_TE1_Green_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_230Rnd_TE1_Yellow_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_230Rnd_TE1_White_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_230Rnd_TE1_Red_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_230Rnd_TE1_Green_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_230Rnd_TE1_Yellow_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_250Rnd_TE1_White_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_250Rnd_TE1_Red_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_250Rnd_TE1_Green_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_250Rnd_TE1_Yellow_Tracer_30mmHE_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_250Rnd_TE1_White_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_250Rnd_TE1_Red_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_250Rnd_TE1_Green_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_250Rnd_TE1_Yellow_Tracer_30mmAP_2A42_M 				{ quality = 1; price = 30; };
+	class CUP_400Rnd_30mm_AGS17_M 				{ quality = 1; price = 30; };
+	class CUP_1200Rnd_TE1_Red_Tracer_30x113mm_M789_HEDP_M 				{ quality = 1; price = 30; };
+	class CUP_1200Rnd_TE1_Green_Tracer_30x113mm_M789_HEDP_M 				{ quality = 1; price = 30; };
+	class CUP_1200Rnd_TE1_Yellow_Tracer_30x113mm_M789_HEDP_M 				{ quality = 1; price = 30; };
+	class CUP_1200Rnd_TE1_White_Tracer_30x113mm_M789_HEDP_M 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_HE_M203 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_HEDP_M203 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_HE_GP25_M 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_SMOKE_GP25_M 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_Smoke_M203 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_SmokeRed_GP25_M 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_SmokeRed_M203 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_SmokeGreen_GP25_M 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_SmokeGreen_M203 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_SmokeYellow_GP25_M 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_SmokeYellow_M203 				{ quality = 1; price = 30; };
+	class CUP_FlareWhite_GP25_M 				{ quality = 1; price = 30; };
+	class CUP_FlareWhite_M203 				{ quality = 1; price = 30; };
+	class CUP_FlareRed_GP25_M 				{ quality = 1; price = 30; };
+	class CUP_FlareRed_M203 				{ quality = 1; price = 30; };
+	class CUP_FlareGreen_GP25_M 				{ quality = 1; price = 30; };
+	class CUP_FlareGreen_M203 				{ quality = 1; price = 30; };
+	class CUP_FlareYellow_GP25_M 				{ quality = 1; price = 30; };
+	class CUP_FlareYellow_M203 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_HE_M203 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_Smoke_M203 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_SmokeRed_M203 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_SmokeGreen_M203 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_SmokeYellow_M203 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_FlareWhite_M203 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_FlareGreen_M203 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_FlareRed_M203 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_FlareYellow_M203 				{ quality = 1; price = 30; };
+	class CUP_32Rnd_40mm_MK19_M 				{ quality = 1; price = 30; };
+	class CUP_48Rnd_40mm_MK19_M 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Red_Tracer_120mmHE_M256_Cannon_M 				{ quality = 1; price = 30; };
+	class CUP_20Rnd_TE1_Red_Tracer_120mmSABOT_M256_Cannon_M 				{ quality = 1; price = 30; };
+	class CUP_HandGrenade_M67 				{ quality = 1; price = 30; };
+	class CUP_HandGrenade_L109A1_HE	 				{ quality = 1; price = 30; };
+	class CUP_HandGrenade_L109A2_HE 				{ quality = 1; price = 30; };
+	class CUP_HandGrenade_RGD5 				{ quality = 1; price = 30; };
+	class CUP_HandGrenade_RGO 				{ quality = 1; price = 30; };
+	class CUP_TimeBomb_M 				{ quality = 1; price = 30; };
+	class CUP_Mine_M 				{ quality = 1; price = 30; };
+	class CUP_MineE_M 				{ quality = 1; price = 30; };
+	class CUP_PipeBomb_M 				{ quality = 1; price = 30; };
+	class CUP_IED_V1_M 				{ quality = 1; price = 30; };
+	class CUP_IED_V2_M 				{ quality = 1; price = 30; };
+	class CUP_IED_V3_M 				{ quality = 1; price = 30; };
+	class CUP_IED_V4_M 				{ quality = 1; price = 30; };
+	class CUP_Strela_2_M 				{ quality = 1; price = 30; };
+	class CUP_Stinger_M 				{ quality = 1; price = 30; };
+	class CUP_Igla_M 				{ quality = 1; price = 30; };
+	class CUP_Javelin_M 				{ quality = 1; price = 30; };
+	class CUP_M136_M 				{ quality = 1; price = 30; };
+	class CUP_Dragon_EP1_M 				{ quality = 1; price = 30; };
+	class CUP_MAAWS_HEDP_M 				{ quality = 1; price = 30; };
+	class CUP_MAAWS_HEAT_M 				{ quality = 1; price = 30; };
+	class CUP_AT13_M 				{ quality = 1; price = 30; };
+	class CUP_NLAW_M 				{ quality = 1; price = 30; };
+	class CUP_RPG18_M 				{ quality = 1; price = 30; };
+	class CUP_PG7V_M 				{ quality = 1; price = 30; };
+	class CUP_PG7VL_M 				{ quality = 1; price = 30; };
+	class CUP_PG7VR_M 				{ quality = 1; price = 30; };
+	class CUP_OG7_M 				{ quality = 1; price = 30; };
+	class CUP_SMAW_HEDP_M_N 				{ quality = 1; price = 30; };
+	class CUP_SMAW_HEAA_M_N 				{ quality = 1; price = 30; };
+	class CUP_PG9_AT_M 				{ quality = 1; price = 30; };
+	class CUP_OG9_HE_M 				{ quality = 1; price = 30; };
+	class CUP_8Rnd_AT5_BMP2_M 				{ quality = 1; price = 30; };
+	class CUP_5Rnd_AT5_BRDM2_M 				{ quality = 1; price = 30; };
+	class CUP_2Rnd_Hydra_Pod_7_M 				{ quality = 1; price = 30; };
+	class CUP_4Rnd_Hydra_Pod_7_M 				{ quality = 1; price = 30; };
+	class CUP_14Rnd_FFAR_M 				{ quality = 1; price = 30; };
+	class CUP_28Rnd_FFAR_M 				{ quality = 1; price = 30; };
+	class CUP_38Rnd_FFAR_M 				{ quality = 1; price = 30; };
+	class CUP_38Rnd_FFAR_AH64Out_M 				{ quality = 1; price = 30; };
+	class CUP_38Rnd_FFAR_AH64In_M 				{ quality = 1; price = 30; };
+	class CUP_14Rnd_FFAR_Mid_M 				{ quality = 1; price = 30; };
+	class CUP_14Rnd_FFAR_In_M 				{ quality = 1; price = 30; };
+	class CUP_8Rnd_AGM114L_Hellfire_II_M 				{ quality = 1; price = 30; };
+	class CUP_4Rnd_AGM114L_Hellfire_II_M 				{ quality = 1; price = 30; };
+	class CUP_8Rnd_AGM114K_Hellfire_II_M 				{ quality = 1; price = 30; };
+	class CUP_4Rnd_AGM114K_Hellfire_II_M 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_AIM_9L_Sidewinder_External_M 				{ quality = 1; price = 30; };
+	class CUP_4Rnd_AIM_9L_Sidewinder_External_M 				{ quality = 1; price = 30; };
+	class CUP_2Rnd_AIM_9L_Sidewinder_Internal_M 				{ quality = 1; price = 30; };
+	class CUP_2Rnd_AIM_9L_Sidewinder_External_M 				{ quality = 1; price = 30; };
+	class CUP_2Rnd_AGM65_M 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_AGM65_M 				{ quality = 1; price = 30; };
+	class CUP_8Rnd_AGM65_M 				{ quality = 1; price = 30; };
+	class CUP_6Rnd_GBU12_M 				{ quality = 1; price = 30; };
+	class CUP_2Rnd_MK82_Rack_M 				{ quality = 1; price = 30; };
+	class CUP_4Rnd_MK82_Rack_M 				{ quality = 1; price = 30; };
+	class CUP_1Rnd_MK82_Rack_M 				{ quality = 1; price = 30; };
+	class CUP_2Rnd_Mk82_M 				{ quality = 1; price = 30; };
+	class CUP_muzzleFlash2SCAR_L 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_AWM 				{ quality = 1; price = 30; };
+	class CUP_muzzle_PBS4 				{ quality = 1; price = 30; };
+	class CUP_muzzle_PB6P9 				{ quality = 1; price = 30; };
+	class CUP_muzzle_Bizon 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_G36_black 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_G36_desert 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_L85 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_M110 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_M14 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_M16_camo 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_M16 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_M9 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_MicroUzi 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_XM8 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_SCAR_L 				{ quality = 1; price = 30; };
+	class CUP_muzzle_snds_SCAR_H 				{ quality = 1; price = 30; };
+	class CUP_optic_MAAWS_Scope 				{ quality = 1; price = 30; };
+	class CUP_optic_SMAW_Scope 				{ quality = 1; price = 30; };
+	class CUP_optic_AN_PAS_13c1 				{ quality = 1; price = 30; };
+	class CUP_optic_AN_PAS_13c2 				{ quality = 1; price = 30; };
+	class CUP_optic_GOSHAWK 				{ quality = 1; price = 30; };
+	class CUP_optic_AN_PVS_10 				{ quality = 1; price = 30; };
+	class CUP_optic_AN_PVS_4 				{ quality = 1; price = 30; };
+	class CUP_optic_NSPU 				{ quality = 1; price = 30; };
+	class CUP_optic_SB_3_12x50_PMII 				{ quality = 1; price = 30; };
+	class CUP_optic_LeupoldMk4 				{ quality = 1; price = 30; };
+	class CUP_optic_Leupold_VX3 				{ quality = 1; price = 30; };
+	class CUP_optic_LeupoldM3LR 				{ quality = 1; price = 30; };
+	class CUP_optic_LeupoldMk4_10x40_LRT_Desert 				{ quality = 1; price = 30; };
+	class CUP_optic_LeupoldMk4_10x40_LRT_Woodland 				{ quality = 1; price = 30; };
+	class CUP_optic_LeupoldMk4_CQ_T 				{ quality = 1; price = 30; };
+	class CUP_optic_LeupoldMk4_MRT_tan 				{ quality = 1; price = 30; };
+	class CUP_optic_PechenegScope 				{ quality = 1; price = 30; };
+	class CUP_optic_PSO_1 				{ quality = 1; price = 30; };
+	class CUP_optic_PSO_3 				{ quality = 1; price = 30; };
+	class CUP_optic_SUSAT 				{ quality = 1; price = 30; };
+	class CUP_optic_ElcanM145 				{ quality = 1; price = 30; };
+	class CUP_optic_ELCAN_SpecterDR 				{ quality = 1; price = 30; };
+	class CUP_optic_CWS 				{ quality = 1; price = 30; };
+	class CUP_optic_RCO_desert 				{ quality = 1; price = 30; };
+	class CUP_optic_RCO 				{ quality = 1; price = 30; };
+	class CUP_optic_ZDDot 				{ quality = 1; price = 30; };
+	class CUP_optic_MRad 				{ quality = 1; price = 30; };
+	class CUP_optic_SB_11_4x20_PM 				{ quality = 1; price = 30; };
+	class CUP_optic_TrijiconRx01_desert 				{ quality = 1; price = 30; };
+	class CUP_optic_TrijiconRx01_black 				{ quality = 1; price = 30; };
+	class CUP_optic_CompM4 				{ quality = 1; price = 30; };
+	class CUP_optic_CompM2_Black 				{ quality = 1; price = 30; };
+	class CUP_optic_CompM2_Woodland 				{ quality = 1; price = 30; };
+	class CUP_optic_CompM2_Woodland2 				{ quality = 1; price = 30; };
+	class CUP_optic_CompM2_Desert 				{ quality = 1; price = 30; };
+	class CUP_optic_HoloBlack 				{ quality = 1; price = 30; };
+	class CUP_optic_HoloWdl 				{ quality = 1; price = 30; };
+	class CUP_optic_HoloDesert 				{ quality = 1; price = 30; };
+	class CUP_optic_Eotech533 				{ quality = 1; price = 30; };
+	class CUP_optic_Eotech533Grey 				{ quality = 1; price = 30; };
+	class CUP_acc_Flashlight 				{ quality = 1; price = 30; };
+	class CUP_acc_Flashlight_wdl 				{ quality = 1; price = 30; };
+	class CUP_acc_Flashlight_desert 				{ quality = 1; price = 30; };
+	class CUP_acc_XM8_light_module 				{ quality = 1; price = 30; };
+	class CUP_acc_CZ_M3X 				{ quality = 1; price = 30; };
+	class CUP_acc_Glock17_Flashlight 				{ quality = 1; price = 30; };
+	class CUP_C_UAZ_Open_TK_CIV                            { quality = 1; price = 3000; };
+	class CUP_C_UAZ_Unarmed_TK_CIV                        { quality = 1; price = 3500; };
+    class CUP_O_UAZ_AGS30_CHDKZ                            { quality = 1; price = 4000; };
+    class CUP_O_UAZ_AGS30_RU                            { quality = 1; price = 4000; };
+    class CUP_O_UAZ_AGS30_TKA                            { quality = 1; price = 4000; };
+    class CUP_O_UAZ_MG_CHDKZ                            { quality = 1; price = 3500; };
+    class CUP_O_UAZ_MG_RU                                { quality = 1; price = 3500; };
+    class CUP_O_UAZ_MG_TKA                                { quality = 1; price = 3500; };
+    class CUP_O_UAZ_Open_CHDKZ                            { quality = 1; price = 4000; };
+    class CUP_O_UAZ_Open_RU                                { quality = 1; price = 4000; };
+    class CUP_O_UAZ_Open_TKA                            { quality = 1; price = 8000; };
+    class CUP_O_UAZ_SPG9_CHDKZ                            { quality = 1; price = 8000; };
+    class CUP_O_UAZ_SPG9_RU                                { quality = 1; price = 8000; };
+    class CUP_O_UAZ_SPG9_TKA                            { quality = 1; price = 8000; };
+    class CUP_O_UAZ_Unarmed_CHDKZ                        { quality = 1; price = 3500; };
+    class CUP_O_UAZ_Unarmed_RU                            { quality = 1; price = 3500; };
+    class CUP_O_UAZ_Unarmed_TKA                            { quality = 1; price = 3500; };
+    class CUP_B_UAZ_AGS30_ACR                            { quality = 1; price = 5500; };
+    class CUP_B_UAZ_AGS30_CDF                            { quality = 1; price = 5500; };
+    class CUP_B_UAZ_MG_ACR                                { quality = 1; price = 3500; };
+    class CUP_B_UAZ_MG_CDF                                { quality = 1; price = 3500; };
+    class CUP_B_UAZ_Open_ACR                            { quality = 1; price = 4000; };
+    class CUP_B_UAZ_Open_CDF                            { quality = 1; price = 4000; };
+    class CUP_B_UAZ_SPG9_ACR                            { quality = 1; price = 8000; };
+    class CUP_B_UAZ_SPG9_CDF                            { quality = 1; price = 8000; };
+    class CUP_B_UAZ_Unarmed_ACR                            { quality = 1; price = 3500; };
+    class CUP_B_UAZ_Unarmed_CDF                            { quality = 1; price = 3500; };
+    class CUP_I_UAZ_AGS30_UN                            { quality = 1; price = 5500; };
+    class CUP_I_UAZ_MG_UN                                { quality = 1; price = 3500; };
+    class CUP_I_UAZ_Open_UN                                { quality = 1; price = 4000; };
+    class CUP_I_UAZ_SPG9_UN                                { quality = 1; price = 8000; };
+    class CUP_I_UAZ_Unarmed_UN                            { quality = 1; price = 3500; };
+    class CUP_B_Ural_CDF                                { quality = 1; price = 12000; };
+    class CUP_B_Ural_Empty_CDF                            { quality = 1; price = 12000; };
+    class CUP_B_Ural_Open_CDF                            { quality = 1; price = 10000; };
+    class CUP_B_Ural_Reammo_CDF                            { quality = 1; price = 15000; };
+    class CUP_B_Ural_Refuel_CDF                            { quality = 1; price = 13000; };
+    class CUP_B_Ural_Repair_CDF                            { quality = 1; price = 14000; };
+    class CUP_B_Ural_ZU23_CDF                            { quality = 1; price = 25000; };
+    class CUP_O_Ural_CHDKZ                                { quality = 1; price = 12000; };
+    class CUP_O_Ural_Empty_CHDKZ                        { quality = 1; price = 12000; };
+    class CUP_O_Ural_Empty_RU                            { quality = 1; price = 12000; };
+    class CUP_O_Ural_Empty_SLA                            { quality = 1; price = 12000; };
+    class CUP_O_Ural_Empty_TKA                            { quality = 1; price = 12000; };
+    class CUP_O_Ural_Open_CHDKZ                            { quality = 1; price = 1000; };
+    class CUP_O_Ural_Open_RU                            { quality = 1; price = 10000; };
+    class CUP_O_Ural_Open_SLA                            { quality = 1; price = 10000; };
+    class CUP_O_Ural_Open_TKA                            { quality = 1; price = 10000; };
+    class CUP_O_Ural_RU                                    { quality = 1; price = 12000; };
+    class CUP_O_Ural_Reammo_CHDKZ                        { quality = 1; price = 15000; };
+    class CUP_O_Ural_Reammo_RU                            { quality = 1; price = 15000; };
+    class CUP_O_Ural_Reammo_SLA                            { quality = 1; price = 15000; };
+    class CUP_O_Ural_Reammo_TKA                            { quality = 1; price = 15000; };
+    class CUP_O_Ural_Refuel_CHDKZ                        { quality = 1; price = 13000; };
+    class CUP_O_Ural_Refuel_RU                            { quality = 1; price = 13000; };
+    class CUP_O_Ural_Refuel_SLA                            { quality = 1; price = 13000; };
+    class CUP_O_Ural_Refuel_TKA                            { quality = 1; price = 13000; };
+    class CUP_O_Ural_Repair_CHDKZ                        { quality = 1; price = 14000; };
+    class CUP_O_Ural_Repair_RU                            { quality = 1; price = 14000; };
+    class CUP_O_Ural_Repair_SLA                            { quality = 1; price = 14000; };
+    class CUP_O_Ural_Repair_TKA                            { quality = 1; price = 14000; };
+    class CUP_O_Ural_SLA                                { quality = 1; price = 12000; };
+    class CUP_O_Ural_TKA                                { quality = 1; price = 12000; };
+    class CUP_O_Ural_ZU23_CHDKZ                            { quality = 1; price = 10; };
+    class CUP_O_Ural_ZU23_RU                            { quality = 1; price = 25000; };
+    class CUP_O_Ural_ZU23_SLA                            { quality = 1; price = 25000; };
+    class CUP_O_Ural_ZU23_TKA                            { quality = 1; price = 25000; };
+    class CUP_O_Ural_ZU23_TKM                            { quality = 1; price = 25000; };
+    class CUP_C_Ural_Civ_01                                { quality = 1; price = 12000; };
+    class CUP_C_Ural_Civ_02                                { quality = 1; price = 12000; };
+    class CUP_C_Ural_Civ_03                                { quality = 1; price = 12000; };
+    class CUP_C_Ural_Open_Civ_01                        { quality = 1; price = 10000; };
+    class CUP_C_Ural_Open_Civ_02                        { quality = 1; price = 10000; };
+    class CUP_C_Ural_Open_Civ_03                        { quality = 1; price = 10000; };
+    class CUP_I_Ural_Empty_UN                            { quality = 1; price = 12000; };
+    class CUP_I_Ural_Reammo_UN                            { quality = 1; price = 15000; };
+    class CUP_I_Ural_Repair_UN                            { quality = 1; price = 14000; };
+    class CUP_I_Ural_UN                                    { quality = 1; price = 12000; };
+    class CUP_I_Ural_ZU23_NAPA                            { quality = 1; price = 25000; };
+    class CUP_I_Ural_ZU23_TK_Gue                        { quality = 1; price = 25000; };
+    class CUP_C_Datsun                                    { quality = 1; price = 3000; };
+    class CUP_C_Datsun_4seat                            { quality = 1; price = 3000; };
+    class CUP_C_Datsun_Covered                            { quality = 1; price = 3000; };
+    class CUP_C_Datsun_Plain                            { quality = 1; price = 3000; };
+    class CUP_C_Datsun_Tubeframe                        { quality = 1; price = 3000; };
+    class CUP_I_Datsun_PK                                { quality = 1; price = 3000; };
+    class CUP_I_Datsun_PK_Random                        { quality = 1; price = 3500; };
+    class CUP_I_Datsun_PK_TK                            { quality = 1; price = 3500; };
+    class CUP_I_Datsun_PK_TK_Random                        { quality = 1; price = 3000; };
+    class CUP_O_Datsun_PK                                { quality = 1; price = 3000; };
+    class CUP_O_Datsun_PK_Random                        { quality = 1; price = 3000; };
+    class CUP_C_LR_Transport_CTK                        { quality = 1; price = 8000; };
+    class CUP_B_M1030                                    { quality = 1; price = 500; };
+    class CUP_BAF_Jackal2_GMG_D                            { quality = 1; price = 35000; };
+    class CUP_BAF_Jackal2_GMG_W                            { quality = 1; price = 35000; };
+    class CUP_BAF_Jackal2_L2A1_D                        { quality = 1; price = 30000; };
+    class CUP_BAF_Jackal2_L2A1_W                        { quality = 1; price = 30000; };
+    class CUP_B_Dingo_Des                                { quality = 1; price = 40000; };
+    class CUP_B_Dingo_GL_Des                            { quality = 1; price = 45000; };
+    class CUP_B_Dingo_GL_Wdl                            { quality = 1; price = 45000; };
+    class CUP_B_Dingo_Wdl                                { quality = 1; price = 40000; };
+    class CUP_B_HMMWV_AGS_GPK_ACR                        { quality = 1; price = 26000; };
+    class CUP_B_HMMWV_Ambulance_ACR                        { quality = 1; price = 26000; };
+    class CUP_B_HMMWV_Ambulance_USA                        { quality = 1; price = 26000; };
+    class CUP_B_HMMWV_Ambulance_USMC                    { quality = 1; price = 26000; };
+    class CUP_B_HMMWV_Avenger_USA                        { quality = 1; price = 60000; };
+    class CUP_B_HMMWV_Avenger_USMC                        { quality = 1; price = 60000; };
+    class CUP_B_HMMWV_Crows_M2_USA                        { quality = 1; price = 27000; };
+    class CUP_B_HMMWV_Crows_MK19_USA                    { quality = 1; price = 27000; };
+    class CUP_B_HMMWV_DSHKM_GPK_ACR                        { quality = 1; price = 28000; };
+    class CUP_B_HMMWV_M1114_USMC                        { quality = 1; price = 28000; };
+    class CUP_B_HMMWV_M2_GPK_ACR                        { quality = 1; price = 28000; };
+    class CUP_B_HMMWV_M2_GPK_USA                        { quality = 1; price = 28000; };
+    class CUP_B_HMMWV_M2_USA                            { quality = 1; price = 28000; };
+    class CUP_B_HMMWV_M2_USMC                            { quality = 1; price = 28000; };
+    class CUP_B_HMMWV_MK19_USA                            { quality = 1; price = 24000; };
+    class CUP_B_HMMWV_MK19_USMC                            { quality = 1; price = 24000; };
+    class CUP_B_HMMWV_SOV_USA                            { quality = 1; price = 23000; };
+    class CUP_B_HMMWV_TOW_USA                            { quality = 1; price = 35000; };
+    class CUP_B_HMMWV_TOW_USMC                            { quality = 1; price = 35000; };
+    class CUP_B_HMMWV_Terminal_USA                        { quality = 1; price = 23000; };
+    class CUP_B_HMMWV_Transport_USA                        { quality = 1; price = 23000; };
+    class CUP_B_HMMWV_Unarmed_USA                        { quality = 1; price = 23000; };
+    class CUP_B_HMMWV_Unarmed_USMC                        { quality = 1; price = 23000; };
+    class CUP_B_LR_Ambulance_CZ_D                        { quality = 1; price = 3000; };
+    class CUP_B_LR_Ambulance_CZ_W                        { quality = 1; price = 3000; };
+    class CUP_B_LR_Ambulance_GB_D                        { quality = 1; price = 3000; };
+    class CUP_B_LR_Ambulance_GB_W                        { quality = 1; price = 3000; };
+    class CUP_B_LR_MG_CZ_W                                { quality = 1; price = 10000; };
+    class CUP_B_LR_MG_GB_W                                { quality = 1; price = 10000; };
+    class CUP_B_LR_Special_CZ_W                            { quality = 1; price = 12000; };
+    class CUP_B_LR_Special_Des_CZ_D                        { quality = 1; price = 12000; };
+    class CUP_B_LR_Transport_CZ_D                        { quality = 1; price = 8000; };
+    class CUP_B_LR_Transport_CZ_W                        { quality = 1; price = 8000; };
+    class CUP_B_LR_Transport_GB_D                        { quality = 1; price = 8000; };
+    class CUP_B_LR_Transport_GB_W                        { quality = 1; price = 8000; };
+    class CUP_O_LR_Ambulance_TKA                        { quality = 1; price = 3000; };
+    class CUP_O_LR_MG_TKA                                { quality = 1; price = 10000; };
+    class CUP_O_LR_MG_TKM                                { quality = 1; price = 10000; };
+    class CUP_O_LR_SPG9_TKA                                { quality = 1; price = 15000; };
+    class CUP_O_LR_SPG9_TKM                                { quality = 1; price = 15000; };
+    class CUP_O_LR_Transport_TKA                        { quality = 1; price = 8000; };
+    class CUP_O_LR_Transport_TKM                        { quality = 1; price = 8000; };
+    class CUP_I_BRDM2_ATGM_NAPA                            { quality = 1; price = 40000; };
+    class CUP_I_BRDM2_ATGM_TK_Gue                        { quality = 1; price = 40000; };
+    class CUP_I_BRDM2_HQ_NAPA                            { quality = 1; price = 35000; };
+    class CUP_I_BRDM2_HQ_TK_Gue                            { quality = 1; price = 37000; };
+    class CUP_I_BRDM2_HQ_UN                                { quality = 1; price = 37000; };
+    class CUP_I_BRDM2_NAPA                                { quality = 1; price = 30000; };
+    class CUP_I_BRDM2_TK_Gue                            { quality = 1; price = 30000; };
+    class CUP_I_BRDM2_UN                                { quality = 1; price = 30000; };
+    class CUP_O_BRDM2_ATGM_CHDKZ                        { quality = 1; price = 38000; };
+    class CUP_O_BRDM2_ATGM_SLA                            { quality = 1; price = 38000; };
+    class CUP_O_BRDM2_ATGM_TKA                            { quality = 1; price = 38000; };
+    class CUP_O_BRDM2_CHDKZ                                { quality = 1; price = 28000; };
+    class CUP_O_BRDM2_HQ_CHDKZ                            { quality = 1; price = 28000; };
+    class CUP_O_BRDM2_HQ_SLA                            { quality = 1; price = 28000; };
+    class CUP_O_BRDM2_HQ_TKA                            { quality = 1; price = 28000; };
+    class CUP_O_BRDM2_SLA                                { quality = 1; price = 28000; };
+    class CUP_O_BRDM2_TKA                                { quality = 1; price = 28000; };
+    class CUP_B_BRDM2_ATGM_CDF                            { quality = 1; price = 38000; };
+    class CUP_B_BRDM2_CDF                                { quality = 1; price = 28000; };
+    class CUP_B_BRDM2_HQ_CDF                            { quality = 1; price = 28000; };
+    class CUP_B_LAV25M240_USMC                            { quality = 1; price = 37000; };
+    class CUP_B_LAV25_HQ_USMC                            { quality = 1; price = 37000; };
+    class CUP_B_LAV25_USMC                                { quality = 1; price = 37000; };
+    class CUP_B_BM21_CDF                                { quality = 1; price = 40000; };
+    class CUP_O_BM21_CHDKZ                                { quality = 1; price = 40000; };
+    class CUP_O_BM21_RU                                    { quality = 1; price = 40000; };
+    class CUP_O_BM21_SLA                                { quality = 1; price = 40000; };
+    class CUP_O_BM21_TKA                                { quality = 1; price = 40000; };
+    class CUP_O_BTR60_TK                                { quality = 1; price = 35000; };
+    class CUP_O_BTR90_HQ_RU                                { quality = 1; price = 35000; };
+    class CUP_O_BTR90_RU                                { quality = 1; price = 39000; };
+    class CUP_B_M1126_ICV_M2_Desert                        { quality = 1; price = 33000; };
+    class CUP_B_M1126_ICV_M2_Desert_Slat                { quality = 1; price = 33000; };
+    class CUP_B_M1126_ICV_M2_Woodland                    { quality = 1; price = 33000; };
+    class CUP_B_M1126_ICV_M2_Woodland_Slat                { quality = 1; price = 33000; };
+    class CUP_B_M1126_ICV_Mk19_Desert                    { quality = 1; price = 33000; };
+    class CUP_B_M1126_ICV_Mk19_Desert_Slat                { quality = 1; price = 33000; };
+    class CUP_B_M1126_ICV_Mk19_Woodland                    { quality = 1; price = 33000; };
+    class CUP_B_M1126_ICV_Mk19_Woodland_Slat            { quality = 1; price = 33000; };
+    class CUP_B_M1128_MGS_Desert                        { quality = 1; price = 45000; };
+    class CUP_B_M1128_MGS_Desert_Slat                    { quality = 1; price = 45000; };
+    class CUP_B_M1128_MGS_Woodland                        { quality = 1; price = 45000; };
+    class CUP_B_M1128_MGS_Woodland_Slat                    { quality = 1; price = 45000; };
+    class CUP_B_M1129_MC_MK19_Desert                    { quality = 1; price = 70000; };
+    class CUP_B_M1129_MC_MK19_Desert_Slat                { quality = 1; price = 70000; };
+    class CUP_B_M1129_MC_MK19_Woodland                    { quality = 1; price = 70000; };
+    class CUP_B_M1129_MC_MK19_Woodland_Slat                { quality = 1; price = 70000; };
+    class CUP_B_M1130_CV_M2_Desert                        { quality = 1; price = 33000; };
+    class CUP_B_M1130_CV_M2_Desert_Slat                    { quality = 1; price = 33000; };
+    class CUP_B_M1130_CV_M2_Woodland                    { quality = 1; price = 33000; };
+    class CUP_B_M1130_CV_M2_Woodland_Slat                { quality = 1; price = 33000; };
+    class CUP_B_M1133_MEV_Desert                        { quality = 1; price = 31000; };
+    class CUP_B_M1133_MEV_Desert_Slat                    { quality = 1; price = 31000; };
+    class CUP_B_M1133_MEV_Woodland                        { quality = 1; price = 31000; };
+    class CUP_B_M1133_MEV_Woodland_Slat                    { quality = 1; price = 31000; };
+    class CUP_B_M1135_ATGMV_Desert                        { quality = 1; price = 80000; };
+    class CUP_B_M1135_ATGMV_Desert_Slat                    { quality = 1; price = 80000; };
+    class CUP_B_M1135_ATGMV_Woodland                    { quality = 1; price = 80000; };
+    class CUP_B_M1135_ATGMV_Woodland_Slat                { quality = 1; price = 80000; };
+    class CUP_B_TowingTractor_USMC                        { quality = 1; price = 10000; };
+    class CUP_I_LR_Transport_RACS                        { quality = 1; price = 10000; };
+    class CUP_I_LR_MG_RACS                                { quality = 1; price = 10000; };
+    class CUP_I_LR_Ambulance_RACS                        { quality = 1; price = 10000; };
+    class CUP_C_Octavia_CIV                                { quality = 1; price = 5200; };
+    class CUP_C_Skoda_Red_Civ                            { quality = 1; price = 5600; };
+    class CUP_C_Skoda_White_Civ                            { quality = 1; price = 5600; };
+    class CUP_C_Skoda_Blue_Civ                            { quality = 1; price = 5600; };
+    class CUP_C_Skoda_Green_Civ                            { quality = 1; price = 5600; };
+    class CUP_C_Golf4_red_Civ                            { quality = 1; price = 5800; };
+    class CUP_C_Golf4_black_Civ                            { quality = 1; price = 5800; };
+    class CUP_C_Golf4_yellow_Civ                        { quality = 1; price = 5800; };
+    class CUP_C_Golf4_blue_Civ                            { quality = 1; price = 5800; };
+    class CUP_C_Golf4_white_Civ                            { quality = 1; price = 5800; };
+    class CUP_C_Golf4_green_Civ                            { quality = 1; price = 5800; };
+    class CUP_C_Golf4_random_Civ                        { quality = 1; price = 5800; };
+    class CUP_C_Golf4_whiteblood_Civ                    { quality = 1; price = 5800; };
+    class CUP_C_Golf4_camo_Civ                            { quality = 1; price = 5800; };
+    class CUP_C_Golf4_camodigital_Civ                    { quality = 1; price = 5800; };
+    class CUP_C_Golf4_camodark_Civ                        { quality = 1; price = 5800; };
+    class CUP_C_Golf4_reptile_Civ                        { quality = 1; price = 5800; };
+    class CUP_C_Golf4_kitty_Civ                            { quality = 1; price = 5800; };
+    class CUP_B_AAV_USMC                                { quality = 1; price = 40000; };
+    class CUP_B_M113_Med_USA                            { quality = 1; price = 40000; };
+    class CUP_B_M113_USA                                { quality = 1; price = 40000; };
+    class CUP_I_M113_Med_RACS                            { quality = 1; price = 40000; };
+    class CUP_I_M113_Med_UN                                { quality = 1; price = 40000; };
+    class CUP_I_M113_RACS                                { quality = 1; price = 40000; };
+    class CUP_I_M113_UN                                    { quality = 1; price = 40000; };
+    class CUP_O_M113_Med_TKA                            { quality = 1; price = 40000; };
+    class CUP_O_M113_TKA                                { quality = 1; price = 40000; };
+    class CUP_B_M163_USA                                { quality = 1; price = 47000; };
+    class CUP_B_M1A1_DES_USMC                            { quality = 1; price = 55000; };
+    class CUP_B_M1A1_DES_US_Army                        { quality = 1; price = 55000; };
+    class CUP_B_M1A1_Woodland_USMC                        { quality = 1; price = 55000; };
+    class CUP_B_M1A1_Woodland_US_Army                    { quality = 1; price = 55000; };
+    class CUP_B_M1A2_TUSK_MG_DES_USMC                    { quality = 1; price = 57000; };
+    class CUP_B_M1A2_TUSK_MG_DES_US_Army                { quality = 1; price = 57000; };
+    class CUP_B_M1A2_TUSK_MG_USMC                        { quality = 1; price = 57000; };
+    class CUP_B_M1A2_TUSK_MG_US_Army                    { quality = 1; price = 57000; };
+    class CUP_B_M270_DPICM_USA                            { quality = 1; price = 100000; };
+    class CUP_B_M270_DPICM_USMC                            { quality = 1; price = 100000; };
+    class CUP_B_M270_HE_USA                                { quality = 1; price = 100000; };
+    class CUP_B_M270_HE_USMC                            { quality = 1; price = 100000; };
+    class CUP_B_M2Bradley_USA_D                            { quality = 1; price = 120000; };
+    class CUP_B_M2Bradley_USA_W                            { quality = 1; price = 120000; };
+    class CUP_B_M2A3Bradley_USA_D                        { quality = 1; price = 120000; };
+    class CUP_B_M2A3Bradley_USA_W                        { quality = 1; price = 120000; };
+    class CUP_I_T55_TK_GUE                                { quality = 1; price = 80000; };
+    class CUP_O_T55_TK                                    { quality = 1; price = 80000; };
+    class CUP_O_T72_CHDKZ                                { quality = 1; price = 90000; };
+    class CUP_O_T72_RU                                    { quality = 1; price = 90000; };
+    class CUP_O_T72_SLA                                    { quality = 1; price = 90000; };
+    class CUP_O_T72_TKA                                    { quality = 1; price = 90000; };
+    class CUP_B_T72_CDF                                    { quality = 1; price = 90000; };
+    class CUP_I_T72_NAPA                                { quality = 1; price = 90000; };
+    class CUP_I_T72_RACS                                { quality = 1; price = 90000; };
+    class CUP_B_ZSU23_CDF                                { quality = 1; price = 120000; };
+    class CUP_O_ZSU23_ChDKZ                                { quality = 1; price = 120000; };
+    class CUP_O_ZSU23_SLA                                { quality = 1; price = 120000; };
+    class CUP_O_ZSU23_TK                                { quality = 1; price = 120000; };
+    class CUP_T34_BASE                                    { quality = 1; price = 40000; };
+    class CUP_I_T34_NAPA                                { quality = 1; price = 40000; };
+    class CUP_I_T34_TK_GUE                                { quality = 1; price = 40000; };
+    class CUP_O_T34_TKA                                    { quality = 1; price = 40000; };
+    class CUP_B_AH1Z                                    { quality = 1; price = 90000; };
+    // class CUP_B_AH1Z_14RndHydrax                        { quality = 1; price = 100000; };
+    class CUP_B_AH1Z_7RndHydra                            { quality = 1; price = 100000; };
+    class CUP_B_AH1Z_AT                                    { quality = 1; price = 120000; };
+    class CUP_B_AH1Z_Escort                                { quality = 1; price = 105000; };
+    class CUP_B_AH1Z_NOAA                                { quality = 1; price = 87000; };
+    class CUP_B_AH1Z_NoWeapons                            { quality = 1; price = 80000; };
+    class CUP_B_AH1_AT_BAF                                { quality = 1; price = 100000; };
+    class CUP_B_AH1_BAF                                    { quality = 1; price = 87000; };
+    class CUP_B_AH1_ES_BAF                                { quality = 1; price = 110000; };
+    class CUP_B_AH1_MR_BAF                                { quality = 1; price = 110000; };
+    class CUP_B_AH1_NO_BAF                                { quality = 1; price = 130000; };
+    class CUP_B_AH64D_AT_USA                            { quality = 1; price = 140000; };
+    class CUP_B_AH64D_ES_USA                            { quality = 1; price = 140000; };
+    class CUP_B_AH64D_MR_USA                            { quality = 1; price = 140000; };
+    class CUP_B_AH64D_NO_USA                            { quality = 1; price = 140000; };
+    class CUP_B_AH64D_USA                                { quality = 1; price = 130000; };
+    class CUP_B_AW159_Armed_BAF                            { quality = 1; price = 90000; };
+    class CUP_B_AW159_Unarmed_BAF                        { quality = 1; price = 90000; };
+    class CUP_B_CH47F_GB                                { quality = 1; price = 50000; };
+    class CUP_B_CH47F_USA                                { quality = 1; price = 50000; };
+    class CUP_B_CH53E_USMC                                { quality = 1; price = 55000; };
+    class CUP_B_MH60S_FFV_USMC                            { quality = 1; price = 45000; };
+    class CUP_B_MH60S_USMC                                { quality = 1; price = 45000; };
+    class CUP_B_UH1Y_GUNSHIP_USMC                        { quality = 1; price = 60000; };
+    class CUP_B_UH1Y_MEV_USMC                            { quality = 1; price = 40000; };
+    class CUP_B_UH1Y_UNA_USMC                            { quality = 1; price = 45000; };
+    class CUP_B_UH60L_FFV_US                            { quality = 1; price = 45000; };
+    class CUP_B_UH60L_US                                { quality = 1; price = 45000; };
+    class CUP_B_UH60L_Unarmed_FFV_MEV_US                { quality = 1; price = 42500; };
+    class CUP_B_UH60L_Unarmed_FFV_US                    { quality = 1; price = 42500; };
+    class CUP_B_UH60L_Unarmed_US                        { quality = 1; price = 42500; };
+    class CUP_I_UH60L_FFV_RACS                            { quality = 1; price = 42500; };
+    class CUP_I_UH60L_RACS                                { quality = 1; price = 42500; };
+    class CUP_I_UH60L_Unarmed_FFV_MEV_Racs                { quality = 1; price = 42500; };
+    class CUP_I_UH60L_Unarmed_FFV_Racs                    { quality = 1; price = 42500; };
+    class CUP_I_UH60L_Unarmed_RACS                        { quality = 1; price = 42500; };
+    class CUP_B_UH60M_FFV_US                            { quality = 1; price = 43750; };
+    class CUP_B_UH60M_US                                { quality = 1; price = 43750; };
+    class CUP_B_UH60M_Unarmed_FFV_MEV_US                { quality = 1; price = 43750; };
+    class CUP_B_UH60M_Unarmed_FFV_US                    { quality = 1; price = 43750; };
+    class CUP_B_UH60M_Unarmed_US                        { quality = 1; price = 43750; };
+    class CUP_O_Mi8_CHDKZ                                { quality = 1; price = 30000; };
+    class CUP_O_Mi8_RU                                    { quality = 1; price = 45000; };
+    class CUP_O_Mi8_SLA_1                                { quality = 1; price = 30000; };
+    class CUP_O_Mi8_SLA_2                                { quality = 1; price = 45000; };
+    class CUP_O_Mi8_medevac_CHDKZ                        { quality = 1; price = 30000; };
+    class CUP_O_Mi8_medevac_RU                            { quality = 1; price = 45000; };
+    class CUP_B_Mi171Sh_ACR                                { quality = 1; price = 60000; };
+    class CUP_B_Mi171Sh_Unarmed_ACR                        { quality = 1; price = 30000; };
+    class CUP_B_Mi17_CDF                                { quality = 1; price = 30000; };
+    class CUP_B_Mi17_medevac_CDF                        { quality = 1; price = 30000; };
+    class CUP_I_Mi17_UN                                    { quality = 1; price = 30000; };
+    class CUP_O_Mi17_TK                                    { quality = 1; price = 30000; };
+    class CUP_C_Mi17_Civilian_RU                        { quality = 1; price = 25000; };
+    class CUP_B_Mi24_D_CDF                                { quality = 1; price = 80000; };
+    class CUP_I_Mi24_D_ION                                { quality = 1; price = 80000; };
+    class CUP_I_Mi24_D_UN                                { quality = 1; price = 30000; };
+    class CUP_O_Mi24_D_TK                                { quality = 1; price = 60000; };
+    class CUP_O_Mi24_P_RU                                { quality = 1; price = 65000; };
+    class CUP_O_Mi24_V_RU                                { quality = 1; price = 55000; };
+    class CUP_B_Mi35_CZ                                    { quality = 1; price = 70000; };
+    class CUP_I_M163_RACS                                { quality = 1; price = 35000; };
+    class CUP_O_UH1H_TKA                                { quality = 1; price = 20000; };
+    class CUP_I_UH1H_TK_GUE                                { quality = 1; price = 20000; };
+    class CUP_B_UH1D_GER_KSK                            { quality = 1; price = 20000; };
+    class CUP_B_UH1D_GER_KSK_DES                        { quality = 1; price = 20000; };
+    class CUP_B_Merlin_HC3_GB                            { quality = 1; price = 35000; };
+    class CUP_B_Merlin_HC3A_GB                            { quality = 1; price = 35000; };
+    class CUP_B_AW159_Unarmed_GB                        { quality = 1; price = 80000; };
+    class CUP_B_AW159_Hellfire_GB                        { quality = 1; price = 100000; };
+    class CUP_B_AW159_Cannon_GB                            { quality = 1; price = 90000; };
+    class CUP_B_SA330_Puma_HC1_BAF                        { quality = 1; price = 28000; };
+    class CUP_B_SA330_Puma_HC2_BAF                        { quality = 1; price = 28000; };
+    class CUP_I_SA330_Puma_HC1_RACS                        { quality = 1; price = 28000; };
+    class CUP_I_SA330_Puma_HC2_RACS                        { quality = 1; price = 28000; };
+    class CUP_O_KA50_SLA                                { quality = 1; price = 75000; };
+    class CUP_O_KA50_AA_SLA                                { quality = 1; price = 78000; };
+    class CUP_O_KA50_RU                                    { quality = 1; price = 75000; };
+    class CUP_O_KA50_AA_RU                                { quality = 1; price = 78000; };
+    class CUP_C_C47_CIV                                    { quality = 1; price = 150000; };
+    class CUP_C_DC3_CIV                                    { quality = 1; price = 150000; };
+    class CUP_B_MV22_USMC                                { quality = 1; price = 80000; };
+    class CUP_B_A10_AT_USA                                { quality = 1; price = 200000; };
+    class CUP_B_A10_CAS_USA                                { quality = 1; price = 200000; };
+    class CUP_B_Su25_CDF                                { quality = 1; price = 200000; };
+    class CUP_O_Su25_RU_1                                { quality = 1; price = 200000; };
+    class CUP_O_Su25_RU_2                                { quality = 1; price = 200000; };
+    class CUP_O_Su25_RU_3                                { quality = 1; price = 200000; };
+    class CUP_O_Su25_SLA                                { quality = 1; price = 200000; };
+    class CUP_O_Su25_TKA                                { quality = 1; price = 200000; };
+    class CUP_B_C130J_USMC                                { quality = 1; price = 150000; };
+    class CUP_B_C130J_Cargo_USMC                        { quality = 1; price = 150000; };
+    class CUP_B_C130J_GB                                { quality = 1; price = 150000; };
+    class CUP_B_C130J_Cargo_GB                            { quality = 1; price = 150000; };
+    class CUP_I_C130J_AAF                                { quality = 1; price = 150000; };
+    class CUP_I_C130J_Cargo_AAF                            { quality = 1; price = 150000; };
+    class CUP_I_C130J_RACS                                { quality = 1; price = 150000; };
+    class CUP_I_C130J_Cargo_RACS                        { quality = 1; price = 150000; };
+    class CUP_O_C130J_TKA                                { quality = 1; price = 150000; };
+    class CUP_O_C130J_Cargo_TKA                            { quality = 1; price = 150000; };
+    class CUP_B_F35B_AA_USMC                            { quality = 1; price = 200000; };
+    class CUP_B_F35B_CAS_USMC                            { quality = 1; price = 200000; };
+    class CUP_B_F35B_LGB_USMC                            { quality = 1; price = 200000; };
+    class CUP_B_F35B_AA_BAF                                { quality = 1; price = 200000; };
+    class CUP_B_F35B_CAS_BAF                            { quality = 1; price = 200000; };
+    class CUP_B_F35B_LGB_BAF                            { quality = 1; price = 200000; };
+    class CUP_B_AV8B_CAP_USMC                            { quality = 1; price = 250000; };
+    class CUP_B_AV8B_MK82_USMC                            { quality = 1; price = 250000; };
+    class CUP_B_AV8B_GBU12_USMC                            { quality = 1; price = 250000; };
+    class CUP_B_AV8B_AGM_USMC                            { quality = 1; price = 250000; };
+    class CUP_I_AV8B_CAP_AAF                            { quality = 1; price = 250000; };
+    class CUP_I_AV8B_MK82_AAF                            { quality = 1; price = 250000; };
+    class CUP_I_AV8B_GBU12_AAF                            { quality = 1; price = 250000; };
+    class CUP_I_AV8B_AGM_AAF                            { quality = 1; price = 250000; };
+    class CUP_B_GR9_CAP_GB                                { quality = 1; price = 250000; };
+    class CUP_B_GR9_MK82_GB                                { quality = 1; price = 250000; };
+    class CUP_B_GR9_GBU12_GB                            { quality = 1; price = 250000; };
+    class CUP_B_GR9_AGM_GB                                { quality = 1; price = 250000; };
+    class CUP_O_SU34_LGB_RU                                { quality = 1; price = 250000; };
+    class CUP_O_SU34_LGB_SLA                            { quality = 1; price = 250000; };
+    class CUP_O_SU34_AGM_RU                                { quality = 1; price = 250000; };
+    class CUP_O_SU34_AGM_SLA                            { quality = 1; price = 250000; };
+    class CUP_I_SU34_LGB_AAF                            { quality = 1; price = 250000; };
+    class CUP_I_SU34_AGM_AAF                            { quality = 1; price = 250000; };
+    class CUP_B_SU34_LGB_CDF                            { quality = 1; price = 250000; };
+    class CUP_B_SU34_AGM_CDF                            { quality = 1; price = 250000; };
+	class CUP_C_Fishing_Boat_Chernarus                    { quality = 1; price = 10; };
+    class CUP_B_RHIB2Turret_USMC                        { quality = 1; price = 10; };
+    class CUP_B_RHIB_USMC                                { quality = 1; price = 10; };
+    class CUP_B_RHIB2Turret_RACS                        { quality = 1; price = 10; };
+    class CUP_B_RHIB_RACS                                { quality = 1; price = 10; };
+    class CUP_B_Seafox_USMC                                { quality = 1; price = 10; };
+    class CUP_B_Seafox_USV_USMC                            { quality = 1; price = 10; };
+    class CUP_B_Zodiac_USMC                                { quality = 1; price = 10; };
+	class CUP_O_TKI_Khet_Partug_01                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Partug_02                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Partug_03                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Partug_04                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Partug_05                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Partug_06                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Partug_07                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Partug_08                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Jeans_01                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Jeans_02                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Jeans_03                                     { quality = 1; price = 50; };
+    class CUP_O_TKI_Khet_Jeans_04                                     { quality = 1; price = 50; };
+    class CUP_U_C_Pilot_01                                             { quality = 1; price = 50; };
+    class CUP_U_C_Citizen_01                                         { quality = 1; price = 50; };
+    class CUP_U_C_Citizen_02                                         { quality = 1; price = 50; };
+    class CUP_U_C_Citizen_03                                         { quality = 1; price = 50; };
+    class CUP_U_C_Citizen_04                                         { quality = 1; price = 50; };
+    class CUP_U_C_Worker_01                                             { quality = 1; price = 50; };
+    class CUP_U_C_Worker_02                                             { quality = 1; price = 50; };
+    class CUP_U_C_Worker_03                                             { quality = 1; price = 50; };
+    class CUP_U_C_Worker_04                                             { quality = 1; price = 50; };
+    class CUP_U_C_Profiteer_01                                         { quality = 1; price = 50; };
+    class CUP_U_C_Profiteer_02                                         { quality = 1; price = 50; };
+    class CUP_U_C_Profiteer_03                                         { quality = 1; price = 50; };
+    class CUP_U_C_Profiteer_04                                         { quality = 1; price = 50; };
+    class CUP_U_C_Woodlander_01                                         { quality = 1; price = 50; };
+    class CUP_U_C_Woodlander_02                                         { quality = 1; price = 50; };
+    class CUP_U_C_Woodlander_03                                         { quality = 1; price = 50; };
+    class CUP_U_C_Woodlander_04                                         { quality = 1; price = 50; };
+    class CUP_U_C_Villager_01                                         { quality = 1; price = 50; };
+    class CUP_U_C_Villager_02                                         { quality = 1; price = 50; };
+    class CUP_U_C_Villager_03                                         { quality = 1; price = 50; };
+    class CUP_U_C_Villager_04                                         { quality = 1; price = 50; };
+    class CUP_U_B_CZ_WDL_TShirt                                         { quality = 1; price = 50; };
+    class CUP_U_B_GER_Tropentarn_1                                     { quality = 1; price = 50; };
+    class CUP_U_B_GER_Tropentarn_2                                     { quality = 1; price = 50; };
+    class CUP_U_B_GER_Ghillie                                         { quality = 1; price = 50; };
+    class CUP_U_B_GER_Flecktarn_1                                     { quality = 1; price = 50; };
+    class CUP_U_B_GER_Flecktarn_2                                     { quality = 1; price = 50; };
+    class CUP_U_B_GER_Fleck_Ghillie                                     { quality = 1; price = 50; };
+    class CUP_U_B_USMC_Officer                                         { quality = 1; price = 50; };
+    class CUP_U_B_USMC_PilotOverall                                     { quality = 1; price = 50; };
+    class CUP_U_B_USMC_Ghillie_WDL                                     { quality = 1; price = 50; };
+    class CUP_U_B_USMC_MARPAT_WDL_Sleeves                            { quality = 1; price = 50; };
+    class CUP_U_B_USMC_MARPAT_WDL_RolledUp                             { quality = 1; price = 50; };
+    class CUP_U_B_USMC_MARPAT_WDL_Kneepad                             { quality = 1; price = 50; };
+    class CUP_U_B_USMC_MARPAT_WDL_TwoKneepads                         { quality = 1; price = 50; };
+    class CUP_U_B_USMC_MARPAT_WDL_RollUpKneepad                        { quality = 1; price = 50; };
+    class CUP_U_B_FR_SpecOps                                         { quality = 1; price = 50; };
+    class CUP_U_B_FR_Scout                                             { quality = 1; price = 50; };
+    class CUP_U_B_FR_Scout1                                             { quality = 1; price = 50; };
+    class CUP_U_B_FR_Scout2                                             { quality = 1; price = 50; };
+    class CUP_U_B_FR_Scout3                                             { quality = 1; price = 50; };
+    class CUP_U_B_FR_Officer                                         { quality = 1; price = 50; };
+    class CUP_U_B_FR_Corpsman                                         { quality = 1; price = 50; };
+    class CUP_U_B_FR_DirAction                                         { quality = 1; price = 50; };
+    class CUP_U_B_FR_DirAction2                                         { quality = 1; price = 50; };
+    class CUP_U_B_FR_Light                                             { quality = 1; price = 50; };
+    class CUP_U_I_GUE_Flecktarn                                         { quality = 1; price = 50; };
+    class CUP_U_I_GUE_Flecktarn2                                     { quality = 1; price = 50; };
+    class CUP_U_I_GUE_Flecktarn3                                     { quality = 1; price = 50; };
+    class CUP_U_I_GUE_Woodland1                                         { quality = 1; price = 50; };
+    class CUP_U_I_Ghillie_Top                                         { quality = 1; price = 50; };
+    class CUP_U_I_RACS_PilotOverall                                     { quality = 1; price = 50; };
+    class CUP_U_I_RACS_Desert_1                                         { quality = 1; price = 50; };
+    class CUP_U_I_RACS_Desert_2                                         { quality = 1; price = 50; };
+    class CUP_U_I_RACS_Urban_1                                         { quality = 1; price = 50; };
+    class CUP_U_I_RACS_Urban_2                                         { quality = 1; price = 50; };
+    class CUP_U_O_SLA_Officer                                         { quality = 1; price = 50; };
+    class CUP_U_O_SLA_Officer_Suit                                     { quality = 1; price = 50; };
+    class CUP_U_O_SLA_MixedCamo                                         { quality = 1; price = 50; };
+    class CUP_U_O_SLA_Green                                             { quality = 1; price = 50; };
+    class CUP_U_O_SLA_Urban                                             { quality = 1; price = 50; };
+    class CUP_U_O_SLA_Desert                                         { quality = 1; price = 50; };
+    class CUP_U_O_SLA_Overalls_Pilot                                 { quality = 1; price = 50; };
+    class CUP_U_O_SLA_Overalls_Tank                                     { quality = 1; price = 50; };
+    class CUP_U_O_Partisan_TTsKO                                     { quality = 1; price = 50; };
+    class CUP_U_O_Partisan_TTsKO_Mixed                                { quality = 1; price = 50; };
+    class CUP_U_O_Partisan_VSR_Mixed1                                { quality = 1; price = 50; };
+    class CUP_U_O_Partisan_VSR_Mixed2                                { quality = 1; price = 50; };
+    class CUP_U_O_TK_Officer                                         { quality = 1; price = 50; };
+    class CUP_U_O_TK_MixedCamo                                         { quality = 1; price = 50; };
+    class CUP_U_O_TK_Green                                             { quality = 1; price = 50; };
+    class CUP_U_O_TK_Ghillie                                         { quality = 1; price = 50; };
+    class CUP_U_O_TK_Ghillie_Top                                     { quality = 1; price = 50; };
+    class CUP_H_C_Ushanka_01                                         { quality = 1; price = 50; };
+    class CUP_H_C_Ushanka_02                                         { quality = 1; price = 50; };
+    class CUP_H_C_Ushanka_03                                         { quality = 1; price = 50; };
+    class CUP_H_C_Ushanka_04                                         { quality = 1; price = 50; };
+    class CUP_H_C_Beanie_01                                             { quality = 1; price = 50; };
+    class CUP_H_C_Beanie_02                                             { quality = 1; price = 50; };
+    class CUP_H_C_Beanie_03                                             { quality = 1; price = 50; };
+    class CUP_H_C_Beanie_04                                             { quality = 1; price = 50; };
+    class CUP_H_C_Beret_01                                             { quality = 1; price = 50; };
+    class CUP_H_C_Beret_02                                             { quality = 1; price = 50; };
+    class CUP_H_C_Beret_03                                             { quality = 1; price = 50; };
+    class CUP_H_C_Beret_04                                             { quality = 1; price = 50; };
+    class CUP_H_GER_Boonie_desert                                     { quality = 1; price = 50; };
+    class CUP_H_GER_Boonie_Flecktarn                                { quality = 1; price = 50; };
+    class CUP_H_NAPA_Fedora                                             { quality = 1; price = 50; };
+    class CUP_H_PMC_PRR_Headset                                         { quality = 1; price = 50; };
+    class CUP_H_PMC_EP_Headset                                         { quality = 1; price = 50; };
+    class CUP_H_PMC_Cap_Tan                                             { quality = 1; price = 50; };
+    class CUP_H_PMC_Cap_Grey                                         { quality = 1; price = 50; };
+    class CUP_H_PMC_Cap_PRR_Tan                                         { quality = 1; price = 50; };
+    class CUP_H_PMC_Cap_PRR_Grey                                     { quality = 1; price = 50; };
+    class CUP_H_RACS_Beret_Blue                                         { quality = 1; price = 50; };
+    class CUP_H_RACS_Helmet_Des                                         { quality = 1; price = 50; };
+    class CUP_H_RACS_Helmet_Goggles_Des                                 { quality = 1; price = 50; };
+    class CUP_H_RACS_Helmet_Headset_Des                                 { quality = 1; price = 50; };
+    class CUP_H_RACS_Helmet_DPAT                                     { quality = 1; price = 50; };
+    class CUP_H_RACS_Helmet_Goggles_DPAT                             { quality = 1; price = 50; };
+    class CUP_H_RACS_Helmet_Headset_DPAT                             { quality = 1; price = 50; };
+    class CUP_H_SLA_TankerHelmet                                     { quality = 1; price = 50; };
+    class CUP_H_SLA_Helmet                                             { quality = 1; price = 50; };
+    class CUP_H_SLA_Pilot_Helmet                                    { quality = 1; price = 50; };
+    class CUP_H_SLA_OfficerCap                                         { quality = 1; price = 50; };
+    class CUP_H_SLA_SLCap                                             { quality = 1; price = 50; };
+    class CUP_H_SLA_Boonie                                             { quality = 1; price = 50; };
+    class CUP_H_SLA_Beret                                             { quality = 1; price = 50; };
+    ///class CUP_H_SLA_BeretRed                                         { quality = 1; price = 50; };
+    class CUP_H_SLA_BeenieGreen                                         { quality = 1; price = 50; };
+    class CUP_H_TK_TankerHelmet                                         { quality = 1; price = 50; };
+    class CUP_H_TK_PilotHelmet                                         { quality = 1; price = 50; };
+    class CUP_H_TK_Helmet                                             { quality = 1; price = 50; };
+    class CUP_H_TK_Lungee                                             { quality = 1; price = 50; };
+    class CUP_H_TK_Beret                                             { quality = 1; price = 50; };
+    class CUP_H_TKI_SkullCap_01                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_SkullCap_02                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_SkullCap_03                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_SkullCap_04                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_SkullCap_05                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_SkullCap_06                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_01                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_02                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_03                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_04                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_05                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_06                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_Open_01                                     { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_Open_02                                     { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_Open_03                                     { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_Open_04                                     { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_Open_05                                     { quality = 1; price = 50; };
+    class CUP_H_TKI_Lungee_Open_06                                     { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_1_01                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_1_02                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_1_03                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_1_04                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_1_05                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_1_06                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_2_01                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_2_02                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_2_03                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_2_04                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_2_05                                         { quality = 1; price = 50; };
+    class CUP_H_TKI_Pakol_2_06                                         { quality = 1; price = 50; };
+    class CUP_H_USMC_Officer_Cap                                     { quality = 1; price = 50; };
+    class CUP_H_USMC_HelmetWDL                                         { quality = 1; price = 50; };
+    class CUP_H_USMC_HeadSet_HelmetWDL                                 { quality = 1; price = 50; };
+    class CUP_H_USMC_HeadSet_GoggleW_HelmetWDL                         { quality = 1; price = 50; };
+    class CUP_H_USMC_Crew_Helmet                                     { quality = 1; price = 50; };
+    class CUP_H_USMC_Goggles_HelmetWDL                                 { quality = 1; price = 50; };
+    class CUP_H_USMC_Helmet_Pilot                                     { quality = 1; price = 50; };
+    class CUP_H_FR_Headset                                             { quality = 1; price = 50; };
+    class CUP_H_FR_Cap_Headset_Green                                 { quality = 1; price = 50; };
+    class CUP_H_FR_Cap_Officer_Headset                                 { quality = 1; price = 50; };
+    class CUP_H_FR_BandanaGreen                                         { quality = 1; price = 50; };
+    class CUP_H_FR_BandanaWdl                                         { quality = 1; price = 50; };
+    class CUP_H_FR_Bandana_Headset                                     { quality = 1; price = 50; };
+    class CUP_H_FR_Headband_Headset                                     { quality = 1; price = 50; };
+    class CUP_H_FR_ECH                                                 { quality = 1; price = 50; };
+    class CUP_H_FR_BoonieMARPAT                                         { quality = 1; price = 50; };
+    class CUP_H_FR_BoonieWDL                                         { quality = 1; price = 50; };
+    class CUP_H_FR_BeanieGreen                                         { quality = 1; price = 50; };
+    class CUP_H_FR_PRR_BoonieWDL                                     { quality = 1; price = 50; };
+    class CUP_H_Navy_CrewHelmet_Blue                                 { quality = 1; price = 50; };
+    class CUP_H_Navy_CrewHelmet_Brown                                 { quality = 1; price = 50; };
+    class CUP_H_Navy_CrewHelmet_Green                                 { quality = 1; price = 50; };
+    class CUP_H_Navy_CrewHelmet_Red                                     { quality = 1; price = 50; };
+    class CUP_H_Navy_CrewHelmet_Violet                                 { quality = 1; price = 50; };
+    class CUP_H_Navy_CrewHelmet_White                                 { quality = 1; price = 50; };
+    class CUP_H_Navy_CrewHelmet_Yellow                                 { quality = 1; price = 50; };
+    class CUP_V_B_GER_Carrier_Rig                                     { quality = 1; price = 50; };
+    class CUP_V_B_GER_Carrier_Rig_2                                     { quality = 1; price = 50; };
+    class CUP_V_B_GER_Carrier_Vest                                     { quality = 1; price = 50; };
+    class CUP_V_B_GER_Carrier_Vest_2                                 { quality = 1; price = 50; };
+    class CUP_V_B_GER_Carrier_Vest_3                                 { quality = 1; price = 50; };
+    class CUP_V_B_GER_Vest_1                                         { quality = 1; price = 50; };
+    class CUP_V_B_GER_Vest_2                                         { quality = 1; price = 50; };
+    class CUP_V_B_MTV                                                 { quality = 1; price = 50; };
+    class CUP_V_B_MTV_Patrol                                         { quality = 1; price = 50; };
+    class CUP_V_B_MTV_Pouches                                         { quality = 1; price = 50; };
+    class CUP_V_B_MTV_noCB                                             { quality = 1; price = 50; };
+    class CUP_V_B_MTV_Marksman                                         { quality = 1; price = 50; };
+    class CUP_V_B_MTV_PistolBlack                                     { quality = 1; price = 50; };
+    class CUP_V_B_MTV_LegPouch                                         { quality = 1; price = 50; };
+    class CUP_V_B_MTV_MG                                             { quality = 1; price = 50; };
+    class CUP_V_B_MTV_Mine                                             { quality = 1; price = 50; };
+    class CUP_V_B_MTV_TL                                             { quality = 1; price = 50; };
+    class CUP_V_B_PilotVest                                             { quality = 1; price = 50; };
+    class CUP_V_B_RRV_TL                                             { quality = 1; price = 50; };
+    class CUP_V_B_RRV_Officer                                         { quality = 1; price = 50; };
+    class CUP_V_B_RRV_Medic                                             { quality = 1; price = 50; };
+    class CUP_V_B_RRV_DA1                                             { quality = 1; price = 50; };
+    class CUP_V_B_RRV_DA2                                             { quality = 1; price = 50; };
+    class CUP_V_B_RRV_MG                                             { quality = 1; price = 50; };
+    class CUP_V_B_RRV_Light                                             { quality = 1; price = 50; };
+    class CUP_V_B_RRV_Scout                                             { quality = 1; price = 50; };
+    class CUP_V_B_RRV_Scout2                                         { quality = 1; price = 50; };
+    class CUP_V_B_RRV_Scout3                                         { quality = 1; price = 50; };
+    class CUP_V_B_LHDVest_Blue                                         { quality = 1; price = 50; };
+    class CUP_V_B_LHDVest_Brown                                         { quality = 1; price = 50; };
+    class CUP_V_B_LHDVest_Green                                         { quality = 1; price = 50; };
+    class CUP_V_B_LHDVest_Red                                         { quality = 1; price = 50; };
+    class CUP_V_B_LHDVest_Violet                                     { quality = 1; price = 50; };
+    class CUP_V_B_LHDVest_White                                         { quality = 1; price = 50; };
+    class CUP_V_B_LHDVest_Yellow                                     { quality = 1; price = 50; };
+    class CUP_V_I_Carrier_Belt                                         { quality = 1; price = 50; };
+    class CUP_V_I_Guerilla_Jacket                                     { quality = 1; price = 50; };
+    class CUP_V_I_RACS_Carrier_Vest                                     { quality = 1; price = 50; };
+    class CUP_V_I_RACS_Carrier_Vest_2                                 { quality = 1; price = 50; };
+    class CUP_V_I_RACS_Carrier_Vest_3                                 { quality = 1; price = 50; };
+    class CUP_V_O_SLA_Carrier_Belt                                     { quality = 1; price = 50; };
+    class CUP_V_O_SLA_Carrier_Belt02                                 { quality = 1; price = 50; };
+    class CUP_V_O_SLA_Carrier_Belt03                                 { quality = 1; price = 50; };
+    class CUP_V_O_SLA_Flak_Vest01                                     { quality = 1; price = 50; };
+    class CUP_V_O_SLA_Flak_Vest02                                     { quality = 1; price = 50; };
+    class CUP_V_O_SLA_Flak_Vest03                                     { quality = 1; price = 50; };
+    class CUP_V_O_TK_CrewBelt                                         { quality = 1; price = 50; };
+    class CUP_V_O_TK_OfficerBelt                                     { quality = 1; price = 50; };
+    class CUP_V_O_TK_OfficerBelt2                                     { quality = 1; price = 50; };
+    class CUP_V_O_TK_Vest_1                                             { quality = 1; price = 50; };
+    class CUP_V_O_TK_Vest_2                                             { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket1_01                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket1_02                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket1_03                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket1_04                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket1_05                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket1_06                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket2_01                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket2_02                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket2_03                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket2_04                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket2_05                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket2_06                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket3_01                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket3_02                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket3_03                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket3_04                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket3_05                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket3_06                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket4_01                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket4_02                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket4_03                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket4_04                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket4_05                                     { quality = 1; price = 50; };
+    class CUP_V_OI_TKI_Jacket4_06                                     { quality = 1; price = 50; };
+	
+	//////////////////////////////////////////////////////////////////////////////
+	//	NIA EDITS
+	//////////////////////////////////////////////////////////////////////////////
+		
+			//GAYFUCKINGSHITFUCKTHEHELLFUCK
+	
+		//Awper
+
+	class hlc_rifle_awcovert { quality = 1; price = 550; };
+	class hlc_rifle_awcovert_BL	 { quality = 1; price = 550; };
+	class hlc_rifle_awcovert_FDE	 { quality = 1; price = 550; };
+	class hlc_rifle_awmagnum { quality = 1; price = 550; };
+	class hlc_rifle_awmagnum_BL	 { quality = 1; price = 550; };
+	class hlc_rifle_awMagnum_FDE_ghillie { quality = 1; price = 550; };
+	class hlc_rifle_awMagnum_BL_ghillie { quality = 1; price = 550; };
+	class hlc_rifle_awMagnum_OD_ghillie { quality = 1; price = 550; };
+		//Ammo
+	class hlc_5rnd_300WM_FMJ_AWM { quality = 1; price = 30; };
+	class hlc_5rnd_300WM_AP_AWM { quality = 1; price = 30; };
+	class hlc_5rnd_300WM_BTSP_AWM { quality = 1; price = 30; };
+	class hlc_5rnd_300WM_mk248_AWM { quality = 1; price = 30; };
+	class hlc_5rnd_300WM_SBT_AWM { quality = 1; price = 30; };
+
+		//Fal
+	
+	class hlc_rifle_l1a1slr { quality = 1; price = 550; };
+	class hlc_rifle_SLR { quality = 1; price = 550; };
+	class hlc_rifle_STG58F { quality = 1; price = 550; };
+	class hlc_rifle_FAL5061 { quality = 1; price = 550; };
+	class hlc_rifle_c1A1	 { quality = 1; price = 550; };
+	class hlc_rifle_LAR	 { quality = 1; price = 550; };
+	class hlc_rifle_SLRchopmod { quality = 1; price = 550; };
+	class hlc_rifle_falosw { quality = 1; price = 550; };
+	class hlc_rifle_osw_GL { quality = 1; price = 550; };
+
+	class hlc_optic_PVS4FAL { quality = 1; price = 150; };
+	class hlc_optic_suit	 { quality = 1; price = 150; };
+	class hlc_muzzle_snds_fal { quality = 1; price = 50; };
+		//Ammo
+	class hlc_20Rnd_762x51_B_fal { quality = 1; price = 30; };
+	class hlc_20Rnd_762x51_t_fal { quality = 1; price = 30; };
+	class hlc_20Rnd_762x51_S_fal { quality = 1; price = 30; };
+	class hlc_50rnd_762x51_M_FAL { quality = 1; price = 30; };
+
+		//G3
+
+	class hlc_rifle_g3sg1	 { quality = 1; price = 550; };
+	class hlc_rifle_psg1 { quality = 1; price = 550; };
+	class hlc_rifle_g3a3	 { quality = 1; price = 550; };
+	class hlc_rifle_g3ka4	 { quality = 1; price = 550; };
+	class HLC_Rifle_g3ka4_GL { quality = 1; price = 550; };
+	class hlc_rifle_hk51	 { quality = 1; price = 550; };
+	class hlc_rifle_hk53 { quality = 1; price = 550; };
+		//Attatchments
+	class hlc_muzzle_snds_HK33 { quality = 1; price = 50; };
+	class hlc_muzzle_snds_G3 { quality = 1; price = 50; };
+	class HLC_Optic_ZFSG1 { quality = 1; price = 150; };
+	class hlc_optic_accupoint_g3 { quality = 1; price = 50; };
+		//Ammo
+	class hlc_20Rnd_762x51_B_G3 { quality = 1; price = 30; };
+	class hlc_20rnd_762x51_T_G3 { quality = 1; price = 30; };
+	class hlc_50rnd_762x51_M_G3 { quality = 1; price = 30; };
+
+		//AR15
+
+	class hlc_rifle_RU556 { quality = 1; price = 550; };
+	class hlc_rifle_RU5562 { quality = 1; price = 550; };
+	class hlc_rifle_Colt727 { quality = 1; price = 550; };
+	class hlc_rifle_Colt727_GL { quality = 1; price = 550; };
+	class hlc_rifle_bcmjack { quality = 1; price = 550; };
+	class hlc_rifle_SAMR { quality = 1; price = 550; };
+		//Ammo
+	class hlc_30rnd_556x45_EPR { quality = 1; price = 30; };
+	class hlc_30rnd_556x45_SOST { quality = 1; price = 30; };
+	class hlc_30rnd_556x45_SPR { quality = 1; price = 30; };
+		//Attatchments
+	class hlc_muzzle_556NATO_KAC { quality = 1; price = 50; };
+
+		//.300 AR 15
+
+	class hlc_rifle_honeybadger { quality = 1; price = 550; };
+	class hlc_rifle_honeybase { quality = 1; price = 550; };
+	class hlc_rifle_vendimus { quality = 1; price = 550; };
+	class hlc_rifle_Bushmaster300 { quality = 1; price = 550; };
+		//Ammo
+	class 29rnd_300BLK_STANAG_T { quality = 1; price = 30; };
+	class 29rnd_300BLK_STANAG_S { quality = 1; price = 30; };
+	class 29rnd_300BLK_STANAG { quality = 1; price = 30; };
+		//Attatchments
+	class hlc_muzzle_300blk_KAC { quality = 1; price = 50; };
+
+		//Springfield.
+
+	class hlc_rifle_M1903A1_unertl { quality = 1; price = 550; };
+	class hlc_rifle_M1903A1 { quality = 1; price = 550; };
+		//Ammo
+	class hlc_5rd_3006_1903 { quality = 1; price = 30; };
+
+		//ACR
+
+	class hlc_rifle_ACR_Carb_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR_Carb_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR_Carb_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR_full_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR_full_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR_full_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR_mid_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR_mid_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR_mid_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR_SBR_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR_SBR_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR_SBR_tan { quality = 1; price = 550; };
+
+		//Ammo
+	class hlc_30rnd_556x45_EPR { quality = 1; price = 30; };
+	class hlc_30rnd_556x45_SOST { quality = 1; price = 30; };
+	class hlc_30rnd_556x45_SPR { quality = 1; price = 30; };
+
+		//ACR68
+
+	class hlc_rifle_ACR68_aron { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_Carb_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_Carb_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_Carb_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_full_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_full_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_full_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_mid_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_mid_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_mid_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_SBR_black { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_SBR_green { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_SBR_tan { quality = 1; price = 550; };
+	class hlc_rifle_ACR68_Squant { quality = 1; price = 550; };
+		//Ammo
+	class hlc_30rnd_68x43_FMJ { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_OTM { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_MFMJ { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_MIRDIM { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_Tracer { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_Tracer { quality = 1; price = 30; };
+	class hlc_30rnd_68x43_IRDIM { quality = 1; price = 30; };
 };
 
 
@@ -4025,7 +5463,7 @@ class CfgTraderCategories
 			"U_BG_leader",
 			"U_IG_leader",
 			"U_I_G_resistanceLeader_F",
-			/*"U_B_FullGhillie_ard",
+			"U_B_FullGhillie_ard",
 			"U_B_FullGhillie_lsh",
 			"U_B_FullGhillie_sard",
 			"U_B_GhillieSuit",
@@ -4036,7 +5474,7 @@ class CfgTraderCategories
 			"U_O_FullGhillie_ard",
 			"U_O_FullGhillie_lsh",
 			"U_O_FullGhillie_sard",
-			"U_O_GhillieSuit",*/
+			"U_O_GhillieSuit",
 			"U_I_Wetsuit",
 			"U_O_Wetsuit",
 			"U_B_Wetsuit",
@@ -4050,8 +5488,8 @@ class CfgTraderCategories
 			"U_B_T_Soldier_F",
 			"U_B_T_Soldier_AR_F",
 			"U_B_T_Soldier_SL_F",
-			//"U_B_T_Sniper_F",
-			//"U_B_T_FullGhillie_tna_F",
+			"U_B_T_Sniper_F",
+			"U_B_T_FullGhillie_tna_F",
 			"U_B_CTRG_Soldier_F",
 			"U_B_CTRG_Soldier_2_F",
 			"U_B_CTRG_Soldier_3_F",
@@ -4059,8 +5497,8 @@ class CfgTraderCategories
 			"U_B_GEN_Commander_F",
 			"U_O_T_Soldier_F",
 			"U_O_T_Officer_F",
-			//"U_O_T_Sniper_F",
-			//"U_O_T_FullGhillie_tna_F",
+			"U_O_T_Sniper_F",
+			"U_O_T_FullGhillie_tna_F",
 			"U_O_V_Soldier_Viper_F",
 			"U_O_V_Soldier_Viper_hex_F",
 			"U_I_C_Soldier_Para_1_F",
@@ -4085,7 +5523,93 @@ class CfgTraderCategories
 			"U_C_Man_casual_6_F",
 			"U_B_CTRG_Soldier_urb_1_F",
 			"U_B_CTRG_Soldier_urb_2_F",
-			"U_B_CTRG_Soldier_urb_3_F"
+			"U_B_CTRG_Soldier_urb_3_F",
+			// Wolfe fuckin CUP EDITS
+				"CUP_O_TKI_Khet_Partug_01",
+				"CUP_O_TKI_Khet_Partug_02",
+				"CUP_O_TKI_Khet_Partug_03",
+				"CUP_O_TKI_Khet_Partug_04",
+				"CUP_O_TKI_Khet_Partug_05",
+				"CUP_O_TKI_Khet_Partug_06",
+				"CUP_O_TKI_Khet_Partug_07",
+				"CUP_O_TKI_Khet_Partug_08",
+				"CUP_O_TKI_Khet_Jeans_01",
+				"CUP_O_TKI_Khet_Jeans_02",
+				"CUP_O_TKI_Khet_Jeans_03",
+				"CUP_O_TKI_Khet_Jeans_04",
+				"CUP_U_C_Pilot_01",
+				"CUP_U_C_Citizen_01",
+				"CUP_U_C_Citizen_02",
+				"CUP_U_C_Citizen_03",
+				"CUP_U_C_Citizen_04",
+				"CUP_U_C_Worker_01",
+				"CUP_U_C_Worker_02",
+				"CUP_U_C_Worker_03",
+				"CUP_U_C_Worker_04",
+				"CUP_U_C_Profiteer_01",
+				"CUP_U_C_Profiteer_02",
+				"CUP_U_C_Profiteer_03",
+				"CUP_U_C_Profiteer_04",
+				"CUP_U_C_Woodlander_01",
+				"CUP_U_C_Woodlander_02",
+				"CUP_U_C_Woodlander_03",
+				"CUP_U_C_Woodlander_04",
+				"CUP_U_C_Villager_01",
+				"CUP_U_C_Villager_02",
+				"CUP_U_C_Villager_03",
+				"CUP_U_C_Villager_04",
+				"CUP_U_B_CZ_WDL_TShirt",
+				"CUP_U_B_GER_Tropentarn_1",
+				"CUP_U_B_GER_Tropentarn_2",
+				"CUP_U_B_GER_Ghillie",
+				"CUP_U_B_GER_Flecktarn_1",
+				"CUP_U_B_GER_Flecktarn_2",
+				"CUP_U_B_GER_Fleck_Ghillie",
+				"CUP_U_B_USMC_Officer",
+				"CUP_U_B_USMC_PilotOverall",
+				"CUP_U_B_USMC_Ghillie_WDL",
+				"CUP_U_B_USMC_MARPAT_WDL_Sleeves",
+				"CUP_U_B_USMC_MARPAT_WDL_RolledUp",
+				"CUP_U_B_USMC_MARPAT_WDL_Kneepad",
+				"CUP_U_B_USMC_MARPAT_WDL_TwoKneepads",
+				"CUP_U_B_USMC_MARPAT_WDL_RollUpKneepad",
+				"CUP_U_B_FR_SpecOps",
+				"CUP_U_B_FR_Scout",
+				"CUP_U_B_FR_Scout1",
+				"CUP_U_B_FR_Scout2",
+				"CUP_U_B_FR_Scout3",
+				"CUP_U_B_FR_Officer",
+				"CUP_U_B_FR_Corpsman",
+				"CUP_U_B_FR_DirAction",
+				"CUP_U_B_FR_DirAction2",
+				"CUP_U_B_FR_Light",
+				"CUP_U_I_GUE_Flecktarn",
+				"CUP_U_I_GUE_Flecktarn2",
+				"CUP_U_I_GUE_Flecktarn3",
+				"CUP_U_I_GUE_Woodland1",
+				"CUP_U_I_Ghillie_Top",
+				"CUP_U_I_RACS_PilotOverall",
+				"CUP_U_I_RACS_Desert_1",
+				"CUP_U_I_RACS_Desert_2",
+				"CUP_U_I_RACS_Urban_1",
+				"CUP_U_I_RACS_Urban_2",
+				"CUP_U_O_SLA_Officer",
+				"CUP_U_O_SLA_Officer_Suit",
+				"CUP_U_O_SLA_MixedCamo",
+				"CUP_U_O_SLA_Green",
+				"CUP_U_O_SLA_Urban",
+				"CUP_U_O_SLA_Desert",
+				"CUP_U_O_SLA_Overalls_Pilot",
+				"CUP_U_O_SLA_Overalls_Tank",
+				"CUP_U_O_Partisan_TTsKO",
+				"CUP_U_O_Partisan_TTsKO_Mixed",
+				"CUP_U_O_Partisan_VSR_Mixed1",
+				"CUP_U_O_Partisan_VSR_Mixed2",
+				"CUP_U_O_TK_Officer",
+				"CUP_U_O_TK_MixedCamo",
+				"CUP_U_O_TK_Green",
+				"CUP_U_O_TK_Ghillie",
+				"CUP_U_O_TK_Ghillie_Top"
 		};
 	};
 
@@ -4150,7 +5674,83 @@ class CfgTraderCategories
 			"V_BandollierB_ghex_F",
 			"V_TacVest_gen_F",
 			"V_PlateCarrier1_rgr_noflag_F",
-			"V_PlateCarrier2_rgr_noflag_F"
+			"V_PlateCarrier2_rgr_noflag_F",
+			// Wolfe fuckin CUP EDITS
+			"CUP_V_B_GER_Carrier_Rig",
+            "CUP_V_B_GER_Carrier_Rig_2",
+            "CUP_V_B_GER_Carrier_Vest",
+            "CUP_V_B_GER_Carrier_Vest_2",
+            "CUP_V_B_GER_Carrier_Vest_3",
+            "CUP_V_B_GER_Vest_1",
+            "CUP_V_B_GER_Vest_2",
+            "CUP_V_B_MTV",
+            "CUP_V_B_MTV_Patrol",
+            "CUP_V_B_MTV_Pouches",
+            "CUP_V_B_MTV_noCB",
+            "CUP_V_B_MTV_Marksman",
+            "CUP_V_B_MTV_PistolBlack",
+            "CUP_V_B_MTV_LegPouch",
+            "CUP_V_B_MTV_MG",
+            "CUP_V_B_MTV_Mine",
+            "CUP_V_B_MTV_TL",
+            "CUP_V_B_PilotVest",
+            "CUP_V_B_RRV_TL",
+            "CUP_V_B_RRV_Officer",
+            "CUP_V_B_RRV_Medic",
+            "CUP_V_B_RRV_DA1",
+            "CUP_V_B_RRV_DA2",
+            "CUP_V_B_RRV_MG",
+            "CUP_V_B_RRV_Light",
+            "CUP_V_B_RRV_Scout",
+            "CUP_V_B_RRV_Scout2",
+            "CUP_V_B_RRV_Scout3",
+            "CUP_V_B_LHDVest_Blue",
+            "CUP_V_B_LHDVest_Brown",
+            "CUP_V_B_LHDVest_Green",
+            "CUP_V_B_LHDVest_Red",
+            "CUP_V_B_LHDVest_Violet",
+            "CUP_V_B_LHDVest_White",
+            "CUP_V_B_LHDVest_Yellow",
+            "CUP_V_I_Carrier_Belt",
+            "CUP_V_I_Guerilla_Jacket",
+            "CUP_V_I_RACS_Carrier_Vest",
+            "CUP_V_I_RACS_Carrier_Vest_2",
+            "CUP_V_I_RACS_Carrier_Vest_3",
+            "CUP_V_O_SLA_Carrier_Belt",
+            "CUP_V_O_SLA_Carrier_Belt02",
+            "CUP_V_O_SLA_Carrier_Belt03",
+            "CUP_V_O_SLA_Flak_Vest01",
+            "CUP_V_O_SLA_Flak_Vest02",
+            "CUP_V_O_SLA_Flak_Vest03",
+            "CUP_V_O_TK_CrewBelt",
+            "CUP_V_O_TK_OfficerBelt",
+            "CUP_V_O_TK_OfficerBelt2",
+            "CUP_V_O_TK_Vest_1",
+            "CUP_V_O_TK_Vest_2",
+            "CUP_V_OI_TKI_Jacket1_01",
+            "CUP_V_OI_TKI_Jacket1_02",
+            "CUP_V_OI_TKI_Jacket1_03",
+            "CUP_V_OI_TKI_Jacket1_04",
+            "CUP_V_OI_TKI_Jacket1_05",
+            "CUP_V_OI_TKI_Jacket1_06",
+            "CUP_V_OI_TKI_Jacket2_01",
+            "CUP_V_OI_TKI_Jacket2_02",
+            "CUP_V_OI_TKI_Jacket2_03",
+            "CUP_V_OI_TKI_Jacket2_04",
+            "CUP_V_OI_TKI_Jacket2_05",
+            "CUP_V_OI_TKI_Jacket2_06",
+            "CUP_V_OI_TKI_Jacket3_01",
+            "CUP_V_OI_TKI_Jacket3_02",
+            "CUP_V_OI_TKI_Jacket3_03",
+            "CUP_V_OI_TKI_Jacket3_04",
+            "CUP_V_OI_TKI_Jacket3_05",
+            "CUP_V_OI_TKI_Jacket3_06",
+            "CUP_V_OI_TKI_Jacket4_01",
+            "CUP_V_OI_TKI_Jacket4_02",
+            "CUP_V_OI_TKI_Jacket4_03",
+            "CUP_V_OI_TKI_Jacket4_04",
+            "CUP_V_OI_TKI_Jacket4_05",
+            "CUP_V_OI_TKI_Jacket4_06"	
 		};
 	};
 
@@ -4284,7 +5884,107 @@ class CfgTraderCategories
 			"H_Cap_oli_Syndikat_F",
 			"H_Cap_tan_Syndikat_F",
 			"H_Cap_blk_Syndikat_F",
-			"H_Cap_grn_Syndikat_F"
+			"H_Cap_grn_Syndikat_F",
+			//Wolfe fuckin CUP EIDTS
+				"CUP_H_C_Ushanka_01",
+				"CUP_H_C_Ushanka_02",
+				"CUP_H_C_Ushanka_03",
+				"CUP_H_C_Ushanka_04",
+				"CUP_H_C_Beanie_01",
+				"CUP_H_C_Beanie_02",
+				"CUP_H_C_Beanie_03",
+				"CUP_H_C_Beanie_04",
+				"CUP_H_C_Beret_01",
+				"CUP_H_C_Beret_02",
+				"CUP_H_C_Beret_03",
+				"CUP_H_C_Beret_04",
+				"CUP_H_GER_Boonie_desert",
+				"CUP_H_GER_Boonie_Flecktarn",
+				"CUP_H_NAPA_Fedora",
+				"CUP_H_PMC_PRR_Headset",
+				"CUP_H_PMC_EP_Headset",
+				"CUP_H_PMC_Cap_Tan",
+				"CUP_H_PMC_Cap_Grey",
+				"CUP_H_PMC_Cap_PRR_Tan",
+				"CUP_H_PMC_Cap_PRR_Grey",
+				"CUP_H_RACS_Beret_Blue",
+				"CUP_H_RACS_Helmet_Des",
+				"CUP_H_RACS_Helmet_Goggles_Des",
+				"CUP_H_RACS_Helmet_Headset_Des",
+				"CUP_H_RACS_Helmet_DPAT",
+				"CUP_H_RACS_Helmet_Goggles_DPAT",
+				"CUP_H_RACS_Helmet_Headset_DPAT",
+				"CUP_H_SLA_TankerHelmet",
+				"CUP_H_SLA_Helmet",
+				"CUP_H_SLA_Pilot_Helmet",
+				"CUP_H_SLA_OfficerCap",
+				"CUP_H_SLA_SLCap",
+				"CUP_H_SLA_Boonie",
+				"CUP_H_SLA_Beret",
+				//"CUP_H_SLA_BeretRed",
+				"CUP_H_SLA_BeenieGreen",
+				"CUP_H_TK_TankerHelmet",
+				"CUP_H_TK_PilotHelmet",
+				"CUP_H_TK_Helmet",
+				"CUP_H_TK_Lungee",
+				"CUP_H_TK_Beret",
+				"CUP_H_TKI_SkullCap_01",
+				"CUP_H_TKI_SkullCap_02",
+				"CUP_H_TKI_SkullCap_03",
+				"CUP_H_TKI_SkullCap_04",
+				"CUP_H_TKI_SkullCap_05",
+				"CUP_H_TKI_SkullCap_06",
+				"CUP_H_TKI_Lungee_01",
+				"CUP_H_TKI_Lungee_02",
+				"CUP_H_TKI_Lungee_03",
+				"CUP_H_TKI_Lungee_04",
+				"CUP_H_TKI_Lungee_05",
+				"CUP_H_TKI_Lungee_06",
+				"CUP_H_TKI_Lungee_Open_01",
+				"CUP_H_TKI_Lungee_Open_02",
+				"CUP_H_TKI_Lungee_Open_03",
+				"CUP_H_TKI_Lungee_Open_04",
+				"CUP_H_TKI_Lungee_Open_05",
+				"CUP_H_TKI_Lungee_Open_06",
+				"CUP_H_TKI_Pakol_1_01",
+				"CUP_H_TKI_Pakol_1_02",
+				"CUP_H_TKI_Pakol_1_03",
+				"CUP_H_TKI_Pakol_1_04",
+				"CUP_H_TKI_Pakol_1_05",
+				"CUP_H_TKI_Pakol_1_06",
+				"CUP_H_TKI_Pakol_2_01",
+				"CUP_H_TKI_Pakol_2_02",
+				"CUP_H_TKI_Pakol_2_03",
+				"CUP_H_TKI_Pakol_2_04",
+				"CUP_H_TKI_Pakol_2_05",
+				"CUP_H_TKI_Pakol_2_06",
+				"CUP_H_USMC_Officer_Cap",
+				"CUP_H_USMC_HelmetWDL",
+				"CUP_H_USMC_HeadSet_HelmetWDL",
+				"CUP_H_USMC_HeadSet_GoggleW_HelmetWDL",
+				"CUP_H_USMC_Crew_Helmet",
+				"CUP_H_USMC_Goggles_HelmetWDL",
+				"CUP_H_USMC_Helmet_Pilot",
+				"CUP_H_FR_Headset",
+				"CUP_H_FR_Cap_Headset_Green",
+				"CUP_H_FR_Cap_Officer_Headset",
+				"CUP_H_FR_BandanaGreen",
+				"CUP_H_FR_BandanaWdl",
+				"CUP_H_FR_Bandana_Headset",
+				"CUP_H_FR_Headband_Headset",
+				"CUP_H_FR_ECH",
+				"CUP_H_FR_BoonieMARPAT",
+				"CUP_H_FR_BoonieWDL",
+				"CUP_H_FR_BeanieGreen",
+				"CUP_H_FR_PRR_BoonieWDL",
+				"CUP_H_Navy_CrewHelmet_Blue",
+				"CUP_H_Navy_CrewHelmet_Brown",
+				"CUP_H_Navy_CrewHelmet_Green",
+				"CUP_H_Navy_CrewHelmet_Red",
+				"CUP_H_Navy_CrewHelmet_Violet",
+				"CUP_H_Navy_CrewHelmet_White",
+				"CUP_H_Navy_CrewHelmet_Yellow"
+			
 		};
 	};
 
@@ -4403,7 +6103,78 @@ class Glasses
 			"muzzle_snds_65_TI_hex_F",
 			"muzzle_snds_65_TI_ghex_F",
 			"muzzle_snds_H_MG_blk_F",
-			"muzzle_snds_H_MG_khk_F"
+			"muzzle_snds_H_MG_khk_F",
+			
+			//Wolfe FUCKINNFG CUP EDITSXS
+			"CUP_muzzleFlash2SCAR_L",
+			"CUP_muzzle_mfsup_SCAR_H",
+			"CUP_muzzleFlash2SCAR_L",
+			"CUP_muzzle_mfsup_SCAR_L",
+			"CUP_muzzle_mfsup_SCAR_H",
+			"CUP_muzzle_snds_AWM",
+			"CUP_muzzle_PBS4",
+			"CUP_muzzle_PB6P9",
+			"CUP_muzzle_Bizon",
+			"CUP_muzzle_snds_G36_black",
+			"CUP_muzzle_snds_G36_desert",
+			"CUP_muzzle_snds_L85",
+			"CUP_muzzle_snds_M110",
+			"CUP_muzzle_snds_M14",
+			"CUP_muzzle_snds_M16_camo",
+			"CUP_muzzle_snds_M16",
+			"CUP_muzzle_snds_M9",
+			"CUP_muzzle_snds_MicroUzi",
+			"CUP_muzzle_snds_XM8",
+			"CUP_muzzle_snds_SCAR_L",
+			"CUP_muzzle_snds_SCAR_H",
+			"CUP_optic_MAAWS_Scope",
+			"CUP_optic_SMAW_Scope",
+			"CUP_optic_AN_PAS_13c1",
+			"CUP_optic_AN_PAS_13c2",
+			"CUP_optic_GOSHAWK",
+			"CUP_optic_AN_PVS_10",
+			"CUP_optic_AN_PVS_4",
+			"CUP_optic_NSPU",
+			"CUP_optic_SB_3_12x50_PMII",
+			"CUP_optic_LeupoldMk4",
+			"CUP_optic_Leupold_VX3",
+			"CUP_optic_LeupoldM3LR",
+			"CUP_optic_LeupoldMk4_10x40_LRT_Desert",
+			"CUP_optic_LeupoldMk4_10x40_LRT_Woodland",
+			"CUP_optic_LeupoldMk4_CQ_T",
+			"CUP_optic_LeupoldMk4_MRT_tan",
+			"CUP_optic_PechenegScope",
+			"CUP_optic_PSO_1",
+			"CUP_optic_PSO_3",
+			"CUP_optic_SUSAT",
+			"CUP_optic_ElcanM145",
+			"CUP_optic_ELCAN_SpecterDR",
+			"CUP_optic_CWS",
+			"CUP_optic_RCO",
+			"CUP_optic_RCO_desert",
+			"CUP_optic_RCO",
+			"CUP_optic_ZDDot",
+			"CUP_optic_MRad",
+			"CUP_optic_SB_11_4x20_PM",
+			"CUP_optic_TrijiconRx01_desert",
+			"CUP_optic_TrijiconRx01_black",
+			"CUP_optic_CompM4",
+			"CUP_optic_CompM2_Black",
+			"CUP_optic_CompM2_Woodland",
+			"CUP_optic_CompM2_Woodland2",
+			"CUP_optic_CompM2_Desert",
+			"CUP_optic_HoloBlack",
+			"CUP_optic_HoloWdl",
+			"CUP_optic_HoloDesert",
+			"CUP_optic_Eotech533",
+			"CUP_optic_Eotech533Grey",
+			"CUP_optic_Eotech533Grey",
+			"CUP_acc_Flashlight",
+			"CUP_acc_Flashlight_wdl",
+			"CUP_acc_Flashlight_desert",
+			"CUP_acc_XM8_light_module",
+			"CUP_acc_CZ_M3X",
+			"CUP_acc_Glock17_Flashlight"
 		};
 	};
 
@@ -4474,7 +6245,19 @@ class Glasses
 			"optic_LRPS_ghex_F",
 			"optic_Holosight_blk_F",
 			"optic_Holosight_khk_F",
-			"optic_Holosight_smg_blk_F"
+			"optic_Holosight_smg_blk_F",
+			
+				//nia shit
+			
+			"hlc_optic_PVS4FAL",
+			"hlc_optic_suit	",
+			"hlc_muzzle_snds_fal",
+			"hlc_muzzle_snds_HK33",
+			"hlc_muzzle_snds_G3",
+			"HLC_Optic_ZFSG1",
+			"hlc_optic_accupoint_g3",
+			"hlc_muzzle_556NATO_KAC",
+			"hlc_muzzle_300blk_KAC"
 		};
 	};
 
@@ -4805,7 +6588,299 @@ class Glasses
 			"Exile_Magazine_5Rnd_127x108_Bullet_Cam_Mag",
 			"Exile_Magazine_10Rnd_93x64_DMR_05_Bullet_Cam_Mag",
 			"Exile_Magazine_7Rnd_408_Bullet_Cam_Mag",
-			"Exile_Magazine_10Rnd_338_Bullet_Cam_Mag"
+			"Exile_Magazine_10Rnd_338_Bullet_Cam_Mag",
+			//Wolfe CUP FUKIN EDITSF
+			"CUP_30Rnd_545x39_AK_M",
+			"CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M",
+			"CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M",
+			"CUP_30Rnd_TE1_White_Tracer_545x39_AK_M",
+			"CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M",
+			"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",
+			"CUP_20Rnd_556x45_Stanag",
+			"30Rnd_556x45_Stanag",
+			"30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag_Tracer_Green",
+			"30Rnd_556x45_Stanag_Tracer_Yellow",
+			"CUP_30Rnd_556x45_Stanag",
+			"CUP_30Rnd_556x45_G36",
+			"CUP_30Rnd_TE1_Red_Tracer_556x45_G36",
+			"CUP_30Rnd_TE1_Green_Tracer_556x45_G36",
+			"CUP_30Rnd_TE1_Yellow_Tracer_556x45_G36",
+			"CUP_100Rnd_556x45_BetaCMag",
+			"CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag",
+			"CUP_100Rnd_TE1_Green_Tracer_556x45_BetaCMag",
+			"CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag",
+			"CUP_100Rnd_TE4_Green_Tracer_556x45_M249",
+			"CUP_100Rnd_TE4_Red_Tracer_556x45_M249",
+			"CUP_100Rnd_TE4_Yellow_Tracer_556x45_M249",
+			"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",
+			"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",
+			"CUP_200Rnd_TE4_Yellow_Tracer_556x45_M249",
+			"CUP_200Rnd_TE1_Red_Tracer_556x45_M249",
+			"CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1",
+			"CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1",
+			"CUP_200Rnd_TE4_Yellow_Tracer_556x45_L110A1",
+			"CUP_10x_303_M",
+			"CUP_30Rnd_Sa58_M",
+			"CUP_30Rnd_Sa58_M_TracerG",
+			"CUP_30Rnd_Sa58_M_TracerR",
+			"CUP_30Rnd_Sa58_M_TracerY",
+			"CUP_30Rnd_762x39_AK47_M",
+			"CUP_5Rnd_762x51_M24",
+			"CUP_5x_22_LR_17_HMR_M",
+			"CUP_10Rnd_762x51_CZ750",
+			"CUP_10Rnd_762x51_CZ750_Tracer",
+			"20Rnd_762x51_Mag",
+			"CUP_20Rnd_762x51_FNFAL_M",
+			"CUP_20Rnd_762x51_DMR",
+			"CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR",
+			"CUP_20Rnd_TE1_Red_Tracer_762x51_DMR",
+			"CUP_20Rnd_TE1_Green_Tracer_762x51_DMR",
+			"CUP_20Rnd_TE1_White_Tracer_762x51_DMR",
+			"CUP_20Rnd_762x51_B_SCAR",
+			"CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR",
+			"CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR",
+			"CUP_20Rnd_TE1_Green_Tracer_762x51_SCAR",
+			"CUP_20Rnd_TE1_White_Tracer_762x51_SCAR",
+			"CUP_20Rnd_762x51_B_M110",
+			"CUP_20Rnd_TE1_Yellow_Tracer_762x51_M110",
+			"CUP_20Rnd_TE1_Red_Tracer_762x51_M110",
+			"CUP_20Rnd_TE1_Green_Tracer_762x51_M110",
+			"CUP_20Rnd_TE1_White_Tracer_762x51_M110",
+			"CUP_20Rnd_762x51_CZ805B",
+			"CUP_20Rnd_TE1_Yellow_Tracer_762x51_CZ805B",
+			"CUP_20Rnd_TE1_Red_Tracer_762x51_CZ805B",
+			"CUP_20Rnd_TE1_Green_Tracer_762x51_CZ805B",
+			"CUP_20Rnd_TE1_White_Tracer_762x51_CZ805B",
+			"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
+			"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",
+			"CUP_100Rnd_TE4_White_Tracer_762x51_M240_M",
+			"CUP_200Rnd_TE4_White_Tracer_762x51_M240_M",
+			"CUP_200Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
+			"CUP_200Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",
+			"CUP_1200Rnd_TE4_White_Tracer_762x51_M240_M",
+			"CUP_1200Rnd_TE4_Red_Tracer_762x51_M240_M",
+			"CUP_2000Rnd_TE5_White_Tracer_762x51_M134_M",
+			"CUP_2000Rnd_TE1_White_Tracer_762x51_M134_M",
+			"CUP_2000Rnd_TE5_Red_Tracer_762x51_M134_M",
+			"CUP_2000Rnd_TE1_Red_Tracer_762x51_M134_M",
+			"CUP_4000Rnd_TE5_White_Tracer_762x51_M134_M",
+			"CUP_4000Rnd_TE5_Red_Tracer_762x51_M134_M",
+			"CUP_10Rnd_762x54_SVD_M",
+			"CUP_50Rnd_UK59_762x54R_Tracer",
+			"CUP_10Rnd_B_765x17_Ball_M",
+			"CUP_20Rnd_B_765x17_Ball_M",
+			"CUP_5Rnd_86x70_L115A1",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"CUP_8Rnd_9x18_MakarovSD_M",
+			"CUP_10Rnd_9x19_Compact",
+			"CUP_15Rnd_9x19_M9",
+			"CUP_17Rnd_9x19_glock17",
+			"CUP_18Rnd_9x19_Phantom",
+			"CUP_30Rnd_9x19_EVO",
+			"CUP_30Rnd_9x19_UZI",
+			"CUP_30Rnd_9x19_MP5",
+			"CUP_64Rnd_9x19_Bizon_M",
+			"CUP_64Rnd_Green_Tracer_9x19_Bizon_M",
+			"CUP_64Rnd_Red_Tracer_9x19_Bizon_M",
+			"CUP_64Rnd_White_Tracer_9x19_Bizon_M",
+			"CUP_64Rnd_Yellow_Tracer_9x19_Bizon_M",
+			"16Rnd_9x21_Mag",
+			"30Rnd_9x21_Mag",
+			"CUP_10Rnd_9x39_SP5_VSS_M",
+			"CUP_20Rnd_9x39_SP5_VSS_M",
+			"CUP_6Rnd_45ACP_M",
+			"CUP_7Rnd_45ACP_1911",
+			"CUP_5Rnd_127x99_as50_M",
+			"CUP_10Rnd_127x99_M107",
+			"CUP_100Rnd_127x99_M",
+			"CUP_100Rnd_TE4_Red_Tracer_127x99_M",
+			"CUP_100Rnd_TE4_Green_Tracer_127x99_M",
+			"CUP_100Rnd_TE4_Yellow_Tracer_127x99_M",
+			"CUP_100Rnd_TE4_White_Tracer_127x99_M",
+			"CUP_100Rnd_TE1_Red_Tracer_127x99_M",
+			"CUP_100Rnd_TE1_Green_Tracer_127x99_M",
+			"CUP_100Rnd_TE1_Yellow_Tracer_127x99_M",
+			"CUP_100Rnd_TE1_White_Tracer_127x99_M",
+			"CUP_100Rnd_TE3_LRT5_Green_Tracer_127x107_DSHKM_M",
+			"CUP_100Rnd_TE3_LRT5_127x107_DSHKM_M",
+			"CUP_5Rnd_127x108_KSVK_M",
+			"CUP_8Rnd_B_Saiga12_74Slug_M",
+			"CUP_8Rnd_B_Saiga12_74Pellets_M",
+			"CUP_8Rnd_B_Beneli_74Slug",
+			"CUP_8Rnd_B_Beneli_74Pellets",
+			"CUP_20Rnd_B_AA12_Pellets",
+			"CUP_20Rnd_B_AA12_74Slug",
+			"CUP_20Rnd_B_AA12_HE",
+			"CUP_750Rnd_TE2_Red_Tracer_M197_20mm_AP_M",
+			"CUP_50Rnd_TE2_LRT4_Green_Tracer_23mm_KPVB_APHE_M",
+			"CUP_520Rnd_TE2_23mm_GSh23L_APHE_M",
+			"CUP_300Rnd_TE1_White_Tracer_25mm_GAU12_M",
+			"CUP_300Rnd_TE1_Red_Tracer_25mm_GAU12_M",
+			"CUP_300Rnd_TE1_Green_Tracer_25mm_GAU12_M",
+			"CUP_300Rnd_TE1_Yellow_Tracer_25mm_GAU12_M",
+			"CUP_29Rnd_30mm_AGS30_M",
+			"CUP_150Rnd_TE1_White_Tracer_30mmAP_2A42_M",
+			"CUP_150Rnd_TE1_Red_Tracer_30mmAP_2A42_M",
+			"CUP_150Rnd_TE1_Green_Tracer_30mmAP_2A42_M",
+			"CUP_150Rnd_TE1_Yellow_Tracer_30mmAP_2A42_M",
+			"CUP_150Rnd_TE1_White_Tracer_30mmHE_2A42_M",
+			"CUP_150Rnd_TE1_Red_Tracer_30mmHE_2A42_M",
+			"CUP_150Rnd_TE1_Green_Tracer_30mmHE_2A42_M",
+			"CUP_150Rnd_TE1_Yellow_Tracer_30mmHE_2A42_M",
+			"CUP_230Rnd_TE1_White_Tracer_30mmAP_2A42_M",
+			"CUP_230Rnd_TE1_Red_Tracer_30mmAP_2A42_M",
+			"CUP_230Rnd_TE1_Green_Tracer_30mmAP_2A42_M",
+			"CUP_230Rnd_TE1_Yellow_Tracer_30mmAP_2A42_M",
+			"CUP_230Rnd_TE1_White_Tracer_30mmHE_2A42_M",
+			"CUP_230Rnd_TE1_Red_Tracer_30mmHE_2A42_M",
+			"CUP_230Rnd_TE1_Green_Tracer_30mmHE_2A42_M",
+			"CUP_230Rnd_TE1_Yellow_Tracer_30mmHE_2A42_M",
+			"CUP_250Rnd_TE1_White_Tracer_30mmHE_2A42_M",
+			"CUP_250Rnd_TE1_Red_Tracer_30mmHE_2A42_M",
+			"CUP_250Rnd_TE1_Green_Tracer_30mmHE_2A42_M",
+			"CUP_250Rnd_TE1_Yellow_Tracer_30mmHE_2A42_M",
+			"CUP_250Rnd_TE1_White_Tracer_30mmAP_2A42_M",
+			"CUP_250Rnd_TE1_Red_Tracer_30mmAP_2A42_M",
+			"CUP_250Rnd_TE1_Green_Tracer_30mmAP_2A42_M",
+			"CUP_250Rnd_TE1_Yellow_Tracer_30mmAP_2A42_M",
+			"CUP_400Rnd_30mm_AGS17_M",
+			"CUP_1200Rnd_TE1_Red_Tracer_30x113mm_M789_HEDP_M",
+			"CUP_1200Rnd_TE1_Green_Tracer_30x113mm_M789_HEDP_M",
+			"CUP_1200Rnd_TE1_Yellow_Tracer_30x113mm_M789_HEDP_M",
+			"CUP_1200Rnd_TE1_White_Tracer_30x113mm_M789_HEDP_M",
+			"1Rnd_HE_Grenade_shell",
+			"CUP_1Rnd_HE_M203",
+			"CUP_1Rnd_HEDP_M203",
+			"CUP_1Rnd_HE_GP25_M",
+			"1Rnd_Smoke_Grenade_shell",
+			"CUP_1Rnd_SMOKE_GP25_M",
+			"CUP_1Rnd_Smoke_M203",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"CUP_1Rnd_SmokeRed_GP25_M",
+			"CUP_1Rnd_SmokeRed_M203",
+			"1Rnd_SmokeGreen_Grenade_shell",
+			"CUP_1Rnd_SmokeGreen_GP25_M",
+			"CUP_1Rnd_SmokeGreen_M203",
+			"1Rnd_SmokeYellow_Grenade_shell",
+			"CUP_1Rnd_SmokeYellow_GP25_M",
+			"CUP_1Rnd_SmokeYellow_M203",
+			"1Rnd_SmokePurple_Grenade_shell",
+			"1Rnd_SmokeBlue_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"CUP_FlareWhite_GP25_M",
+			"CUP_FlareWhite_M203",
+			"CUP_FlareRed_GP25_M",
+			"CUP_FlareRed_M203",
+			"CUP_FlareGreen_GP25_M",
+			"CUP_FlareGreen_M203",
+			"CUP_FlareYellow_GP25_M",
+			"CUP_FlareYellow_M203",
+			"CUP_6Rnd_HE_M203",
+			"CUP_6Rnd_Smoke_M203",
+			"CUP_6Rnd_SmokeRed_M203",
+			"CUP_6Rnd_SmokeGreen_M203",
+			"CUP_6Rnd_SmokeYellow_M203",
+			"CUP_6Rnd_FlareWhite_M203",
+			"CUP_6Rnd_FlareGreen_M203",
+			"CUP_6Rnd_FlareRed_M203",
+			"CUP_6Rnd_FlareYellow_M203",
+			"CUP_32Rnd_40mm_MK19_M",
+			"CUP_48Rnd_40mm_MK19_M",
+			"CUP_20Rnd_TE1_Red_Tracer_120mmHE_M256_Cannon_M",
+			"CUP_20Rnd_TE1_Red_Tracer_120mmSABOT_M256_Cannon_M",
+			"CUP_HandGrenade_M67",
+			"CUP_HandGrenade_L109A1_HE	",
+			"CUP_HandGrenade_L109A2_HE",
+			"CUP_HandGrenade_RGD5",
+			"CUP_HandGrenade_RGO",
+			"CUP_TimeBomb_M",
+			"CUP_Mine_M",
+			"CUP_MineE_M",
+			"CUP_PipeBomb_M",
+			"CUP_IED_V1_M",
+			"CUP_IED_V2_M",
+			"CUP_IED_V3_M",
+			"CUP_IED_V4_M",
+			"CUP_Strela_2_M",
+			"CUP_Stinger_M",
+			"CUP_Igla_M",
+			"CUP_Javelin_M",
+			"CUP_M136_M",
+			"CUP_Dragon_EP1_M",
+			"CUP_MAAWS_HEDP_M",
+			"CUP_MAAWS_HEAT_M",
+			"CUP_AT13_M",
+			"CUP_NLAW_M",
+			"CUP_RPG18_M",
+			"CUP_PG7V_M",
+			"CUP_PG7VL_M",
+			"CUP_PG7VR_M",
+			"CUP_OG7_M",
+			"CUP_SMAW_HEDP_M_N",
+			"CUP_SMAW_HEAA_M_N",
+			"CUP_PG9_AT_M",
+			"CUP_OG9_HE_M",
+			"CUP_8Rnd_AT5_BMP2_M",
+			"CUP_5Rnd_AT5_BRDM2_M",
+			"CUP_2Rnd_Hydra_Pod_7_M",
+			"CUP_4Rnd_Hydra_Pod_7_M",
+			"CUP_14Rnd_FFAR_M",
+			"CUP_28Rnd_FFAR_M",
+			"CUP_38Rnd_FFAR_M",
+			"CUP_38Rnd_FFAR_AH64Out_M",
+			"CUP_38Rnd_FFAR_AH64In_M",
+			"CUP_14Rnd_FFAR_Mid_M",
+			"CUP_14Rnd_FFAR_In_M",
+			"CUP_8Rnd_AGM114L_Hellfire_II_M",
+			"CUP_4Rnd_AGM114L_Hellfire_II_M",
+			"CUP_8Rnd_AGM114K_Hellfire_II_M",
+			"CUP_4Rnd_AGM114K_Hellfire_II_M",
+			"CUP_1Rnd_AIM_9L_Sidewinder_External_M",
+			"CUP_4Rnd_AIM_9L_Sidewinder_External_M",
+			"CUP_2Rnd_AIM_9L_Sidewinder_Internal_M",
+			"CUP_2Rnd_AIM_9L_Sidewinder_External_M",
+			"CUP_2Rnd_AGM65_M",
+			"CUP_6Rnd_AGM65_M",
+			"CUP_8Rnd_AGM65_M",
+			"CUP_6Rnd_GBU12_M",
+			"CUP_2Rnd_MK82_Rack_M",
+			"CUP_4Rnd_MK82_Rack_M",
+			"CUP_1Rnd_MK82_Rack_M",
+			"CUP_2Rnd_Mk82_M",
+			
+			//nia shit
+			
+			"hlc_5rnd_300WM_FMJ_AWM",
+			"hlc_5rnd_300WM_AP_AWM",
+			"hlc_5rnd_300WM_BTSP_AWM",
+			"hlc_5rnd_300WM_mk248_AWM",
+			"hlc_5rnd_300WM_SBT_AWM",
+			"hlc_20Rnd_762x51_B_fal",
+			"hlc_20Rnd_762x51_t_fal",
+			"hlc_20Rnd_762x51_S_fal",
+			"hlc_50rnd_762x51_M_FAL",
+			"hlc_20Rnd_762x51_B_G3",
+			"hlc_20rnd_762x51_T_G3",
+			"hlc_50rnd_762x51_M_G3",
+			"hlc_30rnd_556x45_EPR",
+			"hlc_30rnd_556x45_SOST",
+			"hlc_30rnd_556x45_SPR",
+			"29rnd_300BLK_STANAG_T",
+			"29rnd_300BLK_STANAG_S",
+			"29rnd_300BLK_STANAG",
+			"hlc_5rd_3006_1903",
+			"hlc_30rnd_556x45_EPR",
+			"hlc_30rnd_556x45_SOST",
+			"hlc_30rnd_556x45_SPR",
+			"hlc_30rnd_68x43_FMJ",
+			"hlc_30rnd_68x43_OTM",
+			"hlc_30rnd_68x43_MFMJ",
+			"hlc_30rnd_68x43_MIRDIM",
+			"hlc_30rnd_68x43_Tracer",
+			"hlc_30rnd_68x43_Tracer",
+			"hlc_30rnd_68x43_IRDIM"
+
 		};
 	};
 
@@ -4908,7 +6983,44 @@ class Glasses
 			"Exile_Weapon_TaurusGold",
 			//Apex
 			"hgun_Pistol_01_F",
-			"hgun_P07_khk_F"
+			"hgun_P07_khk_F",
+			//FUCKIN WOLEF FUJKIN EIDT CUIP
+			"CUP_hgun_Colt1911",
+			"CUP_hgun_Colt1911_snds",
+			"CUP_Colt1911",
+			"CUP_hgun_Compact",
+			"CUP_hgun_Duty",
+			"CUP_hgun_Duty_M3X",
+			"CUP_hgun_Phantom",
+			"CUP_hgun_Phantom_Flashlight",
+			"CUP_hgun_Phantom_Flashlight_snds",
+			"CUP_CZ_75_D_COMPACT",
+			"CUP_CZ_75_P_07_DUTY",
+			"CUP_CZ_75_SP_01_PHANTOM",
+			"CUP_CZ_75_SP_01_PHANTOM_SD",
+			"CUP_hgun_glock17_flashlight",
+			"CUP_hgun_glock17_flashlight_snds",
+			"CUP_hgun_glock17_snds",
+			"CUP_Glock17_EP1",
+			"CUP_hgun_M9",
+			"CUP_hgun_M9_snds",
+			"CUP_M9",
+			"CUP_M9SD",
+			"CUP_hgun_Makarov",
+			"CUP_Makarov",
+			"CUP_MakarovSD",
+			"CUP_hgun_PB6P9",
+			"CUP_hgun_PB6P9_snds",
+			"CUP_hgun_SA61",
+			"CUP_Sa61_EP1",
+			"CUP_hgun_MicroUzi",
+			"CUP_hgun_MicroUzi_snds",
+			"CUP_UZI_EP1",
+			"CUP_UZI_SD_EP1",
+			"CUP_hgun_TaurusTracker455",
+			"CUP_Revolver_EP1",
+			"CUP_hgun_TaurusTracker455_gold",
+			"CUP_Revolver_gold_EP1"
 		};
 	};
 
@@ -4921,7 +7033,20 @@ class Glasses
 			"hgun_PDW2000_F",
 			"SMG_01_F",
 			"SMG_02_F",
-			"SMG_05_F"
+			"SMG_05_F",
+			//WOLFE DDID THIS EDDITS FORM CUP 
+			"CUP_smg_bizon",
+			"CUP_smg_bizon_snds",
+			"CUP_bizon",
+			"CUP_bizon_silenced",
+			"CUP_smg_EVO",
+			"CUP_smg_EVO_MRad_Flashlight",
+			"CUP_smg_EVO_MRad_Flashlight_Snds",
+			"CUP_Evo_mrad_ACR",
+			"CUP_Evo_sd_ACR",
+			"CUP_Evo_ACR",
+			"CUP_smg_MP5SD6",
+			"CUP_smg_MP5A5"
 		};
 	};
 
@@ -4938,7 +7063,7 @@ class Glasses
 			"LMG_03_F",
 			"Exile_Weapon_RPK",
 			"Exile_Weapon_PK",
-			"Exile_Weapon_PKP"
+			"Exile_Weapon_PKP",
 
 			/*
 			"MMG_01_hex_F",
@@ -4947,6 +7072,34 @@ class Glasses
 			"MMG_02_camo_F",
 			"MMG_02_sand_F"
 			*/
+			
+			//SATAN IM COMING FOR YOUR FCKIN EDIT CUP WOLFE
+			"CUP_RPK_74",
+			"CUP_lmg_Pecheneg",
+			"CUP_Pecheneg",
+			"CUP_lmg_PKM",
+			"CUP_PK",
+			"CUP_lmg_UK59",
+			"CUP_UK59_ACR",
+			"CUP_arifle_L86A2",
+			"CUP_arifle_L86A2_ACOG",
+			"CUP_lmg_L110A1",
+			"CUP_lmg_L110A1_Aim_Laser",
+			"CUP_BAF_L110A1_Aim",
+			"CUP_lmg_L7A2",
+			"CUP_BAF_L7A2_GPMG",
+			"CUP_lmg_M249_ElcanM145_Laser",
+			"CUP_lmg_M249_Laser",
+			"CUP_lmg_M249_ANPAS13c2_Laser",
+			"CUP_lmg_M249",
+			"CUP_M249_m145_EP1",
+			"CUP_lmg_M240",
+			"CUP_lmg_M240_ElcanM143",
+			"CUP_lmg_M60A4",
+			"CUP_lmg_Mk48_des",
+			"CUP_lmg_Mk48_wdl",
+			"CUP_lmg_Mk48_des_Aim_Laser",
+			"CUP_lmg_Mk48_wdl_Aim_Laser"
 		};
 	};
 
@@ -5012,7 +7165,200 @@ class Glasses
 			"arifle_MX_khk_F",
 			"arifle_MX_GL_khk_F",
 			"arifle_MXC_khk_F",
-			"arifle_MXM_khk_F"
+			"arifle_MXM_khk_F",
+			//SHORTS A FUCKING FURRY EDUT CUP WOLFE FUKING FUCKIN
+			"CUP_arifle_AK74",
+			"CUP_arifle_AK74M",
+			"CUP_arifle_AK74_GL",
+			"CUP_arifle_AK74_GL_kobra",
+			"CUP_arifle_AKS",
+			"CUP_arifle_AKS_Gold",
+			"CUP_arifle_AKS74",
+			"CUP_arifle_AKS74_kobra",
+			"CUP_arifle_AKS74_pso",
+			"CUP_arifle_AKS74_NSPU",
+			"CUP_arifle_AKS74_Goshawk",
+			"CUP_arifle_AKS74U",
+			"CUP_arifle_AKS74UN_kobra_snds",
+			"CUP_arifle_AK107",
+			"CUP_arifle_AK107_kobra",
+			"CUP_arifle_AK107_pso",
+			"CUP_arifle_AK107_GL",
+			"CUP_arifle_AK107_GL_kobra",
+			"CUP_arifle_AK107_GL_pso",
+			"CUP_arifle_AKM",
+			"CUP_arifle_CZ805_A1",
+			"CUP_arifle_CZ805_A1_Holo_Laser",
+			"CUP_arifle_CZ805_A1_Aco_Laser",
+			"CUP_arifle_CZ805_A1_MRCO_Laser",
+			"CUP_arifle_CZ805_A1_ZDDot_Laser",
+			"CUP_arifle_CZ805_GL",
+			"CUP_arifle_CZ805_GL_Hamr_Laser",
+			"CUP_arifle_CZ805_GL_ZDDot_Laser",
+			"CUP_arifle_CZ805_A2",
+			"CUP_arifle_CZ805_A2_Holo_Laser",
+			"CUP_arifle_CZ805_A2_Aco_Laser",
+			"CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds",
+			"CUP_arifle_CZ805_B",
+			"CUP_arifle_CZ805_B_GL",
+			"CUP_arifle_CZ805B_GL_ACOG_Laser",
+			"CUP_arifle_FNFAL",
+			"CUP_arifle_FNFAL_railed",
+			"CUP_arifle_FNFAL_ANPVS4",
+			"CUP_arifle_G36A",
+			"CUP_arifle_G36A_camo",
+			"CUP_arifle_G36K",
+			"CUP_arifle_G36K_camo",
+			"CUP_arifle_G36C",
+			"CUP_arifle_G36C_holo_snds",
+			"CUP_arifle_G36C_camo",
+			"CUP_arifle_G36C_camo_holo_snds",
+			"CUP_arifle_L85A2",
+			"CUP_arifle_L85A2_Holo_laser",
+			"CUP_arifle_L85A2_SUSAT_Laser",
+			"CUP_arifle_L85A2_CWS_Laser",
+			"CUP_arifle_L85A2_ACOG_Laser",
+			"CUP_arifle_L85A2_GL",
+			"CUP_arifle_L85A2_GL_Holo_laser",
+			"CUP_arifle_L85A2_GL_SUSAT_Laser",
+			"CUP_arifle_L85A2_GL_ACOG_Laser",
+			"CUP_arifle_M16A2",
+			"CUP_arifle_M16A2_GL",
+			"CUP_arifle_M16A4_Base",
+			"CUP_arifle_M16A4_GL",
+			"CUP_arifle_M16A4_Aim_Laser",
+			"CUP_arifle_M16A4_ACOG_Laser",
+			"CUP_arifle_M16A4_GL_Laser",
+			"CUP_arifle_M16A4_GL_ACOG_Laser",
+			"CUP_arifle_M4A1_BUIS_GL",
+			"CUP_arifle_M4A1_BUIS_camo_GL",
+			"CUP_arifle_M4A1_BUIS_desert_GL",
+			"CUP_arifle_M4A1",
+			"CUP_arifle_M4A1_camo",
+			"CUP_arifle_M4A1_black",
+			"CUP_arifle_M4A1_desert",
+			"CUP_arifle_M4A3_desert",
+			"CUP_arifle_M4A1_camo_Aim",
+			"CUP_arifle_M4A3_desert_Aim_Flashlight",
+			"CUP_arifle_M4A3_desert_GL_ACOG_Laser",
+			"CUP_arifle_M4A1_Aim",
+			"CUP_arifle_M4A1_camo_AIM_snds",
+			"CUP_arifle_M4A1_GL_Holo_Flashlight",
+			"CUP_arifle_M4A1_GL_ACOG_Flashlight",
+			"CUP_arifle_M4A1_camo_GL_Holo_Flashlight",
+			"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds",
+			"CUP_arifle_Sa58P",
+			"CUP_arifle_Sa58V",
+			"CUP_arifle_Sa58V_ACOG_Laser",
+			"CUP_arifle_Sa58V_Aim_Laser",
+			"CUP_arifle_Sa58RIS1",
+			"CUP_arifle_Sa58RIS1_Aco_Laser",
+			"CUP_arifle_Sa58RIS2",
+			"CUP_arifle_Sa58RIS2_Arco_Laser",
+			"CUP_arifle_Sa58RIS2_gl",
+			"CUP_arifle_Sa58P_des",
+			"CUP_arifle_Sa58V_camo",
+			"CUP_arifle_Sa58RIS1_des",
+			"CUP_arifle_Sa58RIS1_camo_Aco_Laser",
+			"CUP_arifle_Sa58RIS2_camo",
+			"CUP_arifle_Sa58RIS2_camo_Arco_Laser",
+			"CUP_arifle_Mk16_STD",
+			"CUP_arifle_Mk16_STD_FG",
+			"CUP_arifle_Mk16_STD_FG_Holo_Laser",
+			"CUP_arifle_Mk16_STD_FG_LeupoldMk4CQT_Laser",
+			"CUP_arifle_Mk16_STD_SFG",
+			"CUP_arifle_Mk16_STD_EGLM",
+			"CUP_arifle_Mk16_STD_EGLM_ACOG_Laser",
+			"CUP_arifle_Mk16_STD_EGLM_ANPAS13c1_Laser_mfsup",
+			"CUP_arifle_Mk16_CQC",
+			"CUP_arifle_Mk16_CQC_FG",
+			"CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds",
+			"CUP_arifle_Mk16_CQC_SFG",
+			"CUP_arifle_Mk16_CQC_SFG_Holo",
+			"CUP_arifle_Mk16_CQC_EGLM",
+			"CUP_arifle_Mk16_CQC_EGLM_Holo_Laser_mfsup",
+			"CUP_arifle_Mk16_SV",
+			"CUP_arifle_Mk17_CQC",
+			"CUP_arifle_Mk17_CQC_FG",
+			"CUP_arifle_Mk17_CQC_SFG",
+			"CUP_arifle_Mk17_CQC_EGLM",
+			"CUP_arifle_Mk17_STD",
+			"CUP_arifle_Mk17_STD_FG",
+			"CUP_arifle_Mk17_STD_SFG",
+			"CUP_arifle_Mk17_STD_EGLM",
+			"CUP_arifle_Mk17_CQC_SFG_Aim_mfsup",
+			"CUP_arifle_Mk17_STD_FG_Aim_Laser_snds",
+			"CUP_arifle_Mk17_STD_EGL_ElcanSpecter_Laser",
+			"CUP_arifle_Mk17_STD_FG_ANPAS13c1_Laser_Snds",
+			"CUP_arifle_Mk20",
+			"CUP_arifle_Mk20_LeupoldMk4MRT",
+			"CUP_arifle_Mk20_SB11420_snds",
+			"CUP_arifle_XM8_Carbine",
+			"CUP_arifle_XM8_Carbine_GL",
+			"CUP_arifle_xm8_sharpshooter",
+			"CUP_arifle_XM8_Compact",
+			"CUP_arifle_XM8_Compact_Rail",
+			"CUP_arifle_XM8_Compact_Holo_Flashlight",
+			"CUP_arifle_XM8_Railed",
+			"CUP_arifle_XM8_Railed_ANPAS13c1_Laser",
+			"CUP_arifle_XM8_Railed_ANPAS13c1_Laser_snds",
+			"CUP_arifle_XM8_Railed_Holo_Laser_snds",
+			"CUP_arifle_XM8_Carbine_FG"
+			
+			//nia
+			"hlc_rifle_l1a1slr",
+			"hlc_rifle_SLR",
+			"hlc_rifle_STG58F",
+			"hlc_rifle_FAL5061",
+			"hlc_rifle_c1A1	",
+			"hlc_rifle_LAR	",
+			"hlc_rifle_SLRchopmod",
+			"hlc_rifle_falosw",
+			"hlc_rifle_osw_GL",
+			"hlc_rifle_g3sg1",
+			"hlc_rifle_psg1",
+			"hlc_rifle_g3a3	",
+			"hlc_rifle_g3ka4	",
+			"HLC_Rifle_g3ka4_GL",
+			"hlc_rifle_hk51	",
+			"hlc_rifle_hk53",
+			"hlc_rifle_RU556",
+			"hlc_rifle_RU5562",
+			"hlc_rifle_Colt727",
+			"hlc_rifle_Colt727_GL",
+			"hlc_rifle_bcmjack",
+			"hlc_rifle_SAMR",
+			"hlc_rifle_honeybadger",
+			"hlc_rifle_honeybase",
+			"hlc_rifle_vendimus",
+			"hlc_rifle_Bushmaster300",
+			"hlc_rifle_ACR_Carb_black",
+			"hlc_rifle_ACR_Carb_green",
+			"hlc_rifle_ACR_Carb_tan",
+			"hlc_rifle_ACR_full_black",
+			"hlc_rifle_ACR_full_green",
+			"hlc_rifle_ACR_full_tan",
+			"hlc_rifle_ACR_mid_black",
+			"hlc_rifle_ACR_mid_green",
+			"hlc_rifle_ACR_mid_tan",
+			"hlc_rifle_ACR_SBR_black",
+			"hlc_rifle_ACR_SBR_green",
+			"hlc_rifle_ACR_SBR_tan",
+			"hlc_rifle_ACR68_aron",
+			"hlc_rifle_ACR68_Carb_black",
+			"hlc_rifle_ACR68_Carb_green",
+			"hlc_rifle_ACR68_Carb_tan",
+			"hlc_rifle_ACR68_full_black",
+			"hlc_rifle_ACR68_full_green",
+			"hlc_rifle_ACR68_full_tan",
+			"hlc_rifle_ACR68_mid_black",
+			"hlc_rifle_ACR68_mid_green",
+			"hlc_rifle_ACR68_mid_tan",
+			"hlc_rifle_ACR68_SBR_black",
+			"hlc_rifle_ACR68_SBR_green",
+			"hlc_rifle_ACR68_SBR_tan",
+			"hlc_rifle_ACR68_Squant"
+						
 		};
 	};
 	
@@ -5022,7 +7368,14 @@ class Glasses
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
-			"Exile_Weapon_M1014"
+			"Exile_Weapon_M1014",
+			//SATANF PLZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ WOLFE CUTP EITSSD
+			"CUP_sgun_AA12",
+			"CUP_AA12_PMC",
+			"CUP_sgun_M1014",
+			"CUP_M1014",
+			"CUP_sgun_Saiga12K",
+			"CUP_Saiga12K"
 		};
 	};
 
@@ -5066,10 +7419,124 @@ class Glasses
 			"srifle_GM6_ghex_F",
 			"srifle_DMR_07_blk_F",
 			"srifle_DMR_07_hex_F",
-			"srifle_DMR_07_ghex_F"
+			"srifle_DMR_07_ghex_F",
+			//FITSFUCKING FFICLITNG EFDIT FOR CUP EAHR
+			"CUP_srifle_AWM_des",
+			"CUP_srifle_AWM_wdl",
+			"CUP_srifle_AWM_des_SBPMII",
+			"CUP_srifle_AWM_wdl_SBPMII",
+			"CUP_srifle_CZ550",
+			"CUP_huntingrifle",
+			"CUP_srifle_CZ750",
+			"CUP_srifle_CZ750_SOS_bipod",
+			"CUP_CZ_750_S1_ACR",
+			"CUP_srifle_DMR",
+			"CUP_srifle_DMR_LeupoldMk4",
+			"CUP_srifle_M14",
+			"CUP_srifle_M14_Aim",
+			"CUP_DMR",
+			"CUP_M14_EP1",
+			"CUP_srifle_M24_des",
+			"CUP_srifle_M24_wdl",
+			"CUP_srifle_M24_ghillie",
+			"CUP_srifle_M24_des_LeupoldMk4LRT",
+			"CUP_srifle_M24_wdl_LeupoldMk4LRT",
+			"CUP_M24",
+			"CUP_M24_des_EP1",
+			"CUP_srifle_M40A3",
+			"CUP_M40A3",
+			"CUP_M110_TWS_EP1",
+			"CUP_M110_NVG_EP1",
+			"CUP_srifle_M110",
+			"CUP_srifle_M110_ANPAS13c2",
+			"CUP_srifle_M110_ANPVS10",
+			"CUP_SVD",
+			"CUP_SVD_CAMO",
+			"CUP_SVD_des_EP1",
+			"CUP_SVD_NSPU_EP1",
+			"CUP_srifle_SVD",
+			"CUP_srifle_SVD_des",
+			"CUP_srifle_SVD_des_ghillie_pso",
+			"CUP_srifle_SVD_wdl_ghillie",
+			"CUP_srifle_SVD_pso",
+			"CUP_srifle_SVD_Des_pso",
+			"CUP_srifle_SVD_NSPU",
+			"CUP_srifle_VSSVintorez",
+			"CUP_srifle_VSSVintorez_pso",
+			"CUP_VSS_vintorez",
+			"CUP_srifle_LeeEnfield",
+			"CUP_LeeEnfield",
+			"CUP_srifle_AS50",
+			"CUP_srifle_AS50_SBPMII",
+			"CUP_srifle_AS50_AMPAS13c2",
+			"CUP_BAF_AS50_scoped",
+			"CUP_PMC_AS50_scoped",
+			"CUP_BAF_AS50_TWS",
+			"CUP_PMC_AS50_TWS",
+			"CUP_srifle_ksvk",
+			"CUP_srifle_ksvk_PSO3",
+			"CUP_ksvk",
+			"CUP_srifle_M107_Base",
+			"CUP_srifle_M107_LeupoldVX3",
+			"CUP_srifle_M107_ANPAS13c2",
+			"CUP_M107",
+			"CUP_M107_TWS_EP1",
+			//nia
+			"hlc_rifle_awcovert",
+			"hlc_rifle_awcovert_BL	",
+			"hlc_rifle_awcovert_FDE	",
+			"hlc_rifle_awmagnum",
+			"hlc_rifle_awmagnum_BL	",
+			"hlc_rifle_awMagnum_FDE_ghillie",
+			"hlc_rifle_awMagnum_BL_ghillie",
+			"hlc_rifle_awMagnum_OD_ghillie",
+			"hlc_rifle_M1903A1_unertl",
+			"hlc_rifle_M1903A1"
 		};
 	};
-
+	
+	class Launchers
+	{
+		name = "Launchers";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] = 
+		{
+			// FUCKING CFICKFI SHORT BUS' FGAGOOT  FUCK YOU DUDE  SHIT SFUCK ASFD RIFT ASDFLJCI[ CUP EDITS]
+			"CUP_glaunch_M32",
+			"CUP_M32_EP1",
+			"CUP_glaunch_M79",
+			"CUP_M79_EP1",
+			"CUP_glaunch_Mk13",
+			"CUP_Mk13_EP1",
+			"CUP_launch_9K32Strela",
+			"CUP_Strela",
+			"CUP_launch_Igla",
+			"CUP_Igla",
+			"CUP_launch_FIM92Stinger",
+			"CUP_Stinger",
+			"CUP_launch_M47",
+			"CUP_M47Launcher_EP1",
+			"CUP_launch_MAAWS",
+			"CUP_launch_MAAWS_Scope",
+			"CUP_MAAWS",
+			"CUP_launch_Metis",
+			"CUP_MetisLauncher",
+			"CUP_launch_NLAW",
+			"CUP_BAF_NLAW_Launcher",
+			"CUP_launch_Javelin",
+			"CUP_Javelin",
+			"CUP_launch_Mk153Mod0",
+			"CUP_launch_Mk153Mod0_SMAWOptics",
+			"CUP_SMAW",
+			"CUP_launch_RPG7V",
+			"CUP_RPG7V",
+			"CUP_launch_RPG18",
+			"CUP_RPG18",
+			"CUP_launch_M136",
+			"CUP_M136"
+		};
+	};
+	
 	class Bikes
 	{
 		name = "Bikes";
@@ -5145,7 +7612,277 @@ class Glasses
 			"Exile_Car_Zamak",
 			"Exile_Car_Tempest",
 			"Exile_Car_HEMMT",
-			"Exile_Car_Ikarus_Blue"
+			"Exile_Car_Ikarus_Blue",
+			//FUCKITY FUCKI NG FUVK SATANS GONNA BEATGS ME TOFDFAY THANKS YOU FUCK YOU SHORT BUS <3
+			//CUP EDITS
+			"CUP_C_UAZ_Open_TK_CIV",
+            "CUP_C_UAZ_Unarmed_TK_CIV",
+            "CUP_O_UAZ_AGS30_CHDKZ",
+            "CUP_O_UAZ_AGS30_RU",
+            "CUP_O_UAZ_AGS30_TKA",
+            "CUP_O_UAZ_MG_CHDKZ",
+            "CUP_O_UAZ_MG_RU",
+            "CUP_O_UAZ_MG_TKA",
+            "CUP_O_UAZ_Open_CHDKZ",
+            "CUP_O_UAZ_Open_RU",
+            "CUP_O_UAZ_Open_TKA",
+            "CUP_O_UAZ_SPG9_CHDKZ",
+            "CUP_O_UAZ_SPG9_RU",
+            "CUP_O_UAZ_SPG9_TKA",
+            "CUP_O_UAZ_Unarmed_CHDKZ",
+            "CUP_O_UAZ_Unarmed_RU",
+            "CUP_O_UAZ_Unarmed_TKA",
+            "CUP_B_UAZ_AGS30_ACR",
+            "CUP_B_UAZ_AGS30_CDF",
+            "CUP_B_UAZ_MG_ACR",
+            "CUP_B_UAZ_MG_CDF",
+            "CUP_B_UAZ_Open_ACR",
+            "CUP_B_UAZ_Open_CDF",
+            "CUP_B_UAZ_SPG9_ACR",
+            "CUP_B_UAZ_SPG9_CDF",
+            "CUP_B_UAZ_Unarmed_ACR",
+            "CUP_B_UAZ_Unarmed_CDF",
+            "CUP_I_UAZ_AGS30_UN",
+            "CUP_I_UAZ_MG_UN",
+            "CUP_I_UAZ_Open_UN",
+            "CUP_I_UAZ_SPG9_UN",
+            "CUP_I_UAZ_Unarmed_UN",
+            "CUP_B_Ural_CDF",
+            "CUP_B_Ural_Empty_CDF",
+            "CUP_B_Ural_Open_CDF",
+            "CUP_B_Ural_Reammo_CDF",
+            "CUP_B_Ural_Refuel_CDF",
+            "CUP_B_Ural_Repair_CDF",
+            "CUP_B_Ural_ZU23_CDF",
+            "CUP_O_Ural_CHDKZ",
+            "CUP_O_Ural_Empty_CHDKZ",
+            "CUP_O_Ural_Empty_RU",
+            "CUP_O_Ural_Empty_SLA",
+            "CUP_O_Ural_Empty_TKA",
+            "CUP_O_Ural_Open_CHDKZ",
+            "CUP_O_Ural_Open_RU",
+            "CUP_O_Ural_Open_SLA",
+            "CUP_O_Ural_Open_TKA",
+            "CUP_O_Ural_RU",
+            "CUP_O_Ural_Reammo_CHDKZ",
+            "CUP_O_Ural_Reammo_RU",
+            "CUP_O_Ural_Reammo_SLA",
+            "CUP_O_Ural_Reammo_TKA",
+            "CUP_O_Ural_Refuel_CHDKZ",
+            "CUP_O_Ural_Refuel_RU",
+            "CUP_O_Ural_Refuel_SLA",
+            "CUP_O_Ural_Refuel_TKA",
+            "CUP_O_Ural_Repair_CHDKZ",
+            "CUP_O_Ural_Repair_RU",
+            "CUP_O_Ural_Repair_SLA",
+            "CUP_O_Ural_Repair_TKA",
+            "CUP_O_Ural_SLA",
+            "CUP_O_Ural_TKA",
+            "CUP_O_Ural_ZU23_CHDKZ",
+            "CUP_O_Ural_ZU23_RU",
+            "CUP_O_Ural_ZU23_SLA",
+            "CUP_O_Ural_ZU23_TKA",
+            "CUP_O_Ural_ZU23_TKM",
+            "CUP_C_Ural_Civ_01",
+            "CUP_C_Ural_Civ_02",
+            "CUP_C_Ural_Civ_03",
+            "CUP_C_Ural_Open_Civ_01",
+            "CUP_C_Ural_Open_Civ_02",
+            "CUP_C_Ural_Open_Civ_03",
+            "CUP_I_Ural_Empty_UN",
+            "CUP_I_Ural_Reammo_UN",
+            "CUP_I_Ural_Repair_UN",
+            "CUP_I_Ural_UN",
+            "CUP_I_Ural_ZU23_NAPA",
+            "CUP_I_Ural_ZU23_TK_Gue",
+            "CUP_C_Datsun",
+            "CUP_C_Datsun_4seat",
+            "CUP_C_Datsun_Covered",
+            "CUP_C_Datsun_Plain",
+            "CUP_C_Datsun_Tubeframe",
+            "CUP_I_Datsun_PK",
+            "CUP_I_Datsun_PK_Random",
+            "CUP_I_Datsun_PK_TK",
+            "CUP_I_Datsun_PK_TK_Random",
+            "CUP_O_Datsun_PK",
+            "CUP_O_Datsun_PK_Random",
+            "CUP_C_LR_Transport_CTK",
+            "CUP_B_M1030",
+            "CUP_BAF_Jackal2_GMG_D",
+            "CUP_BAF_Jackal2_GMG_W",
+            "CUP_BAF_Jackal2_L2A1_D",
+            "CUP_BAF_Jackal2_L2A1_W",
+            "CUP_B_Dingo_Des",
+            "CUP_B_Dingo_GL_Des",
+            "CUP_B_Dingo_GL_Wdl",
+            "CUP_B_Dingo_Wdl",
+            "CUP_B_HMMWV_AGS_GPK_ACR",
+            "CUP_B_HMMWV_Ambulance_ACR",
+            "CUP_B_HMMWV_Ambulance_USA",
+            "CUP_B_HMMWV_Ambulance_USMC",
+            "CUP_B_HMMWV_Avenger_USA",
+            "CUP_B_HMMWV_Avenger_USMC",
+            "CUP_B_HMMWV_Crows_M2_USA",
+            "CUP_B_HMMWV_Crows_MK19_USA",
+            "CUP_B_HMMWV_DSHKM_GPK_ACR",
+            "CUP_B_HMMWV_M1114_USMC",
+            "CUP_B_HMMWV_M2_GPK_ACR",
+            "CUP_B_HMMWV_M2_GPK_USA",
+            "CUP_B_HMMWV_M2_USA",
+            "CUP_B_HMMWV_M2_USMC",
+            "CUP_B_HMMWV_MK19_USA",
+            "CUP_B_HMMWV_MK19_USMC",
+            "CUP_B_HMMWV_SOV_USA",
+            "CUP_B_HMMWV_TOW_USA",
+            "CUP_B_HMMWV_TOW_USMC",
+            "CUP_B_HMMWV_Terminal_USA",
+            "CUP_B_HMMWV_Transport_USA",
+            "CUP_B_HMMWV_Unarmed_USA",
+            "CUP_B_HMMWV_Unarmed_USMC",
+            "CUP_B_LR_Ambulance_CZ_D",
+            "CUP_B_LR_Ambulance_CZ_W",
+            "CUP_B_LR_Ambulance_GB_D",
+            "CUP_B_LR_Ambulance_GB_W",
+            "CUP_B_LR_MG_CZ_W",
+            "CUP_B_LR_MG_GB_W",
+            "CUP_B_LR_Special_CZ_W",
+            "CUP_B_LR_Special_Des_CZ_D",
+            "CUP_B_LR_Transport_CZ_D",
+            "CUP_B_LR_Transport_CZ_W",
+            "CUP_B_LR_Transport_GB_D",
+            "CUP_B_LR_Transport_GB_W",
+            "CUP_O_LR_Ambulance_TKA",
+            "CUP_O_LR_MG_TKA",
+            "CUP_O_LR_MG_TKM",
+            "CUP_O_LR_SPG9_TKA",
+            "CUP_O_LR_SPG9_TKM",
+            "CUP_O_LR_Transport_TKA",
+            "CUP_O_LR_Transport_TKM",
+            "CUP_I_LR_Transport_RACS",
+            "CUP_I_LR_MG_RACS",
+            "CUP_I_LR_Ambulance_RACS",            
+            "CUP_I_BRDM2_ATGM_NAPA",
+            "CUP_I_BRDM2_ATGM_TK_Gue",
+            "CUP_I_BRDM2_HQ_NAPA",
+            "CUP_I_BRDM2_HQ_TK_Gue",
+            "CUP_I_BRDM2_HQ_UN",
+            "CUP_I_BRDM2_NAPA",
+            "CUP_I_BRDM2_TK_Gue",
+            "CUP_I_BRDM2_UN",
+            "CUP_O_BRDM2_ATGM_CHDKZ",
+            "CUP_O_BRDM2_ATGM_SLA",
+            "CUP_O_BRDM2_ATGM_TKA",
+            "CUP_O_BRDM2_CHDKZ",
+            "CUP_O_BRDM2_HQ_CHDKZ",
+            "CUP_O_BRDM2_HQ_SLA",
+            "CUP_O_BRDM2_HQ_TKA",
+            "CUP_O_BRDM2_SLA",
+            "CUP_O_BRDM2_TKA",
+            "CUP_B_BRDM2_ATGM_CDF",
+            "CUP_B_BRDM2_CDF",
+            "CUP_B_BRDM2_HQ_CDF",
+            "CUP_B_LAV25M240_USMC",
+            "CUP_B_LAV25_HQ_USMC",
+            "CUP_B_LAV25_USMC",
+            "CUP_B_BM21_CDF",
+            "CUP_O_BM21_CHDKZ",
+            "CUP_O_BM21_RU",
+            "CUP_O_BM21_SLA",
+            "CUP_O_BM21_TKA",
+            "CUP_O_BTR60_TK",
+            "CUP_O_BTR90_HQ_RU",
+            "CUP_O_BTR90_RU",
+            "CUP_C_Octavia_CIV",
+            "CUP_C_Skoda_Red_Civ",
+            "CUP_C_Skoda_White_Civ",
+            "CUP_C_Skoda_Blue_Civ",
+            "CUP_C_Skoda_Green_Civ",
+            "CUP_C_Golf4_red_Civ",
+            "CUP_C_Golf4_black_Civ",
+            "CUP_C_Golf4_yellow_Civ",
+            "CUP_C_Golf4_blue_Civ",
+            "CUP_C_Golf4_white_Civ",
+            "CUP_C_Golf4_green_Civ",
+            "CUP_C_Golf4_random_Civ",
+            "CUP_C_Golf4_whiteblood_Civ",
+            "CUP_C_Golf4_camo_Civ",
+            "CUP_C_Golf4_camodigital_Civ",
+            "CUP_C_Golf4_camodark_Civ",
+            "CUP_C_Golf4_reptile_Civ",
+            "CUP_C_Golf4_kitty_Civ",
+            "CUP_B_M1126_ICV_M2_Desert",
+            "CUP_B_M1126_ICV_M2_Desert_Slat",
+            "CUP_B_M1126_ICV_M2_Woodland",
+            "CUP_B_M1126_ICV_M2_Woodland_Slat",
+            "CUP_B_M1126_ICV_Mk19_Desert",
+            "CUP_B_M1126_ICV_Mk19_Desert_Slat",
+            "CUP_B_M1126_ICV_Mk19_Woodland",
+            "CUP_B_M1126_ICV_Mk19_Woodland_Slat",
+            "CUP_B_M1128_MGS_Desert",
+            "CUP_B_M1128_MGS_Desert_Slat",
+            "CUP_B_M1128_MGS_Woodland",
+            "CUP_B_M1128_MGS_Woodland_Slat",
+            "CUP_B_M1129_MC_MK19_Desert",
+            "CUP_B_M1129_MC_MK19_Desert_Slat",
+            "CUP_B_M1129_MC_MK19_Woodland",
+            "CUP_B_M1129_MC_MK19_Woodland_Slat",
+            "CUP_B_M1130_CV_M2_Desert",
+            "CUP_B_M1130_CV_M2_Desert_Slat",
+            "CUP_B_M1130_CV_M2_Woodland",
+            "CUP_B_M1130_CV_M2_Woodland_Slat",
+            "CUP_B_M1133_MEV_Desert",
+            "CUP_B_M1133_MEV_Desert_Slat",
+            "CUP_B_M1133_MEV_Woodland",
+            "CUP_B_M1133_MEV_Woodland_Slat",
+            "CUP_B_M1135_ATGMV_Desert",
+            "CUP_B_M1135_ATGMV_Desert_Slat",
+            "CUP_B_M1135_ATGMV_Woodland",
+            "CUP_B_M1135_ATGMV_Woodland_Slat",
+            "CUP_B_TowingTractor_USMC",
+			"CUP_B_AAV_USMC",
+            "CUP_B_M113_Med_USA",
+            "CUP_B_M113_USA",
+            "CUP_I_M113_Med_RACS",
+            "CUP_I_M113_Med_UN",
+            "CUP_I_M113_RACS",
+            "CUP_I_M113_UN",
+            "CUP_O_M113_Med_TKA",
+            "CUP_O_M113_TKA",
+            "CUP_B_M163_USA",
+            "CUP_I_M163_RACS",
+            "CUP_B_M1A1_DES_USMC",
+            "CUP_B_M1A1_DES_US_Army",
+            "CUP_B_M1A1_Woodland_USMC",
+            "CUP_B_M1A1_Woodland_US_Army",
+            "CUP_B_M1A2_TUSK_MG_DES_USMC",
+            "CUP_B_M1A2_TUSK_MG_DES_US_Army",
+            "CUP_B_M1A2_TUSK_MG_USMC",
+            "CUP_B_M1A2_TUSK_MG_US_Army",
+            "CUP_B_M270_DPICM_USA",
+            "CUP_B_M270_DPICM_USMC",
+            "CUP_B_M270_HE_USA",
+            "CUP_B_M270_HE_USMC",
+            "CUP_B_M2Bradley_USA_D",
+            "CUP_B_M2Bradley_USA_W",
+            "CUP_B_M2A3Bradley_USA_D",
+            "CUP_B_M2A3Bradley_USA_W",
+            "CUP_I_T55_TK_GUE",
+            "CUP_O_T55_TK",
+            "CUP_O_T72_CHDKZ",
+            "CUP_O_T72_RU",
+            "CUP_O_T72_SLA",
+            "CUP_O_T72_TKA",
+            "CUP_B_T72_CDF",
+            "CUP_I_T72_NAPA",
+            "CUP_I_T72_RACS",
+            "CUP_B_ZSU23_CDF",
+            "CUP_O_ZSU23_ChDKZ",
+            "CUP_O_ZSU23_SLA",
+            "CUP_O_ZSU23_TK",
+            "CUP_T34_BASE",
+            "CUP_I_T34_NAPA",
+            "CUP_I_T34_TK_GUE",
+            "CUP_O_T34_TKA"
 		};
 	};
 
@@ -5165,7 +7902,90 @@ class Glasses
 			"Exile_Chopper_Orca_BlackCustom",
 			"Exile_Chopper_Mohawk_FIA",
 			"Exile_Chopper_Huron_Black",
-			"Exile_Chopper_Hellcat_Green"
+			"Exile_Chopper_Hellcat_Green",
+			/*SHORT FUCKING HAS A FUCKING HOLE IN HIS FUCKING SHIT FUCKING UNDERFWERADF FUCKING WEHRE FUCKING
+				HIS BALLS FUCKING SHOOULD BE FUCKING RIPPIGN CONSTANTLY WITH THE FUCKING GIGGLED FFHFUCKING USLLBSHIT
+				FUVOGNSDF FUCK THIS SISHTI LIKE WHTIY ASDF THE  FUKING GING FUKER CANT SFOHE HEJUST GIOOTA FUCKING FSETESDF 
+				SDFTRSLDFIT TESLL US THIS FHTISF ST0 IM SO  DONENEEEEE FIRHGHT FUVKING NWO,S FUCK IGN CUP EDITS */
+			"CUP_B_AH1Z",
+            // "CUP_B_AH1Z_14RndHydrax",
+            "CUP_B_AH1Z_7RndHydra",
+            "CUP_B_AH1Z_AT",
+            "CUP_B_AH1Z_Escort",
+            "CUP_B_AH1Z_NOAA",
+            "CUP_B_AH1Z_NoWeapons",
+            "CUP_B_AH1_AT_BAF",
+            "CUP_B_AH1_BAF",
+            "CUP_B_AH1_ES_BAF",
+            "CUP_B_AH1_MR_BAF",
+            "CUP_B_AH1_NO_BAF",
+            "CUP_B_AH64D_AT_USA",
+            "CUP_B_AH64D_ES_USA",
+            "CUP_B_AH64D_MR_USA",
+            "CUP_B_AH64D_NO_USA",
+            "CUP_B_AH64D_USA",
+            "CUP_B_AW159_Armed_BAF",
+            "CUP_B_AW159_Unarmed_BAF",
+            "CUP_B_CH47F_GB",
+            "CUP_B_CH47F_USA",
+            "CUP_B_CH53E_USMC",
+            "CUP_B_MH60S_FFV_USMC",
+            "CUP_B_MH60S_USMC",
+            "CUP_B_UH1Y_GUNSHIP_USMC",
+            "CUP_B_UH1Y_MEV_USMC",
+            "CUP_B_UH1Y_UNA_USMC",
+            "CUP_B_UH60L_FFV_US",
+            "CUP_B_UH60L_US",
+            "CUP_B_UH60L_Unarmed_FFV_MEV_US",
+            "CUP_B_UH60L_Unarmed_FFV_US",
+            "CUP_B_UH60L_Unarmed_US",
+            "CUP_I_UH60L_FFV_RACS",
+            "CUP_I_UH60L_RACS",
+            "CUP_I_UH60L_Unarmed_FFV_MEV_Racs",
+            "CUP_I_UH60L_Unarmed_FFV_Racs",
+            "CUP_I_UH60L_Unarmed_RACS",
+            "CUP_B_UH60M_FFV_US",
+            "CUP_B_UH60M_US",
+            "CUP_B_UH60M_Unarmed_FFV_MEV_US",
+            "CUP_B_UH60M_Unarmed_FFV_US",
+            "CUP_B_UH60M_Unarmed_US",
+            "CUP_O_Mi8_CHDKZ",
+            "CUP_O_Mi8_RU",
+            "CUP_O_Mi8_SLA_1",
+            "CUP_O_Mi8_SLA_2",
+            "CUP_O_Mi8_medevac_CHDKZ",
+            "CUP_O_Mi8_medevac_RU",
+            "CUP_B_Mi171Sh_ACR",
+            "CUP_B_Mi171Sh_Unarmed_ACR",
+            "CUP_B_Mi17_CDF",
+            "CUP_B_Mi17_medevac_CDF",
+            "CUP_I_Mi17_UN",
+            "CUP_O_Mi17_TK",
+            "CUP_C_Mi17_Civilian_RU",
+            "CUP_B_Mi24_D_CDF",
+            "CUP_I_Mi24_D_ION",
+            "CUP_I_Mi24_D_UN",
+            "CUP_O_Mi24_D_TK",
+            "CUP_O_Mi24_P_RU",
+            "CUP_O_Mi24_V_RU",
+            "CUP_B_Mi35_CZ",
+            "CUP_O_UH1H_TKA",
+            "CUP_I_UH1H_TK_GUE",
+            "CUP_B_UH1D_GER_KSK",
+            "CUP_B_UH1D_GER_KSK_DES",
+            "CUP_B_Merlin_HC3_GB",
+            "CUP_B_Merlin_HC3A_GB",
+            "CUP_B_AW159_Unarmed_GB",
+            "CUP_B_AW159_Hellfire_GB",
+            "CUP_B_AW159_Cannon_GB",
+            "CUP_B_SA330_Puma_HC1_BAF",
+            "CUP_B_SA330_Puma_HC2_BAF",
+            "CUP_I_SA330_Puma_HC1_RACS",
+            "CUP_I_SA330_Puma_HC2_RACS",
+            "CUP_O_KA50_SLA",
+            "CUP_O_KA50_AA_SLA",
+            "CUP_O_KA50_RU",
+            "CUP_O_KA50_AA_RU"
 		};
 	};
 
@@ -5187,7 +8007,18 @@ class Glasses
 			"Exile_Boat_SDV_Digital",
 			"Exile_Boat_SDV_Grey",
 			"Exile_Boat_WaterScooter",
-			"Exile_Boat_RHIB"
+			"Exile_Boat_RHIB",
+			
+			//FCKING SEE YOU ON THE FORUMS KID
+			 //#CUP EDITS 2017
+			 "CUP_C_Fishing_Boat_Chernarus",
+            "CUP_B_RHIB2Turret_USMC",
+            "CUP_B_RHIB_USMC",
+            "CUP_B_RHIB2Turret_RACS",
+            "CUP_B_RHIB_RACS",
+            "CUP_B_Seafox_USMC",
+            "CUP_B_Seafox_USV_USMC",
+            "CUP_B_Zodiac_USMC"
 		};
 	};
 
@@ -5201,7 +8032,55 @@ class Glasses
 			"Exile_Plane_AN2_Green",
 			"Exile_Plane_Ceasar",
 			"Exile_Plane_BlackfishInfantry",
-			"Exile_Plane_BlackfishVehicle"
+			"Exile_Plane_BlackfishVehicle",
+			//THIS IS OSOME BVULLSHIT THIFUCKING SFDITDF SFUCKING THASNKS FOR READING KIDS CUP EDITSCup Edits
+			"CUP_C_C47_CIV",
+            "CUP_C_DC3_CIV",
+            "CUP_B_MV22_USMC",
+            "CUP_B_A10_AT_USA",
+            "CUP_B_A10_CAS_USA",
+            "CUP_B_Su25_CDF",
+            "CUP_O_Su25_RU_1",
+            "CUP_O_Su25_RU_2",
+            "CUP_O_Su25_RU_3",
+            "CUP_O_Su25_SLA",
+            "CUP_O_Su25_TKA",
+            "CUP_B_C130J_USMC",
+            "CUP_B_C130J_Cargo_USMC",
+            "CUP_B_C130J_GB",
+            "CUP_B_C130J_Cargo_GB",
+            "CUP_I_C130J_AAF",
+            "CUP_I_C130J_Cargo_AAF",
+            "CUP_I_C130J_RACS",
+            "CUP_I_C130J_Cargo_RACS",
+            "CUP_O_C130J_TKA",
+            "CUP_O_C130J_Cargo_TKA",
+            "CUP_B_F35B_AA_USMC",
+            "CUP_B_F35B_CAS_USMC",
+            "CUP_B_F35B_LGB_USMC",
+            "CUP_B_F35B_AA_BAF",
+            "CUP_B_F35B_CAS_BAF",
+            "CUP_B_F35B_LGB_BAF",
+            "CUP_B_AV8B_CAP_USMC",
+            "CUP_B_AV8B_MK82_USMC",
+            "CUP_B_AV8B_GBU12_USMC",
+            "CUP_B_AV8B_AGM_USMC",
+            "CUP_I_AV8B_CAP_AAF",
+            "CUP_I_AV8B_MK82_AAF",
+            "CUP_I_AV8B_GBU12_AAF",
+            "CUP_I_AV8B_AGM_AAF",
+            "CUP_B_GR9_CAP_GB",
+            "CUP_B_GR9_MK82_GB",
+            "CUP_B_GR9_GBU12_GB",
+            "CUP_B_GR9_AGM_GB",
+            "CUP_O_SU34_LGB_RU",
+            "CUP_O_SU34_LGB_SLA",
+            "CUP_O_SU34_AGM_RU",
+            "CUP_O_SU34_AGM_SLA",
+            "CUP_I_SU34_LGB_AAF",
+            "CUP_I_SU34_AGM_AAF",
+            "CUP_B_SU34_LGB_CDF",
+            "CUP_B_SU34_AGM_CDF"
 		};
 	};
 
@@ -5245,7 +8124,8 @@ class CfgTraders
 			"SubMachineGuns",
 			"LightMachineGuns",
 			"AssaultRifles",
-			"SniperRifles"
+			"SniperRifles",
+			"Launchers"
 		};
 	};
 
