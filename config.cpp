@@ -7304,6 +7304,61 @@ class Glasses
 			"CUP_arifle_XM8_Railed_ANPAS13c1_Laser_snds",
 			"CUP_arifle_XM8_Railed_Holo_Laser_snds",
 			"CUP_arifle_XM8_Carbine_FG"
+			
+			//nia
+			"hlc_rifle_l1a1slr",
+			"hlc_rifle_SLR",
+			"hlc_rifle_STG58F",
+			"hlc_rifle_FAL5061",
+			"hlc_rifle_c1A1	",
+			"hlc_rifle_LAR	",
+			"hlc_rifle_SLRchopmod",
+			"hlc_rifle_falosw",
+			"hlc_rifle_osw_GL",
+			"hlc_rifle_g3sg1",
+			"hlc_rifle_psg1",
+			"hlc_rifle_g3a3	",
+			"hlc_rifle_g3ka4	",
+			"HLC_Rifle_g3ka4_GL",
+			"hlc_rifle_hk51	",
+			"hlc_rifle_hk53",
+			"hlc_rifle_RU556",
+			"hlc_rifle_RU5562",
+			"hlc_rifle_Colt727",
+			"hlc_rifle_Colt727_GL",
+			"hlc_rifle_bcmjack",
+			"hlc_rifle_SAMR",
+			"hlc_rifle_honeybadger",
+			"hlc_rifle_honeybase",
+			"hlc_rifle_vendimus",
+			"hlc_rifle_Bushmaster300",
+			"hlc_rifle_ACR_Carb_black",
+			"hlc_rifle_ACR_Carb_green",
+			"hlc_rifle_ACR_Carb_tan",
+			"hlc_rifle_ACR_full_black",
+			"hlc_rifle_ACR_full_green",
+			"hlc_rifle_ACR_full_tan",
+			"hlc_rifle_ACR_mid_black",
+			"hlc_rifle_ACR_mid_green",
+			"hlc_rifle_ACR_mid_tan",
+			"hlc_rifle_ACR_SBR_black",
+			"hlc_rifle_ACR_SBR_green",
+			"hlc_rifle_ACR_SBR_tan",
+			"hlc_rifle_ACR68_aron",
+			"hlc_rifle_ACR68_Carb_black",
+			"hlc_rifle_ACR68_Carb_green",
+			"hlc_rifle_ACR68_Carb_tan",
+			"hlc_rifle_ACR68_full_black",
+			"hlc_rifle_ACR68_full_green",
+			"hlc_rifle_ACR68_full_tan",
+			"hlc_rifle_ACR68_mid_black",
+			"hlc_rifle_ACR68_mid_green",
+			"hlc_rifle_ACR68_mid_tan",
+			"hlc_rifle_ACR68_SBR_black",
+			"hlc_rifle_ACR68_SBR_green",
+			"hlc_rifle_ACR68_SBR_tan",
+			"hlc_rifle_ACR68_Squant"
+						
 		};
 	};
 	
@@ -7425,7 +7480,18 @@ class Glasses
 			"CUP_srifle_M107_LeupoldVX3",
 			"CUP_srifle_M107_ANPAS13c2",
 			"CUP_M107",
-			"CUP_M107_TWS_EP1"
+			"CUP_M107_TWS_EP1",
+			//nia
+			"hlc_rifle_awcovert",
+			"hlc_rifle_awcovert_BL	",
+			"hlc_rifle_awcovert_FDE	",
+			"hlc_rifle_awmagnum",
+			"hlc_rifle_awmagnum_BL	",
+			"hlc_rifle_awMagnum_FDE_ghillie",
+			"hlc_rifle_awMagnum_BL_ghillie",
+			"hlc_rifle_awMagnum_OD_ghillie",
+			"hlc_rifle_M1903A1_unertl",
+			"hlc_rifle_M1903A1"
 		};
 	};
 	
