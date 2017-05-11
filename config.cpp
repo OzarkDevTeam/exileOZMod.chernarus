@@ -4154,6 +4154,20 @@ class CfgExileArsenal
 	class hlc_30rnd_68x43_Tracer { quality = 1; price = 30; };
 	class hlc_30rnd_68x43_Tracer { quality = 1; price = 30; };
 	class hlc_30rnd_68x43_IRDIM { quality = 1; price = 30; };
+	
+	
+	//TFARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+	class TFAR_rt1523g { quality = 1; price = 50; };
+	class TFAR_rt1523g_big { quality = 1; price = 50; };
+	class TFAR_rt1523g_black { quality = 1; price = 50; };
+	class TFAR_rt1523g_fabric { quality = 1; price = 50; };
+	class TFAR_rt1523g_green { quality = 1; price = 50; };
+	class TFAR_rt1523g_rhs { quality = 1; price = 50; };
+	class TFAR_rt1523g_sage { quality = 1; price = 50; };
+	class TFAR_mr3000 { quality = 1; price = 50; };
+	class TFAR_mr3000_multicam { quality = 1; price = 50; };
+	class TFAR_mr3000_rh { quality = 1; price = 50; };
+	
 };
 
 
@@ -5190,11 +5204,11 @@ class CfgPlayer
 	healthDecay = 5.0;
 
 	// Health regen if over BOTH
-	thirstRegen = 90;
-	hungerRegen = 90;
+	thirstRegen = 70;
+	hungerRegen = 70;
 
 	// IF above meet recover HP%/MIN
-	recoveryPerMinute = 2;
+	recoveryPerMinute = 5;
 
 	// Set custom aim precision coefficient for weapon sway
 	// https://community.bistudio.com/wiki/Arma_3_Stamina
@@ -6487,7 +6501,18 @@ class Glasses
 			"B_ViperLightHarness_ghex_F",
 			"B_ViperLightHarness_hex_F",
 			"B_ViperLightHarness_khk_F",
-			"B_ViperLightHarness_oli_F"
+			"B_ViperLightHarness_oli_F",
+			//TFARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+			"TFAR_rt1523g",
+			"TFAR_rt1523g_big",
+			"TFAR_rt1523g_black",
+			"TFAR_rt1523g_fabric",
+			"TFAR_rt1523g_green",
+			"TFAR_rt1523g_rhs",
+			"TFAR_rt1523g_sage",
+			"TFAR_mr3000",
+			"TFAR_mr3000_multicam",
+			"TFAR_mr3000_rhs"
 		};
 	};
 
@@ -8124,8 +8149,7 @@ class CfgTraders
 			"SubMachineGuns",
 			"LightMachineGuns",
 			"AssaultRifles",
-			"SniperRifles",
-			"Launchers"
+			"SniperRifles"
 		};
 	};
 
@@ -8143,7 +8167,8 @@ class CfgTraders
 			"UAVs",
 			"StaticMGs",
 			"Explosives",
-			"Navigation"
+			"Navigation",
+			"Launchers"
 		};
 	};
 
