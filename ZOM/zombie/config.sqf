@@ -25,8 +25,8 @@ zloot = ["Exile_Item_Matches","Exile_Item_Surstromming","Exile_Item_PlasticBottl
 SideZMB = createCenter civilian;
 groupZMB = createGroup civilian;
 sleep 0.1;
-fncZcontact = compile preprocessFile "zombie\fnc_Zcontact.sqf";
-fncZproximity = compile preprocessFile "zombie\fnc_ZProximity.sqf";
+fncZcontact = compile preprocessFile "ZOM\zombie\fnc_Zcontact.sqf";
+fncZproximity = compile preprocessFile "ZOM\zombie\fnc_ZProximity.sqf";
 zarray=[];
 []call fncZproximity;
 /* XXXXXXXXXXXXXXXXXXXXX  DON'T EDIT XXXXXXXXXXXXXXXXXXXXXXXXX */
