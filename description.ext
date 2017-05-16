@@ -63,7 +63,7 @@ showHUD[] =
     true,   // HUD Weapon Cursors
     false   // Squad Radar
 };
-
+ #include "zombie\zed.cpp"
 #include "config.cpp"
 
 #include "infiSTAR_AdminMenu.hpp"
