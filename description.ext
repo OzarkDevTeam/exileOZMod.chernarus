@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Server Settings - Modify at will
 ///////////////////////////////////////////////////////////////////////////////
-author = "Exile Mod Team";
+author = "Exile Mod Team | Modified by R.Wolfe";
 onLoadName = "Exile Mod";
 onLoadMission= "www.exilemod.com";
 loadScreen = "exile_assets\texture\mod\logo.paa"; 
@@ -63,7 +63,7 @@ showHUD[] =
     true,   // HUD Weapon Cursors
     false   // Squad Radar
 };
-
+ #include "ZOM\zombie\zed.hpp"
 #include "config.cpp"
 
 #include "infiSTAR_AdminMenu.hpp"
