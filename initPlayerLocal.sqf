@@ -10,7 +10,7 @@ if (!hasInterface || isServer) exitWith {};
 ////////////////////////////////////
 // Zombies
 ////////////////////////////////////
-[] execVM "ZOM\init.sqf";
+// [] execVM "ZOM\init.sqf";
 
 /**
  * Created with Exile Mod 3DEN Plugin
