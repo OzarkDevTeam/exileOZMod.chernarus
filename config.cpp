@@ -4148,7 +4148,7 @@ class CfgExileLootSettings
 	 * is the upper cap for that. So 3 means it could spawn 1, 2 
 	 * or 3.
 	 */
-	maximumNumberOfItemsPerLootSpot = 3;
+	maximumNumberOfItemsPerLootSpot = 4;
 
 	/**
 	 * Radius in meter to spawn loot AROUND each player.

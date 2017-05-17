@@ -4,20 +4,14 @@
 
 // Taken away for now
 //#include "initServer.sqf"
-
-if (!hasInterface || isServer) exitWith {};
-
-////////////////////////////////////
-// Zombies
-////////////////////////////////////
-[] execVM "ZOM\init.sqf";
-
 /**
  * Created with Exile Mod 3DEN Plugin
  * www.exilemod.com
  */
 
 if (!hasInterface || isServer) exitWith {};
+
+[] execVM "ZOM\init.sqf";
 
 // 24 NPCs
 private _npcs = [
