@@ -19,7 +19,7 @@ if (!hasInterface || isServer) exitWith {};
 
 if (!hasInterface || isServer) exitWith {};
 
-// 23 NPCs
+// 24 NPCs
 private _npcs = [
 ["Exile_Trader_Boat", [], "Exile_Trader_Boat", "WhiteHead_20", [[],[],[],["U_OrestesBody",[]],[],[],"H_Cap_surfer","",[],["","","","","",""]], [13062.8, 8221.06, 2.02153], [-0.99608, -0.0884601, 0], [0, 0, 1]],
 ["Exile_Trader_Diving", [], "Exile_Trader_Diving", "WhiteHead_07", [["arifle_SDAR_F","","","",[],[],""],[],[],["U_I_Wetsuit",[]],["V_RebreatherIA",[]],[],"","G_I_Diving",[],["","","","","",""]], [13062.6, 8239.25, 2.02144], [-0.943828, 0.330437, 0], [0, 0, 1]],
@@ -43,7 +43,8 @@ private _npcs = [
 ["Exile_Trader_Equipment", [], "Exile_Trader_Equipment", "WhiteHead_04", [["arifle_MX_GL_Black_F","","","",[],[],""],[],[],["U_BG_Guerrilla_6_1",[]],["V_I_G_resistanceLeader_F",[]],[],"H_Watchcap_khk","G_Tactical_Clear",[],["","","","","",""]], [4855, 10236.6, 338.993], [0.570156, -0.821536, 0], [0, 0, 1]],
 ["Exile_Trader_Armory", [], "Exile_Trader_Armory", "WhiteHead_10", [["srifle_DMR_06_olive_F","","","",[],[],""],[],[],["U_Rangemaster",[]],["V_Rangemaster_belt",[]],[],"H_Cap_headphones","G_Shades_Black",[],["","","","","",""]], [4853.6, 10232.5, 338.998], [0.969371, -0.245603, 0], [0, 0, 1]],
 ["Exile_Trader_Food", [], "Exile_Trader_Food", "WhiteHead_10", [[],[],[],["U_C_Poloshirt_blue",[]],[],[],"H_Cap_tan","",[],["","","","","",""]], [4846.28, 10232.5, 338.996], [0.409254, -0.91242, 0], [0, 0, 1]],
-["Exile_Trader_Hardware", [], "Exile_Trader_Hardware", "WhiteHead_03", [[],[],[],["U_C_WorkerCoveralls",[]],["V_BandollierB_rgr",[]],["B_UAV_01_backpack_F",[]],"H_Booniehat_khk_hs","G_Tactical_Black",[],["","","","","",""]], [4842.62, 10231.1, 338.991], [0.240416, -0.97067, 0], [0, 0, 1]]
+["Exile_Trader_Hardware", [], "Exile_Trader_Hardware", "WhiteHead_03", [[],[],[],["U_C_WorkerCoveralls",[]],["V_BandollierB_rgr",[]],["B_UAV_01_backpack_F",[]],"H_Booniehat_khk_hs","G_Tactical_Black",[],["","","","","",""]], [4842.62, 10231.1, 338.991], [0.240416, -0.97067, 0], [0, 0, 1]],
+["Exile_Trader_SpecialOperations", [], "Exile_Trader_SpecialOperations", "WhiteHead_07", [["arifle_MX_Black_F","","","",[],[],""],[],[],["U_B_CTRG_1",[]],["V_PlateCarrierGL_blk",[]],["B_Parachute",[]],"H_HelmetB_light_black","G_Balaclava_lowprofile",[],["","","","","","NVGoggles_OPFOR"]], [13048.3, 8287.38, 2.02144], [0.0556902, -0.998448, 0], [0, 0, 1]]
 ];
 
 {
