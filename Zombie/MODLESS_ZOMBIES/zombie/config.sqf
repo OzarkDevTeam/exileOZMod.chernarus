@@ -9,7 +9,7 @@ zombielimit=9;		//zombies max spawn amount
 zombiedamage=10;	//Damage of a zombie for a punch Default 10% HP on each hit, *Edited By DEV*
 zombierun =0; 		//Leave on 0 it's not working in 1.50 patch correctly
 respawntime =180;	//time for respawn killed zombies
-ztrigger ="House";  //Object type that triggers zombies when player in range use HouseL for A2 maps if no spawns
+ztrigger ="HouseL";  //Object type that triggers zombies when player in range use HouseL for A2 maps if no spawns
 ztriggerrange =120; //trigger range from object 
 
 //Headless Client Settings - not currently supported 
