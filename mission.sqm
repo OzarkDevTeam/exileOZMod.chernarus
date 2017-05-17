@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4546.7231,1260.7627,9785.5762};
-		dir[]={0.29712567,-0.87518173,0.38211891};
-		up[]={0.53719878,0.48379657,0.69087142};
-		aside[]={0.78952861,-2.1957094e-006,-0.6139127};
+		pos[]={4782.9775,1103.6152,10126.484};
+		dir[]={0.14546606,-0.94974899,0.27759999};
+		up[]={0.44078681,0.31315354,0.84118176};
+		aside[]={0.88587016,-2.5390182e-006,-0.46420363};
 	};
 };
 binarizationWanted=0;
@@ -241,7 +241,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=356;
+		items=340;
 		class Item0
 		{
 			dataType="Marker";
@@ -5052,6 +5052,7 @@ class Mission
 				position[]={4840.9751,339.99695,10229.707};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -5059,7 +5060,7 @@ class Mission
 			};
 			id=268;
 			type="Exile_Cosmetic_Axe";
-			atlOffset=0.80563354;
+			atlOffset=0.024230957;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5092,7 +5093,6 @@ class Mission
 				position[]={4843.0708,339.92563,10230.046};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -5100,6 +5100,7 @@ class Mission
 			};
 			id=269;
 			type="Exile_Cosmetic_Shovel";
+			atlOffset=0.80041504;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14751,6 +14752,7 @@ class Mission
 				angles[]={0,3.0112607,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -14758,7 +14760,7 @@ class Mission
 			};
 			id=942;
 			type="Exile_Cosmetic_Axe";
-			atlOffset=0.8053937;
+			atlOffset=0.02421689;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14792,7 +14794,6 @@ class Mission
 				angles[]={0,3.0112607,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -14800,7 +14801,7 @@ class Mission
 			};
 			id=943;
 			type="Exile_Cosmetic_Shovel";
-			atlOffset=3.0994415e-006;
+			atlOffset=0.800174;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15484,770 +15485,6 @@ class Mission
 			};
 		};
 		class Item339
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13062.793,2.0215335,8221.0615};
-						angles[]={0,4.6238132,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1016;
-					type="Exile_Trader_Boat";
-					atlOffset=9.4175339e-005;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male07ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1015;
-			atlOffset=9.4175339e-005;
-		};
-		class Item340
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13062.639,2.0217874,8239.2471};
-						angles[]={0,5.0491505,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1018;
-					type="Exile_Trader_Diving";
-					atlOffset=0.00034809113;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male01ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.94999999;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1017;
-			atlOffset=0.00034809113;
-		};
-		class Item341
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13062.791,2.0214393,8255.7725};
-						angles[]={0,4.6428261,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1020;
-					type="Exile_Trader_BoatCustoms";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1019;
-		};
-		class Item342
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13046.104,2.0014994,8281.4883};
-						angles[]={0,1.1838374,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1022;
-					type="Exile_Trader_Armory";
-					atlOffset=6.0558319e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13044.466,2.0013869,8285.6973};
-						angles[]={0,1.8889712,0};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1023;
-					type="Exile_Trader_Equipment";
-					atlOffset=-5.197525e-005;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1021;
-			atlOffset=6.0558319e-005;
-		};
-		class Item343
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13093.654,2.0014052,8175.8833};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-						aiRadarUsage=2095758558;
-					};
-					id=1026;
-					type="Exile_Trader_Hardware";
-					atlOffset=-3.361702e-005;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13089.912,2.0014389,8173.5903};
-						angles[]={0,5.7782583,0};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1027;
-					type="Exile_Trader_Food";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1025;
-			atlOffset=-3.361702e-005;
-		};
-		class Item344
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13047.615,3.4260991,8173.0859};
-						angles[]={0,4.6125865,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1029;
-					type="Exile_Trader_Vehicle";
-					atlOffset=-0.00010275841;
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13052.247,3.0350108,8166.9478};
-						angles[]={0,3.1905878,0};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1030;
-					type="Exile_Trader_VehicleCustoms";
-					atlOffset=0.00029301643;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1028;
-			atlOffset=-0.00010275841;
-		};
-		class Item345
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13037.383,3.1931884,8212.4785};
-						angles[]={0,4.6164908,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1032;
-					type="Exile_Trader_WasteDump";
-					atlOffset=0.00060033798;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1031;
-			atlOffset=0.00060033798;
-		};
-		class Item346
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={13065.054,2.0014205,8202.3789};
-						angles[]={0,1.59936,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1036;
-					type="Exile_Trader_Office";
-					atlOffset=-1.8358231e-005;
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1035;
-			atlOffset=-1.8358231e-005;
-		};
-		class Item347
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4771.1885,339.00143,10253.418};
-						angles[]={0,3.5936913,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-						aiRadarUsage=700375571;
-					};
-					id=1038;
-					type="Exile_Trader_AircraftCustoms";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1037;
-		};
-		class Item348
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4791.2959,339.00143,10244.509};
-						angles[]={0,3.624218,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1040;
-					type="Exile_Trader_VehicleCustoms";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1039;
-		};
-		class Item349
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4807.5195,338.99142,10236.578};
-						angles[]={0,3.8019848,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1042;
-					type="Exile_Trader_WasteDump";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1041;
-		};
-		class Item350
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4824.2251,339.00143,10210.299};
-						angles[]={0,4.2219887,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1044;
-					type="Exile_Trader_Vehicle";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.97000003;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1043;
-		};
-		class Item351
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4830.0571,339.00143,10200.078};
-						angles[]={0,4.187624,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-						aiRadarUsage=1068282571;
-					};
-					id=1046;
-					type="Exile_Trader_Aircraft";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1045;
-		};
-		class Item352
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4857.5532,339.08218,10207.25};
-						angles[]={0,5.6071057,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1050;
-					type="Exile_Trader_RussianRoulette";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1049;
-		};
-		class Item353
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4871.9316,339.08218,10218.247};
-						angles[]={0,4.8805285,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1052;
-					type="Exile_Trader_Office";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1051;
-		};
-		class Item354
-		{
-			dataType="Group";
-			side="Independent";
-			class Entities
-			{
-				items=5;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4858.6802,338.99405,10235.587};
-						angles[]={0,3.8315523,0};
-					};
-					side="Independent";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=1054;
-					type="Exile_Trader_SpecialOperations";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4854.9985,338.99261,10236.597};
-						angles[]={0,2.5348964,0};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1055;
-					type="Exile_Trader_Equipment";
-					atlOffset=-9.1552734e-005;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4853.6045,338.9982,10232.487};
-						angles[]={0,1.8189379,0};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1056;
-					type="Exile_Trader_Armory";
-					atlOffset=3.0517578e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4846.2754,338.99634,10232.461};
-						angles[]={0,2.7199559,0};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1057;
-					type="Exile_Trader_Food";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4842.6187,338.99142,10231.113};
-						angles[]={0,2.8987987,0};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=1058;
-					type="Exile_Trader_Hardware";
-				};
-			};
-			class Attributes
-			{
-			};
-			id=1053;
-		};
-		class Item355
 		{
 			dataType="Object";
 			class PositionInfo

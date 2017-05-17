@@ -3699,7 +3699,7 @@ class CfgExileArsenal
 
 		//G3
 
-	class hlc_rifle_g3sg1	 { quality = 1; price = 550; };
+	class hlc_rifle_g3sg1	 { quality = 1; price = 550; };  //Debug this Section...
 	class hlc_rifle_psg1 { quality = 1; price = 550; };
 	class hlc_rifle_g3a3	 { quality = 1; price = 550; };
 	class hlc_rifle_g3ka4	 { quality = 1; price = 550; };
@@ -3793,17 +3793,88 @@ class CfgExileArsenal
 	class hlc_30rnd_68x43_IRDIM { quality = 1; price = 30; };
 	
 	
-	//TFARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
-	class TFAR_rt1523g { quality = 1; price = 50; };
-	class TFAR_rt1523g_big { quality = 1; price = 50; };
-	class TFAR_rt1523g_black { quality = 1; price = 50; };
-	class TFAR_rt1523g_fabric { quality = 1; price = 50; };
-	class TFAR_rt1523g_green { quality = 1; price = 50; };
-	class TFAR_rt1523g_rhs { quality = 1; price = 50; };
-	class TFAR_rt1523g_sage { quality = 1; price = 50; };
-	class TFAR_mr3000 { quality = 1; price = 50; };
-	class TFAR_mr3000_multicam { quality = 1; price = 50; };
-	class TFAR_mr3000_rh { quality = 1; price = 50; };
+	class CUP_O_UAZ_AGS30_RU                            { quality = 1; price = 12000; };
+ 
+  class CUP_O_UAZ_MG_RU                                { quality = 1; price = 8000; };
+ 
+  class CUP_O_UAZ_Open_RU                                { quality = 1; price = 4000; };
+ 
+  class CUP_O_UAZ_SPG9_RU                                { quality = 1; price = 10000; };
+ 
+  class CUP_O_UAZ_Unarmed_RU                            { quality = 1; price = 3500; };
+ 
+  class CUP_O_Ural_RU                                    { quality = 1; price = 1200; };
+ 
+  class CUP_O_Ural_Refuel_RU                            { quality = 1; price = 2500; };
+ 
+  class CUP_I_Ural_ZU23_TK_Gue                        { quality = 1; price = 25000; };
+ 
+  class CUP_C_Datsun_Covered                            { quality = 1; price = 3000; };
+ 
+  class CUP_C_Datsun_Plain                            { quality = 1; price = 3000; };
+ 
+  class CUP_C_Datsun_Tubeframe                        { quality = 1; price = 3000; };
+ 
+  class CUP_O_Datsun_PK                                { quality = 1; price = 5000; };
+ 
+  class CUP_O_Datsun_PK_Random                        { quality = 1; price = 4950; };
+ 
+  class CUP_B_HMMWV_Ambulance_USMC                    { quality = 1; price = 5500; };
+ 
+  class CUP_B_HMMWV_M1114_USMC                        { quality = 1; price = 8000; };
+ 
+  class CUP_B_HMMWV_M2_USMC                            { quality = 1; price = 11500; };
+ 
+  class CUP_B_HMMWV_MK19_USMC                            { quality = 1; price = 20000; };
+ 
+  class CUP_B_HMMWV_TOW_USMC                            { quality = 1; price = 25000; };
+ 
+  class CUP_B_HMMWV_Unarmed_USMC                        { quality = 1; price = 5500; };
+  
+  class CUP_B_LR_Transport_GB_W                        { quality = 1; price = 8000; };
+ 
+  class CUP_I_BRDM2_HQ_TK_Gue                            { quality = 1; price = 37000; };
+ 
+  class CUP_O_BTR90_HQ_RU                                { quality = 1; price = 195000; };
+ 
+  class CUP_O_BTR90_RU                                { quality = 1; price = 195000; };
+ 
+  class CUP_B_M1126_ICV_M2_Woodland_Slat                { quality = 1; price = 33000; };
+ 
+  class CUP_B_M1133_MEV_Woodland_Slat                    { quality = 1; price = 31000; };
+ 
+  class CUP_B_M1135_ATGMV_Woodland_Slat                { quality = 1; price = 80000; };
+ 
+  class CUP_B_M113_Med_USA                            { quality = 1; price = 40000; };
+ 
+  class CUP_B_M113_USA                                { quality = 1; price = 40000; };
+ 
+  class CUP_I_T55_TK_GUE                                { quality = 1; price = 11000; };
+ 
+  class CUP_I_T34_TK_GUE                                { quality = 1; price = 80000; };
+ 
+  class CUP_B_CH47F_USA                                { quality = 1; price = 100000; };
+ 
+  class CUP_B_CH53E_USMC                                { quality = 1; price = 55000; };
+ 
+  class CUP_B_MH60S_USMC                                { quality = 1; price = 45000; };
+ 
+  class CUP_B_UH1Y_MEV_USMC                            { quality = 1; price = 40000; };
+ 
+  class CUP_B_UH1Y_UNA_USMC                            { quality = 1; price = 55000; };
+ 
+  class CUP_B_UH60M_US                                { quality = 1; price = 65000; };
+ 
+  class CUP_B_UH60M_Unarmed_FFV_US                    { quality = 1; price = 43750; };
+ 
+  class CUP_C_Mi17_Civilian_RU                        { quality = 1; price = 25000; };
+ 
+  class CUP_O_Mi24_P_RU                                { quality = 1; price = 130500; };
+ 
+  class CUP_B_MV22_USMC                                { quality = 1; price = 80000; };
+ 
+  class CUP_B_C130J_USMC                                { quality = 1; price = 65000; };
+ 
 	
 };
 
@@ -3937,7 +4008,45 @@ class CfgExileEnvironment
 			daytimeTemperature[] = {-2.00,-1.77,-1.12,-0.10,1.24,2.78,4.40,6.00,7.46,8.65,9.50,9.90,9.90,9.50,8.65,7.46,6.00,4.40,2.78,1.24,-0.10,-1.12,-1.77,-2.00,-2.00};
 		};
 	};
+	
+	class Chernarus: Altis 
+	{
+		class FireFlies: FireFlies
+		{
+			enable = 1;
+		};
 
+		class Anomalies: Anomalies
+		{
+			enable = 0;
+		};
+
+		class Breathing: Breathing
+		{
+			enable = 1;
+		};
+
+		class Snow: Snow
+		{
+			enable = 0;
+			surfaces[] = {""};
+		};
+
+		class Radiation: Radiation
+		{
+			enable = 0;
+			contaminatedZones[] = 
+			{
+				
+			};
+		};
+
+		class Temperature: Temperature
+		{
+			daytimeTemperature[] = {15.93,16.89,18.42,20.40,22.68,25.10,27.48,29.63,31.40,32.66,33.32,33.80,33.80,33.32,32.66,31.40,29.63,27.48,25.10,22.68,20.40,18.42,16.89,15.93,15.93};
+		};
+	};
+	
 	class Tanoa: Altis
 	{
 		class FireFlies: FireFlies
@@ -4049,7 +4158,7 @@ class CfgExileLootSettings
 	 * Interval in seconds when the client searches for
 	 * new buildings to spawn loot in
 	 */
-	spawnInterval = 30;
+	spawnInterval = 15;
 
 	/**
 	 * This is a percentage value to determine how many loot
@@ -4063,7 +4172,7 @@ class CfgExileLootSettings
 	 *
 	 * You can also cap it at a maximum value. See below.
 	 */
-	maximumPositionCoverage = 30;
+	maximumPositionCoverage = 45;
 
  	/**
  	 * Limit the number of loot positions per building. If the 
@@ -4073,14 +4182,14 @@ class CfgExileLootSettings
  	 * This results in 30 loot positions and that is too much. So we
  	 * cap this at 10
  	 */
-	maximumNumberOfLootSpotsPerBuilding = 3;
+	maximumNumberOfLootSpotsPerBuilding = 5;
 
 	/**
 	 * Exile spawns a random number of items per loot spot. This 
 	 * is the upper cap for that. So 3 means it could spawn 1, 2 
 	 * or 3.
 	 */
-	maximumNumberOfItemsPerLootSpot = 2;
+	maximumNumberOfItemsPerLootSpot = 3;
 
 	/**
 	 * Radius in meter to spawn loot AROUND each player.
@@ -4091,7 +4200,7 @@ class CfgExileLootSettings
 	 * 50m  = Minimum
 	 * 200m = Maximum
 	 */
-	spawnRadius = 60;
+	spawnRadius = 80;
 
 	/**
 	 * Defines the radius around trader cities where the system should
@@ -4828,14 +4937,14 @@ class CfgLocker
 {
 	numbersOnly = "0123456789";
 	
-	maxDeposit = 10000;
+	maxDeposit = 10000000;
 };
 
 class CfgPlayer 
 {
 	// In minutes ammount of time it takes to go from 100 - 0 if stationary
-	hungerDecay = 90;
-	thirstDecay = 60;
+	hungerDecay = 180; //Def: 90
+	thirstDecay = 120; //Def: 60
 
 	// Damage taken from 0 (health||thirst)/sec
 	healthDecay = 5.0;
@@ -4939,7 +5048,7 @@ class CfgTerritories
 	minimumDistanceToOtherTerritories = 325; 
 
 	// Maximum number of territories a player can own
-	maximumNumberOfTerritoriesPerPlayer = 2;
+	maximumNumberOfTerritoriesPerPlayer = 4;
 
 	/**
 	 * Defines the minimum distance to safe zones / trader cities where players
@@ -7255,7 +7364,27 @@ class Glasses
 			"Exile_Car_ProwlerUnarmed",
 			"Exile_Car_QilinUnarmed",
 			"Exile_Car_MB4WD",
-			"Exile_Car_MB4WDOpen"
+			"Exile_Car_MB4WDOpen",
+			
+			"CUP_O_UAZ_AGS30_RU",
+			"CUP_O_UAZ_MG_RU",
+			"CUP_O_UAZ_Open_RU",
+			"CUP_O_UAZ_SPG9_RU",
+			"CUP_O_UAZ_Unarmed_RU",
+			"CUP_O_Ural_RU",
+			"CUP_O_Ural_Refuel_RU",
+			"CUP_I_Ural_ZU23_TK_Gue",
+			"CUP_C_Datsun_Covered",
+			"CUP_C_Datsun_Plain",
+			"CUP_C_Datsun_Tubeframe",
+			"CUP_O_Datsun_PK",
+			"CUP_O_Datsun_PK_Random",
+			"CUP_B_HMMWV_Ambulance_USMC",
+			"CUP_B_HMMWV_M1114_USMC",
+			"CUP_B_HMMWV_M2_USMC",
+			"CUP_B_HMMWV_MK19_USMC",
+			"CUP_B_HMMWV_TOW_USMC",
+			"CUP_B_HMMWV_Unarmed_USMC"
 		};
 	};
 
@@ -7277,274 +7406,17 @@ class Glasses
 			"Exile_Car_Ikarus_Blue",
 			//FUCKITY FUCKI NG FUVK SATANS GONNA BEATGS ME TOFDFAY THANKS YOU FUCK YOU SHORT BUS <3
 			//CUP EDITS
-			"CUP_C_UAZ_Open_TK_CIV",
-            "CUP_C_UAZ_Unarmed_TK_CIV",
-            "CUP_O_UAZ_AGS30_CHDKZ",
-            "CUP_O_UAZ_AGS30_RU",
-            "CUP_O_UAZ_AGS30_TKA",
-            "CUP_O_UAZ_MG_CHDKZ",
-            "CUP_O_UAZ_MG_RU",
-            "CUP_O_UAZ_MG_TKA",
-            "CUP_O_UAZ_Open_CHDKZ",
-            "CUP_O_UAZ_Open_RU",
-            "CUP_O_UAZ_Open_TKA",
-            "CUP_O_UAZ_SPG9_CHDKZ",
-            "CUP_O_UAZ_SPG9_RU",
-            "CUP_O_UAZ_SPG9_TKA",
-            "CUP_O_UAZ_Unarmed_CHDKZ",
-            "CUP_O_UAZ_Unarmed_RU",
-            "CUP_O_UAZ_Unarmed_TKA",
-            "CUP_B_UAZ_AGS30_ACR",
-            "CUP_B_UAZ_AGS30_CDF",
-            "CUP_B_UAZ_MG_ACR",
-            "CUP_B_UAZ_MG_CDF",
-            "CUP_B_UAZ_Open_ACR",
-            "CUP_B_UAZ_Open_CDF",
-            "CUP_B_UAZ_SPG9_ACR",
-            "CUP_B_UAZ_SPG9_CDF",
-            "CUP_B_UAZ_Unarmed_ACR",
-            "CUP_B_UAZ_Unarmed_CDF",
-            "CUP_I_UAZ_AGS30_UN",
-            "CUP_I_UAZ_MG_UN",
-            "CUP_I_UAZ_Open_UN",
-            "CUP_I_UAZ_SPG9_UN",
-            "CUP_I_UAZ_Unarmed_UN",
-            "CUP_B_Ural_CDF",
-            "CUP_B_Ural_Empty_CDF",
-            "CUP_B_Ural_Open_CDF",
-            "CUP_B_Ural_Reammo_CDF",
-            "CUP_B_Ural_Refuel_CDF",
-            "CUP_B_Ural_Repair_CDF",
-            "CUP_B_Ural_ZU23_CDF",
-            "CUP_O_Ural_CHDKZ",
-            "CUP_O_Ural_Empty_CHDKZ",
-            "CUP_O_Ural_Empty_RU",
-            "CUP_O_Ural_Empty_SLA",
-            "CUP_O_Ural_Empty_TKA",
-            "CUP_O_Ural_Open_CHDKZ",
-            "CUP_O_Ural_Open_RU",
-            "CUP_O_Ural_Open_SLA",
-            "CUP_O_Ural_Open_TKA",
-            "CUP_O_Ural_RU",
-            "CUP_O_Ural_Reammo_CHDKZ",
-            "CUP_O_Ural_Reammo_RU",
-            "CUP_O_Ural_Reammo_SLA",
-            "CUP_O_Ural_Reammo_TKA",
-            "CUP_O_Ural_Refuel_CHDKZ",
-            "CUP_O_Ural_Refuel_RU",
-            "CUP_O_Ural_Refuel_SLA",
-            "CUP_O_Ural_Refuel_TKA",
-            "CUP_O_Ural_Repair_CHDKZ",
-            "CUP_O_Ural_Repair_RU",
-            "CUP_O_Ural_Repair_SLA",
-            "CUP_O_Ural_Repair_TKA",
-            "CUP_O_Ural_SLA",
-            "CUP_O_Ural_TKA",
-            "CUP_O_Ural_ZU23_CHDKZ",
-            "CUP_O_Ural_ZU23_RU",
-            "CUP_O_Ural_ZU23_SLA",
-            "CUP_O_Ural_ZU23_TKA",
-            "CUP_O_Ural_ZU23_TKM",
-            "CUP_C_Ural_Civ_01",
-            "CUP_C_Ural_Civ_02",
-            "CUP_C_Ural_Civ_03",
-            "CUP_C_Ural_Open_Civ_01",
-            "CUP_C_Ural_Open_Civ_02",
-            "CUP_C_Ural_Open_Civ_03",
-            "CUP_I_Ural_Empty_UN",
-            "CUP_I_Ural_Reammo_UN",
-            "CUP_I_Ural_Repair_UN",
-            "CUP_I_Ural_UN",
-            "CUP_I_Ural_ZU23_NAPA",
-            "CUP_I_Ural_ZU23_TK_Gue",
-            "CUP_C_Datsun",
-            "CUP_C_Datsun_4seat",
-            "CUP_C_Datsun_Covered",
-            "CUP_C_Datsun_Plain",
-            "CUP_C_Datsun_Tubeframe",
-            "CUP_I_Datsun_PK",
-            "CUP_I_Datsun_PK_Random",
-            "CUP_I_Datsun_PK_TK",
-            "CUP_I_Datsun_PK_TK_Random",
-            "CUP_O_Datsun_PK",
-            "CUP_O_Datsun_PK_Random",
-            "CUP_C_LR_Transport_CTK",
-            "CUP_B_M1030",
-            "CUP_BAF_Jackal2_GMG_D",
-            "CUP_BAF_Jackal2_GMG_W",
-            "CUP_BAF_Jackal2_L2A1_D",
-            "CUP_BAF_Jackal2_L2A1_W",
-            "CUP_B_Dingo_Des",
-            "CUP_B_Dingo_GL_Des",
-            "CUP_B_Dingo_GL_Wdl",
-            "CUP_B_Dingo_Wdl",
-            "CUP_B_HMMWV_AGS_GPK_ACR",
-            "CUP_B_HMMWV_Ambulance_ACR",
-            "CUP_B_HMMWV_Ambulance_USA",
-            "CUP_B_HMMWV_Ambulance_USMC",
-            "CUP_B_HMMWV_Avenger_USA",
-            "CUP_B_HMMWV_Avenger_USMC",
-            "CUP_B_HMMWV_Crows_M2_USA",
-            "CUP_B_HMMWV_Crows_MK19_USA",
-            "CUP_B_HMMWV_DSHKM_GPK_ACR",
-            "CUP_B_HMMWV_M1114_USMC",
-            "CUP_B_HMMWV_M2_GPK_ACR",
-            "CUP_B_HMMWV_M2_GPK_USA",
-            "CUP_B_HMMWV_M2_USA",
-            "CUP_B_HMMWV_M2_USMC",
-            "CUP_B_HMMWV_MK19_USA",
-            "CUP_B_HMMWV_MK19_USMC",
-            "CUP_B_HMMWV_SOV_USA",
-            "CUP_B_HMMWV_TOW_USA",
-            "CUP_B_HMMWV_TOW_USMC",
-            "CUP_B_HMMWV_Terminal_USA",
-            "CUP_B_HMMWV_Transport_USA",
-            "CUP_B_HMMWV_Unarmed_USA",
-            "CUP_B_HMMWV_Unarmed_USMC",
-            "CUP_B_LR_Ambulance_CZ_D",
-            "CUP_B_LR_Ambulance_CZ_W",
-            "CUP_B_LR_Ambulance_GB_D",
-            "CUP_B_LR_Ambulance_GB_W",
-            "CUP_B_LR_MG_CZ_W",
-            "CUP_B_LR_MG_GB_W",
-            "CUP_B_LR_Special_CZ_W",
-            "CUP_B_LR_Special_Des_CZ_D",
-            "CUP_B_LR_Transport_CZ_D",
-            "CUP_B_LR_Transport_CZ_W",
-            "CUP_B_LR_Transport_GB_D",
-            "CUP_B_LR_Transport_GB_W",
-            "CUP_O_LR_Ambulance_TKA",
-            "CUP_O_LR_MG_TKA",
-            "CUP_O_LR_MG_TKM",
-            "CUP_O_LR_SPG9_TKA",
-            "CUP_O_LR_SPG9_TKM",
-            "CUP_O_LR_Transport_TKA",
-            "CUP_O_LR_Transport_TKM",
-            "CUP_I_LR_Transport_RACS",
-            "CUP_I_LR_MG_RACS",
-            "CUP_I_LR_Ambulance_RACS",            
-            "CUP_I_BRDM2_ATGM_NAPA",
-            "CUP_I_BRDM2_ATGM_TK_Gue",
-            "CUP_I_BRDM2_HQ_NAPA",
-            "CUP_I_BRDM2_HQ_TK_Gue",
-            "CUP_I_BRDM2_HQ_UN",
-            "CUP_I_BRDM2_NAPA",
-            "CUP_I_BRDM2_TK_Gue",
-            "CUP_I_BRDM2_UN",
-            "CUP_O_BRDM2_ATGM_CHDKZ",
-            "CUP_O_BRDM2_ATGM_SLA",
-            "CUP_O_BRDM2_ATGM_TKA",
-            "CUP_O_BRDM2_CHDKZ",
-            "CUP_O_BRDM2_HQ_CHDKZ",
-            "CUP_O_BRDM2_HQ_SLA",
-            "CUP_O_BRDM2_HQ_TKA",
-            "CUP_O_BRDM2_SLA",
-            "CUP_O_BRDM2_TKA",
-            "CUP_B_BRDM2_ATGM_CDF",
-            "CUP_B_BRDM2_CDF",
-            "CUP_B_BRDM2_HQ_CDF",
-            "CUP_B_LAV25M240_USMC",
-            "CUP_B_LAV25_HQ_USMC",
-            "CUP_B_LAV25_USMC",
-            "CUP_B_BM21_CDF",
-            "CUP_O_BM21_CHDKZ",
-            "CUP_O_BM21_RU",
-            "CUP_O_BM21_SLA",
-            "CUP_O_BM21_TKA",
-            "CUP_O_BTR60_TK",
-            "CUP_O_BTR90_HQ_RU",
-            "CUP_O_BTR90_RU",
-            "CUP_C_Octavia_CIV",
-            "CUP_C_Skoda_Red_Civ",
-            "CUP_C_Skoda_White_Civ",
-            "CUP_C_Skoda_Blue_Civ",
-            "CUP_C_Skoda_Green_Civ",
-            "CUP_C_Golf4_red_Civ",
-            "CUP_C_Golf4_black_Civ",
-            "CUP_C_Golf4_yellow_Civ",
-            "CUP_C_Golf4_blue_Civ",
-            "CUP_C_Golf4_white_Civ",
-            "CUP_C_Golf4_green_Civ",
-            "CUP_C_Golf4_random_Civ",
-            "CUP_C_Golf4_whiteblood_Civ",
-            "CUP_C_Golf4_camo_Civ",
-            "CUP_C_Golf4_camodigital_Civ",
-            "CUP_C_Golf4_camodark_Civ",
-            "CUP_C_Golf4_reptile_Civ",
-            "CUP_C_Golf4_kitty_Civ",
-            "CUP_B_M1126_ICV_M2_Desert",
-            "CUP_B_M1126_ICV_M2_Desert_Slat",
-            "CUP_B_M1126_ICV_M2_Woodland",
-            "CUP_B_M1126_ICV_M2_Woodland_Slat",
-            "CUP_B_M1126_ICV_Mk19_Desert",
-            "CUP_B_M1126_ICV_Mk19_Desert_Slat",
-            "CUP_B_M1126_ICV_Mk19_Woodland",
-            "CUP_B_M1126_ICV_Mk19_Woodland_Slat",
-            "CUP_B_M1128_MGS_Desert",
-            "CUP_B_M1128_MGS_Desert_Slat",
-            "CUP_B_M1128_MGS_Woodland",
-            "CUP_B_M1128_MGS_Woodland_Slat",
-            "CUP_B_M1129_MC_MK19_Desert",
-            "CUP_B_M1129_MC_MK19_Desert_Slat",
-            "CUP_B_M1129_MC_MK19_Woodland",
-            "CUP_B_M1129_MC_MK19_Woodland_Slat",
-            "CUP_B_M1130_CV_M2_Desert",
-            "CUP_B_M1130_CV_M2_Desert_Slat",
-            "CUP_B_M1130_CV_M2_Woodland",
-            "CUP_B_M1130_CV_M2_Woodland_Slat",
-            "CUP_B_M1133_MEV_Desert",
-            "CUP_B_M1133_MEV_Desert_Slat",
-            "CUP_B_M1133_MEV_Woodland",
-            "CUP_B_M1133_MEV_Woodland_Slat",
-            "CUP_B_M1135_ATGMV_Desert",
-            "CUP_B_M1135_ATGMV_Desert_Slat",
-            "CUP_B_M1135_ATGMV_Woodland",
-            "CUP_B_M1135_ATGMV_Woodland_Slat",
-            "CUP_B_TowingTractor_USMC",
-			"CUP_B_AAV_USMC",
-            "CUP_B_M113_Med_USA",
-            "CUP_B_M113_USA",
-            "CUP_I_M113_Med_RACS",
-            "CUP_I_M113_Med_UN",
-            "CUP_I_M113_RACS",
-            "CUP_I_M113_UN",
-            "CUP_O_M113_Med_TKA",
-            "CUP_O_M113_TKA",
-            "CUP_B_M163_USA",
-            "CUP_I_M163_RACS",
-            "CUP_B_M1A1_DES_USMC",
-            "CUP_B_M1A1_DES_US_Army",
-            "CUP_B_M1A1_Woodland_USMC",
-            "CUP_B_M1A1_Woodland_US_Army",
-            "CUP_B_M1A2_TUSK_MG_DES_USMC",
-            "CUP_B_M1A2_TUSK_MG_DES_US_Army",
-            "CUP_B_M1A2_TUSK_MG_USMC",
-            "CUP_B_M1A2_TUSK_MG_US_Army",
-            "CUP_B_M270_DPICM_USA",
-            "CUP_B_M270_DPICM_USMC",
-            "CUP_B_M270_HE_USA",
-            "CUP_B_M270_HE_USMC",
-            "CUP_B_M2Bradley_USA_D",
-            "CUP_B_M2Bradley_USA_W",
-            "CUP_B_M2A3Bradley_USA_D",
-            "CUP_B_M2A3Bradley_USA_W",
-            "CUP_I_T55_TK_GUE",
-            "CUP_O_T55_TK",
-            "CUP_O_T72_CHDKZ",
-            "CUP_O_T72_RU",
-            "CUP_O_T72_SLA",
-            "CUP_O_T72_TKA",
-            "CUP_B_T72_CDF",
-            "CUP_I_T72_NAPA",
-            "CUP_I_T72_RACS",
-            "CUP_B_ZSU23_CDF",
-            "CUP_O_ZSU23_ChDKZ",
-            "CUP_O_ZSU23_SLA",
-            "CUP_O_ZSU23_TK",
-            "CUP_T34_BASE",
-            "CUP_I_T34_NAPA",
-            "CUP_I_T34_TK_GUE",
-            "CUP_O_T34_TKA"
+			"CUP_B_LR_Transport_GB_W",
+			"CUP_I_BRDM2_HQ_TK_Gue",
+			"CUP_O_BTR90_HQ_RU",
+			"CUP_O_BTR90_RU",
+			"CUP_B_M1126_ICV_M2_Woodland_Slat",
+			"CUP_B_M1133_MEV_Woodland_Slat",
+			"CUP_B_M1135_ATGMV_Woodland_Slat",
+			"CUP_B_M113_Med_USA",
+			"CUP_B_M113_USA",
+			"CUP_I_T55_TK_GUE",
+			"CUP_I_T34_TK_GUE"
 		};
 	};
 
@@ -7569,85 +7441,15 @@ class Glasses
 				HIS BALLS FUCKING SHOOULD BE FUCKING RIPPIGN CONSTANTLY WITH THE FUCKING GIGGLED FFHFUCKING USLLBSHIT
 				FUVOGNSDF FUCK THIS SISHTI LIKE WHTIY ASDF THE  FUKING GING FUKER CANT SFOHE HEJUST GIOOTA FUCKING FSETESDF 
 				SDFTRSLDFIT TESLL US THIS FHTISF ST0 IM SO  DONENEEEEE FIRHGHT FUVKING NWO,S FUCK IGN CUP EDITS */
-			"CUP_B_AH1Z",
-            // "CUP_B_AH1Z_14RndHydrax",
-            "CUP_B_AH1Z_7RndHydra",
-            "CUP_B_AH1Z_AT",
-            "CUP_B_AH1Z_Escort",
-            "CUP_B_AH1Z_NOAA",
-            "CUP_B_AH1Z_NoWeapons",
-            "CUP_B_AH1_AT_BAF",
-            "CUP_B_AH1_BAF",
-            "CUP_B_AH1_ES_BAF",
-            "CUP_B_AH1_MR_BAF",
-            "CUP_B_AH1_NO_BAF",
-            "CUP_B_AH64D_AT_USA",
-            "CUP_B_AH64D_ES_USA",
-            "CUP_B_AH64D_MR_USA",
-            "CUP_B_AH64D_NO_USA",
-            "CUP_B_AH64D_USA",
-            "CUP_B_AW159_Armed_BAF",
-            "CUP_B_AW159_Unarmed_BAF",
-            "CUP_B_CH47F_GB",
-            "CUP_B_CH47F_USA",
-            "CUP_B_CH53E_USMC",
-            "CUP_B_MH60S_FFV_USMC",
-            "CUP_B_MH60S_USMC",
-            "CUP_B_UH1Y_GUNSHIP_USMC",
-            "CUP_B_UH1Y_MEV_USMC",
-            "CUP_B_UH1Y_UNA_USMC",
-            "CUP_B_UH60L_FFV_US",
-            "CUP_B_UH60L_US",
-            "CUP_B_UH60L_Unarmed_FFV_MEV_US",
-            "CUP_B_UH60L_Unarmed_FFV_US",
-            "CUP_B_UH60L_Unarmed_US",
-            "CUP_I_UH60L_FFV_RACS",
-            "CUP_I_UH60L_RACS",
-            "CUP_I_UH60L_Unarmed_FFV_MEV_Racs",
-            "CUP_I_UH60L_Unarmed_FFV_Racs",
-            "CUP_I_UH60L_Unarmed_RACS",
-            "CUP_B_UH60M_FFV_US",
-            "CUP_B_UH60M_US",
-            "CUP_B_UH60M_Unarmed_FFV_MEV_US",
-            "CUP_B_UH60M_Unarmed_FFV_US",
-            "CUP_B_UH60M_Unarmed_US",
-            "CUP_O_Mi8_CHDKZ",
-            "CUP_O_Mi8_RU",
-            "CUP_O_Mi8_SLA_1",
-            "CUP_O_Mi8_SLA_2",
-            "CUP_O_Mi8_medevac_CHDKZ",
-            "CUP_O_Mi8_medevac_RU",
-            "CUP_B_Mi171Sh_ACR",
-            "CUP_B_Mi171Sh_Unarmed_ACR",
-            "CUP_B_Mi17_CDF",
-            "CUP_B_Mi17_medevac_CDF",
-            "CUP_I_Mi17_UN",
-            "CUP_O_Mi17_TK",
-            "CUP_C_Mi17_Civilian_RU",
-            "CUP_B_Mi24_D_CDF",
-            "CUP_I_Mi24_D_ION",
-            "CUP_I_Mi24_D_UN",
-            "CUP_O_Mi24_D_TK",
-            "CUP_O_Mi24_P_RU",
-            "CUP_O_Mi24_V_RU",
-            "CUP_B_Mi35_CZ",
-            "CUP_O_UH1H_TKA",
-            "CUP_I_UH1H_TK_GUE",
-            "CUP_B_UH1D_GER_KSK",
-            "CUP_B_UH1D_GER_KSK_DES",
-            "CUP_B_Merlin_HC3_GB",
-            "CUP_B_Merlin_HC3A_GB",
-            "CUP_B_AW159_Unarmed_GB",
-            "CUP_B_AW159_Hellfire_GB",
-            "CUP_B_AW159_Cannon_GB",
-            "CUP_B_SA330_Puma_HC1_BAF",
-            "CUP_B_SA330_Puma_HC2_BAF",
-            "CUP_I_SA330_Puma_HC1_RACS",
-            "CUP_I_SA330_Puma_HC2_RACS",
-            "CUP_O_KA50_SLA",
-            "CUP_O_KA50_AA_SLA",
-            "CUP_O_KA50_RU",
-            "CUP_O_KA50_AA_RU"
+			"CUP_B_CH47F_USA",
+			"CUP_B_CH53E_USMC",
+			"CUP_B_MH60S_USMC",
+			"CUP_B_UH1Y_MEV_USMC",
+			"CUP_B_UH1Y_UNA_USMC",
+			"CUP_B_UH60M_US",
+			"CUP_B_UH60M_Unarmed_FFV_US",
+			"CUP_C_Mi17_Civilian_RU",
+			"CUP_O_Mi24_P_RU"
 		};
 	};
 
@@ -7696,53 +7498,8 @@ class Glasses
 			"Exile_Plane_BlackfishInfantry",
 			"Exile_Plane_BlackfishVehicle",
 			//THIS IS OSOME BVULLSHIT THIFUCKING SFDITDF SFUCKING THASNKS FOR READING KIDS CUP EDITSCup Edits
-			"CUP_C_C47_CIV",
-            "CUP_C_DC3_CIV",
-            "CUP_B_MV22_USMC",
-            "CUP_B_A10_AT_USA",
-            "CUP_B_A10_CAS_USA",
-            "CUP_B_Su25_CDF",
-            "CUP_O_Su25_RU_1",
-            "CUP_O_Su25_RU_2",
-            "CUP_O_Su25_RU_3",
-            "CUP_O_Su25_SLA",
-            "CUP_O_Su25_TKA",
-            "CUP_B_C130J_USMC",
-            "CUP_B_C130J_Cargo_USMC",
-            "CUP_B_C130J_GB",
-            "CUP_B_C130J_Cargo_GB",
-            "CUP_I_C130J_AAF",
-            "CUP_I_C130J_Cargo_AAF",
-            "CUP_I_C130J_RACS",
-            "CUP_I_C130J_Cargo_RACS",
-            "CUP_O_C130J_TKA",
-            "CUP_O_C130J_Cargo_TKA",
-            "CUP_B_F35B_AA_USMC",
-            "CUP_B_F35B_CAS_USMC",
-            "CUP_B_F35B_LGB_USMC",
-            "CUP_B_F35B_AA_BAF",
-            "CUP_B_F35B_CAS_BAF",
-            "CUP_B_F35B_LGB_BAF",
-            "CUP_B_AV8B_CAP_USMC",
-            "CUP_B_AV8B_MK82_USMC",
-            "CUP_B_AV8B_GBU12_USMC",
-            "CUP_B_AV8B_AGM_USMC",
-            "CUP_I_AV8B_CAP_AAF",
-            "CUP_I_AV8B_MK82_AAF",
-            "CUP_I_AV8B_GBU12_AAF",
-            "CUP_I_AV8B_AGM_AAF",
-            "CUP_B_GR9_CAP_GB",
-            "CUP_B_GR9_MK82_GB",
-            "CUP_B_GR9_GBU12_GB",
-            "CUP_B_GR9_AGM_GB",
-            "CUP_O_SU34_LGB_RU",
-            "CUP_O_SU34_LGB_SLA",
-            "CUP_O_SU34_AGM_RU",
-            "CUP_O_SU34_AGM_SLA",
-            "CUP_I_SU34_LGB_AAF",
-            "CUP_I_SU34_AGM_AAF",
-            "CUP_B_SU34_LGB_CDF",
-            "CUP_B_SU34_AGM_CDF"
+			"CUP_B_MV22_USMC ",
+			"CUP_B_C130J_USMC"
 		};
 	};
 
@@ -8023,11 +7780,11 @@ class CfgTrading
 	class requiredRespect 
 	{
 		Level1 = 0;
-		Level2 = 5000;
-		Level3 = 10000;
-		Level4 = 15000;
-		Level5 = 20000;
-		Level6 = 25000;
+		Level2 = 0;
+		Level3 = 0;
+		Level4 = 0;
+		Level5 = 0;
+		Level6 = 0;
 	};
 };
 class CfgVehicleCustoms
