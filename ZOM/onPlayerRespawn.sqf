@@ -1,2 +1,2 @@
 
-[] execVM "zombie\config.sqf";
+[] execVM "ZOM\zombie\config.sqf";
