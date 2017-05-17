@@ -1,2 +1,0 @@
-
-[] execVM "zombie\config.sqf";
