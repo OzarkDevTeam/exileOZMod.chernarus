@@ -3352,48 +3352,7 @@ class CfgExileArsenal
 	class CUP_acc_CZ_M3X 				{ quality = 1; price = 30; };
 	class CUP_acc_Glock17_Flashlight 				{ quality = 1; price = 30; };
 	
-	class CUP_O_UAZ_AGS30_RU                            { quality = 1; price = 4000; };
-	class CUP_O_UAZ_MG_RU                                { quality = 1; price = 3500; };
-	class CUP_O_UAZ_Open_RU                                { quality = 1; price = 4000; };
-	class CUP_O_UAZ_SPG9_RU                                { quality = 1; price = 8000; };
-	class CUP_O_UAZ_Unarmed_RU                            { quality = 1; price = 3500; };
-	class CUP_O_Ural_RU                                    { quality = 1; price = 12000; };
-	class CUP_O_Ural_Refuel_RU                            { quality = 1; price = 13000; };
-	class CUP_I_Ural_ZU23_TK_Gue                        { quality = 1; price = 25000; };
-	class CUP_C_Datsun_Covered                            { quality = 1; price = 3000; };
-	class CUP_C_Datsun_Plain                            { quality = 1; price = 3000; };
-	class CUP_C_Datsun_Tubeframe                        { quality = 1; price = 3000; };
-	class CUP_O_Datsun_PK                                { quality = 1; price = 3000; };
-	class CUP_O_Datsun_PK_Random                        { quality = 1; price = 3000; };
-	class CUP_B_HMMWV_Ambulance_USMC                    { quality = 1; price = 26000; };
-	class CUP_B_HMMWV_M1114_USMC                        { quality = 1; price = 28000; };
-	class CUP_B_HMMWV_M2_USMC                            { quality = 1; price = 28000; };
-	class CUP_B_HMMWV_MK19_USMC                            { quality = 1; price = 24000; };
-	class CUP_B_HMMWV_TOW_USMC                            { quality = 1; price = 35000; };
-	class CUP_B_HMMWV_Unarmed_USMC                        { quality = 1; price = 23000; };
-	class CUP_B_LR_Transport_GB_W                        { quality = 1; price = 8000; };
-	class CUP_I_BRDM2_HQ_TK_Gue                            { quality = 1; price = 37000; };
-	class CUP_O_BTR90_HQ_RU                                { quality = 1; price = 35000; };
-	class CUP_O_BTR90_RU                                { quality = 1; price = 39000; };
-	class CUP_B_M1126_ICV_M2_Woodland_Slat                { quality = 1; price = 33000; };
-	class CUP_B_M1133_MEV_Woodland_Slat                    { quality = 1; price = 31000; };
-	class CUP_B_M1135_ATGMV_Woodland_Slat                { quality = 1; price = 80000; };
-	class CUP_B_M113_Med_USA                            { quality = 1; price = 40000; };
-	class CUP_B_M113_USA                                { quality = 1; price = 40000; };
-	class CUP_I_T55_TK_GUE                                { quality = 1; price = 80000; };
-	class CUP_I_T34_TK_GUE                                { quality = 1; price = 40000; };
-	class CUP_B_CH47F_USA                                { quality = 1; price = 50000; };
-	class CUP_B_CH53E_USMC                                { quality = 1; price = 55000; };
-	class CUP_B_MH60S_USMC                                { quality = 1; price = 45000; };
-	class CUP_B_UH1Y_MEV_USMC                            { quality = 1; price = 40000; };
-	class CUP_B_UH1Y_UNA_USMC                            { quality = 1; price = 45000; };
-	class CUP_B_UH60M_US                                { quality = 1; price = 43750; };
-	class CUP_B_UH60M_Unarmed_FFV_US                    { quality = 1; price = 43750; };
-	class CUP_C_Mi17_Civilian_RU                        { quality = 1; price = 25000; };
-	class CUP_O_Mi24_P_RU                                { quality = 1; price = 65000; };
-	class CUP_B_MV22_USMC                                { quality = 1; price = 80000; };
-	class CUP_B_C130J_USMC                                { quality = 1; price = 150000; };
-
+	
 	class CUP_O_TKI_Khet_Partug_01                                     { quality = 1; price = 50; };
     class CUP_O_TKI_Khet_Partug_02                                     { quality = 1; price = 50; };
     class CUP_O_TKI_Khet_Partug_03                                     { quality = 1; price = 50; };
@@ -3904,7 +3863,7 @@ class CfgExileEnvironment
 		class FireFlies
 		{
 			// 1 = enabled, 0 = disabled
-			enable = 0;
+			enable = 1;
 
 			// At this hour fire flies begin to spawn
 			startHour = 18;
@@ -3943,7 +3902,7 @@ class CfgExileEnvironment
 		class Radiation 
 		{
 			// 1 = enabled, 0 = disabled
-			enable = 1;
+			enable = 0;
 		};
 
 		class Temperature
