@@ -8,7 +8,7 @@ class EditorData
 	toggles=2;
 	class ItemIDProvider
 	{
-		nextID=1063;
+		nextID=1071;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4782.9775,1103.6152,10126.484};
-		dir[]={0.14546606,-0.94974899,0.27759999};
-		up[]={0.44078681,0.31315354,0.84118176};
-		aside[]={0.88587016,-2.5390182e-006,-0.46420363};
+		pos[]={4667.1797,418.99155,10091.39};
+		dir[]={0.69095898,-0.46610695,0.55270278};
+		up[]={0.36398089,0.88471889,0.29115263};
+		aside[]={0.62469912,1.0598451e-006,-0.78096366};
 	};
 };
 binarizationWanted=0;
@@ -28,7 +28,6 @@ addons[]=
 	"exile_client",
 	"A3_Ui_F",
 	"CUP_CABuildings_Misc",
-	"A3_Structures_F_Exp_Military_Camonets",
 	"CUP_Misc_e_Config",
 	"CUP_Editor_Buildings_Config",
 	"CUP_Misc3_Config",
@@ -48,13 +47,12 @@ addons[]=
 	"CUP_Weapons_Curator",
 	"A3_Weapons_F_Explosives",
 	"A3_Modules_F_Curator_Mines",
-	"A3_Characters_F_Exp",
 	"A3_Structures_F_Bootcamp_Items_Electronics",
 	"CUP_CAMP_Armory_Misc_Sign_Armex",
 	"CUP_Editor_Signs_Config",
 	"CUP_CAStructures_Nav_pier",
-	"A3_Structures_F_System",
-	"A3_Structures_F_Exp_Industrial_Port"
+	"A3_Structures_F_System"
+	
 };
 class AddonsMetaData
 {
@@ -241,7 +239,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=340;
+		items=345;
 		class Item0
 		{
 			dataType="Marker";
@@ -5052,7 +5050,6 @@ class Mission
 				position[]={4840.9751,339.99695,10229.707};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -5060,7 +5057,7 @@ class Mission
 			};
 			id=268;
 			type="Exile_Cosmetic_Axe";
-			atlOffset=0.024230957;
+			atlOffset=0.80563354;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5093,6 +5090,7 @@ class Mission
 				position[]={4843.0708,339.92563,10230.046};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -5100,7 +5098,6 @@ class Mission
 			};
 			id=269;
 			type="Exile_Cosmetic_Shovel";
-			atlOffset=0.80041504;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14752,7 +14749,6 @@ class Mission
 				angles[]={0,3.0112607,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -14760,7 +14756,7 @@ class Mission
 			};
 			id=942;
 			type="Exile_Cosmetic_Axe";
-			atlOffset=0.02421689;
+			atlOffset=0.8053937;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14794,6 +14790,7 @@ class Mission
 				angles[]={0,3.0112607,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -14801,7 +14798,7 @@ class Mission
 			};
 			id=943;
 			type="Exile_Cosmetic_Shovel";
-			atlOffset=0.800174;
+			atlOffset=3.0994415e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15500,6 +15497,137 @@ class Mission
 			id=1062;
 			type="Exile_Sign_TraderCity";
 			atlOffset=0.81265259;
+		};
+		class Item340
+		{
+			dataType="Trigger";
+			position[]={13102.225,3.1911325,8238.4023};
+			class Attributes
+			{
+				name="fuckYouZombiesZone";
+				condition="call{this}";
+				onActivation="call{{deleteVehicle _x}forEach thisList;}";
+				sizeA=177.36;
+				sizeB=173.12199;
+				repeatable=1;
+				activationBy="EAST";
+			};
+			id=1065;
+			type="EmptyDetector";
+			atlOffset=5.9180002;
+		};
+		class Item341
+		{
+			dataType="Trigger";
+			position[]={4769.1118,339,10201.52};
+			class Attributes
+			{
+				name="fuckYouZombiesZone_1";
+				condition="call{this}";
+				onActivation="call{{deleteVehicle _x}forEach thisList;}";
+				sizeA=177.36;
+				sizeB=173.12199;
+				repeatable=1;
+				activationBy="EAST";
+			};
+			id=1066;
+			type="EmptyDetector";
+		};
+		class Item342
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4854.3608,339.52017,10205.533};
+				angles[]={0,3.0763955,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				aiRadarUsage=141547008;
+			};
+			id=1068;
+			type="CUP_sign_parking_new";
+			atlOffset=-1.1385193;
+		};
+		class Item343
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4841.4829,339.81284,10197.021};
+				angles[]={0,2.4220555,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1069;
+			type="Land_WaterCooler_01_new_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item344
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4831.1641,339.81284,10224.615};
+				angles[]={0,0.36366463,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=1070;
+			type="Land_WaterCooler_01_new_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
