@@ -11,7 +11,6 @@
 
 if (!hasInterface || isServer) exitWith {};
 
-[] execVM "ZOM\init.sqf";
 
 // 24 NPCs
 private _npcs = [
