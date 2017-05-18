@@ -617,7 +617,7 @@ class CraftPortableGenerator: Exile_AbstractCraftingRecipe
 		{1, "Exile_Item_ExtensionCord"}
 	};
 };
-/*class CraftRazorWireKit: Exile_AbstractCraftingRecipe
+class CraftRazorWireKit: Exile_AbstractCraftingRecipe
 {
 	name = "Craft Razor Wire Kit Kit";
 	pictureItem = "Exile_Item_RazorWireKit_Long";
@@ -638,7 +638,7 @@ class CraftPortableGenerator: Exile_AbstractCraftingRecipe
 		{4, "Exile_Item_MetalWire"},
 		{1, "Exile_Item_MetalScrews"}
 	};
-};*/
+};
 class CraftRepairKitConcrete: Exile_AbstractCraftingRecipe
 {
 	name = "Craft Concrete Repair Kit";
@@ -1606,18 +1606,18 @@ class CfgExileArsenal
 	class Exile_Item_JunkMetal						{ quality = 1; price = 400; };
 	class Exile_Item_LightBulb						{ quality = 1; price = 20; };
 	class Exile_Item_MetalBoard						{ quality = 1; price = 600; };
-	//class Exile_Item_MetalHedgehogKit				{ quality = 1; price = 1200; };
+	class Exile_Item_MetalHedgehogKit				{ quality = 1; price = 1200; };
 	class Exile_Item_SafeKit						{ quality = 4; price = 25000; };
 	class Exile_Item_CodeLock						{ quality = 1; price = 5000; };
-	//class Exile_Item_Laptop						{ quality = 2; price = 9000; };
-	//class Exile_Item_BaseCameraKit				{ quality = 2; price = 5000; };
+	class Exile_Item_Laptop						{ quality = 2; price = 9000; };
+	class Exile_Item_BaseCameraKit				{ quality = 2; price = 5000; };
 	class Exile_Item_CamoTentKit					{ quality = 1; price = 250; };
 	class Exile_Item_MetalPole						{ quality = 1; price = 800; };
-	//class Exile_Item_MetalScrews					{ quality = 1; price = 100; };
-	//class Exile_Item_MetalWire						{ quality = 1; price = 100; };
-	//class Exile_Item_Cement							{ quality = 1; price = 20; };
-	//class Exile_Item_Sand							{ quality = 1; price = 20; };
-	//class Exile_Item_CarWheel						{ quality = 1; price = 1000; };
+	class Exile_Item_MetalScrews					{ quality = 1; price = 100; };
+	class Exile_Item_MetalWire						{ quality = 1; price = 100; };
+	class Exile_Item_Cement							{ quality = 1; price = 20; };
+	class Exile_Item_Sand							{ quality = 1; price = 20; };
+	class Exile_Item_CarWheel						{ quality = 1; price = 1000; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	// Food
@@ -3847,6 +3847,16 @@ class CfgExileArsenal
 	class CUP_B_Seafox_USMC					{ quality = 1; price = 1000; };
 	class CUP_B_Seafox_USV_USMC					{ quality = 1; price = 1000; };
 	class CUP_B_Zodiac_USMC					{ quality = 1; price = 1500; };
+	
+	
+	"Exile_Item_MetalScrews"
+	"Exile_Item_MetalWire"
+	"Exile_Item_Laptop"
+	"Exile_Item_BaseCameraKit"
+	"Exile_Item_MetalHedgehogKit"
+	"Exile_Item_Cement"
+	"Exile_Item_Sand"
+	"Exile_Item_MobilePhone"
 	
 };
 
