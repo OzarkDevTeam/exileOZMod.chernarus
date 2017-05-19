@@ -3619,7 +3619,7 @@ class CfgExileArsenal
 	//	NIA EDITS
 	//////////////////////////////////////////////////////////////////////////////
 		
-			//GAYFUCKINGSHITFUCKTHEHELLFUCK
+			//GAYFUCKINGSHITFUCKTHEHELLFUCK Fucking Done with Springfields Bullshit *DEV*
 	
 		//Awper
 
@@ -3711,7 +3711,7 @@ class CfgExileArsenal
 	class hlc_rifle_M1903A1_unertl { quality = 1; price = 800; };
 	class hlc_rifle_M1903A1 { quality = 1; price = 800; };
 		//Ammo
-	class B_556x45_Ball { quality = 2; price = 29; };
+	class hlc_5rnd_3006_1903  { quality = 2; price = 29; };
 	
 		//ACR
 
@@ -6528,9 +6528,7 @@ class Glasses
 			"hlc_30rnd_68x43_Tracer",
 			"hlc_30rnd_68x43_Tracer",
 			"hlc_30rnd_68x43_IRDIM",
-			"hlc_5rd_3006_1903",
-			"HLC_3006_FMJ",
-			"B_556x45_Ball"
+			"hlc_5rd_3006_1903"
 
 		};
 	};
