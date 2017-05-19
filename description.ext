@@ -68,22 +68,26 @@ showHUD[] =
 
 #include "infiSTAR_AdminMenu.hpp"
 
-class CfgRemoteExec
+#include "ExAdClient\ExAd.cpp"
+
+#include "CfgRemoteExec.hpp"
+
+class CfgFunctions
 {
-    class Functions
-    {
-        mode = 1;
-        jip = 0;
+	#include "ExAdClient\CfgFunctions.cpp"
+};
 
-        class ExileServer_system_network_dispatchIncomingMessage
-        {
-            allowedTargets = 2;
-        };
-    };
+class RscTitles
+{
+	#include "ExAdClient\RscTitles.cpp"
+};
 
-    class Commands
-    {
-		mode = 0;
-		jip = 0;
-    };
+class CfgHints
+{
+	#include "ExAdClient\CfgHints.cpp"
+};
+
+class CfgNetworkMessages
+{
+	#include "ExAdClient\CfgNetworkMessages.cpp"
 };

@@ -1702,7 +1702,7 @@ class CfgExileArsenal
 	class NVGoggles_INDEP							{ quality = 2; price = 100; };
 	class NVGoggles_OPFOR							{ quality = 2; price = 100; };
 	class Exile_Item_XM8							{ quality = 2; price = 20; };
-	class Exile_Item_MobilePhone					{ quality = 6; price = 500; };
+	class Exile_Item_MobilePhone					{ quality = 6; price = 90000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Watch out for a Walter fart! He has gas!
@@ -3711,7 +3711,7 @@ class CfgExileArsenal
 	class hlc_rifle_M1903A1_unertl { quality = 1; price = 800; };
 	class hlc_rifle_M1903A1 { quality = 1; price = 800; };
 		//Ammo
-	class B_556x45_Ball { quality = 2; price = 29; };
+	class hlc_5rd_3006_1903 { quality = 2; price = 29; };
 	
 		//ACR
 
@@ -3849,17 +3849,78 @@ class CfgExileArsenal
 	class CUP_B_Zodiac_USMC					{ quality = 1; price = 1500; };
 	
 	
-	"Exile_Item_MetalScrews"
-	"Exile_Item_MetalWire"
-	"Exile_Item_Laptop"
-	"Exile_Item_BaseCameraKit"
-	"Exile_Item_MetalHedgehogKit"
-	"Exile_Item_Cement"
-	"Exile_Item_Sand"
-	"Exile_Item_MobilePhone"
-	
 };
 
+class CfgXM8
+{
+	extraApps[] = {"ExAd_VG","ExAd_Info","ExAd_CHVD","ExAd_Journal","ExAd_Bike","ExAd_Quad","ExAd_SB"};
+	
+	class ExAd_VG 
+	{
+		title = "Virtual Garage";
+		controlID = 50000;					//IDC:50000 -> 50015 || These need to be unique and out of range from each other 
+		logo = "ExadClient\XM8\Apps\VG\Icon_VG.paa";
+		onLoad = "ExAdClient\XM8\Apps\VG\onLoad.sqf";
+		onOpen = "ExAdClient\XM8\Apps\VG\onOpen.sqf";
+		onClose = "ExAdClient\XM8\Apps\VG\onClose.sqf";
+	};	
+	class ExAd_Info 
+	{
+		title = "Server Info";
+		controlID = 50100;					//IDC:50100 -> 50102 || These need to be unique and out of range from each other
+		logo = "ExadClient\XM8\Apps\Info\Icon_SI.paa";
+		onLoad = "ExAdClient\XM8\Apps\Info\onLoad.sqf";
+		onOpen = "ExAdClient\XM8\Apps\Info\onOpen.sqf";
+		onClose = "ExAdClient\XM8\Apps\Info\onClose.sqf";
+	};	
+	class ExAd_CHVD 
+	{
+		title = "View Distance Settings";
+		controlID = 50200;					//IDC:50200 -> 50102 || These need to be unique and out of range from each other
+		config = "ExadClient\XM8\Apps\CHVD\config.sqf";
+		logo = "ExadClient\XM8\Apps\CHVD\Icon_CHVD.paa";
+		onLoad = "ExAdClient\XM8\Apps\CHVD\onLoad.sqf";
+		onOpen = "ExAdClient\XM8\Apps\CHVD\onOpen.sqf";
+		onClose = "ExAdClient\XM8\Apps\CHVD\onClose.sqf";
+	};		
+	class ExAd_Journal 
+	{
+		title = "Journal";
+		controlID = 50300;					//IDC:50300 -> 50305 || These need to be unique and out of range from each other
+		config = "ExadClient\XM8\Apps\Journal\config.sqf";
+		logo = "ExadClient\XM8\Apps\Journal\Icon_Journal.paa";
+		onLoad = "ExAdClient\XM8\Apps\Journal\onLoad.sqf";
+		onOpen = "ExAdClient\XM8\Apps\Journal\onOpen.sqf";
+		onClose = "ExAdClient\XM8\Apps\Journal\onClose.sqf";
+	};
+	class ExAd_Bike
+	{
+		title = "Deploy Bike";
+		config = "ExadClient\XM8\Apps\DeployVehicle\config.sqf";
+		bambiState = 0;
+		vehicleClass = "Exile_Bike_MountainBike";
+		recipe[] = {{"Exile_Item_ExtensionCord",-1}};
+		packable = 1;
+		autoCleanUp = 1;
+		quickFunction = "['ExAd_Bike'] call ExAd_XM8_DV_fnc_spawnVehicle";
+	};
+	class ExAd_Quad
+	{
+		title = "Deploy Quad";
+		bambiState = 0;
+		vehicleClass = "Exile_Bike_QuadBike_Fia";
+		recipe[] = {{"Exile_Item_ExtensionCord",1}};
+		packable = 1;
+		quickFunction = "['ExAd_Quad'] call ExAd_XM8_DV_fnc_spawnVehicle";
+	};
+	class ExAd_SB 
+	{
+		title = "Statsbar Settings";
+		controlID = 50400;					//IDC:50400 -> 50475 || These need to be unique and out of range from each other
+		logo = "ExadClient\XM8\Apps\SB_Settings\Icon_SB.paa";
+		onLoad = "ExAdClient\XM8\Apps\SB_Settings\onLoad.sqf";
+	};
+}; 
 
 
 class CfgExileCustomCode 
@@ -3878,6 +3939,11 @@ class CfgExileCustomCode
 
 		ExileClient_util_fusRoDah = "myaddon\myfunction.sqf";
 	*/
+	ExileServer_system_territory_database_load = "ExAdClient\VirtualGarage\CustomCode\ExileServer_system_territory_database_load.sqf";
+	ExileClient_gui_xm8_slide = "ExAdClient\XM8\CustomCode\ExileClient_gui_xm8_slide.sqf";
+	ExileClient_gui_xm8_show = "ExAdClient\XM8\CustomCode\ExileClient_gui_xm8_show.sqf";
+	ExileServer_object_construction_database_load = "Overrides\ExileServer_object_construction_database_load.sqf";
+	
 };
 class CfgExileEnvironment
 {
@@ -4320,6 +4386,17 @@ class CfgInteractionMenus
 				condition = "call ExileClient_object_vehicle_interaction_show";
 				action = "_this call ExileClient_object_vehicle_drain";
 			};
+			
+			//	ExAd Mods
+			
+			//Packs Vehicle
+			class PackDeployedVehicle: ExileAbstractAction
+			{
+				title = "Pack Vehicle";
+				condition = "call ExAd_XM8_DV_fnc_canPack";
+				action = "call ExAd_XM8_DV_fnc_pack";
+			};
+			
 		};
 	};
 
@@ -4452,6 +4529,16 @@ class CfgInteractionMenus
 				condition = "((ExileClientInteractionObject getvariable ['ExileIsLocked',1]) isEqualTo 0)";
 				action = "_this spawn ExileClient_object_lock_setPin";
 			};
+			
+			// ExAd Mods
+			
+			//Hack Safe
+			class HackSafe : ExileAbstractAction
+			{
+				title = "Hack Safe";
+				condition = "call ExAd_fnc_canHackSafe";
+				action = "_this spawn ExAd_fnc_startHack";
+			};
 		};
 	};
 
@@ -4467,6 +4554,16 @@ class CfgInteractionMenus
 				title = "CCTV Access";
 				condition = "((ExileClientInteractionObject animationPhase 'LaptopLidRotation') >= 0.5)";
 				action = "_this call ExileClient_gui_baseCamera_show";
+			};
+			
+			// ExAd Mods
+			
+			//Stop The Hacktivision
+			class StopHack: ExileAbstractAction
+			{
+				title = "Interupt Hack";
+				condition = "(ExileClientInteractionObject getVariable ['ExAd_HACKING_IN_PROGRESS', false])";
+				action = "_this spawn ExAd_fnc_stopHack";
 			};
 		};
 	};
@@ -4572,7 +4669,23 @@ class CfgInteractionMenus
 				condition = "(!((ExileClientInteractionObject getVariable ['ExileConstructionDamage',0]) isEqualTo 0)) && (call ExileClient_util_world_isInOwnTerritory)";
 				action = "_this call ExileClient_object_construction_repair";
 			};
-
+			//	ExAd Mods
+			
+			//Grinds Locks
+			class Grind : ExileAbstractAction
+			{
+				title = "Grind Lock";
+				condition = "call ExAd_fnc_canGrindLock";
+				action = "_this spawn ExAd_fnc_grindLock";
+			};
+			
+			//Restores Locks
+			class RestoreLock : ExileAbstractAction
+			{
+				title = "Restore Lock";
+				condition = "_object call ExAd_fnc_canRestoreLock";
+				action = "_this spawn ExAd_fnc_restoreLock";
+			};
 		};
 	};
 
@@ -4617,18 +4730,29 @@ class CfgInteractionMenus
 				action = "_this call ExileClient_gui_baseManagement_event_show";
 			};
 			*/
+			/*
 			class StealFlag: ExileAbstractAction
 			{
 				title = "Steal Flag";
 				condition = "((ExileClientInteractionObject getvariable ['ExileFlagStolen',1]) isEqualTo 0)";
 				action = "['StealFlag', _this select 0] call ExileClient_action_execute";
 			};
-			
+			*/
 			class RestoreFlag: ExileAbstractAction
 			{
 				title = "Restore Flag";
 				condition = "((ExileClientInteractionObject getvariable ['ExileFlagStolen',0]) isEqualTo 1)";
 				action = "['restoreFlagRequest', [netID ExileClientInteractionObject]] call ExileClient_system_network_send";
+			};
+			
+			//	ExAd Mods
+			
+			//Hack Virtual Garage
+			class HackVG : ExileAbstractAction
+			{
+				title = "Hack Virtual Garage";
+				condition = "call ExAd_fnc_canHackVG";
+				action = "_this spawn ExAd_fnc_startHack";
 			};
 		};
 	};
@@ -4710,6 +4834,16 @@ class CfgInteractionMenus
 				title = "Flip";
 				condition = "true";
 				action = "_this call ExileClient_object_vehicle_flip";
+			};
+			
+			//  ExAd Mods
+			
+			//Pack the Deployed Bike
+			class PackDeployedVehicle: ExileAbstractAction
+			{
+				title = "Pack Bike";
+				condition = "call ExAd_XM8_DV_fnc_canPack";
+				action = "call ExAd_XM8_DV_fnc_pack";
 			};
 		};
 	};
@@ -4919,7 +5053,7 @@ class CfgLocker
 {
 	numbersOnly = "0123456789";
 	
-	maxDeposit = 10000000;
+	maxDeposit = 100000;
 };
 
 class CfgPlayer 
@@ -6528,9 +6662,7 @@ class Glasses
 			"hlc_30rnd_68x43_Tracer",
 			"hlc_30rnd_68x43_Tracer",
 			"hlc_30rnd_68x43_IRDIM",
-			"hlc_5rd_3006_1903",
-			"HLC_3006_FMJ",
-			"B_556x45_Ball"
+			"hlc_5rd_3006_1903"
 
 		};
 	};
