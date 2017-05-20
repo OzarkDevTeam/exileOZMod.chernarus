@@ -2304,23 +2304,23 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	// Hummingbird (Civillian)
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Chopper_Hummingbird_Civillian_Blue				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Red				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_ION				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_BlueLine			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Digital			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Elliptical		{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Furious			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_GrayWatcher		{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Jeans				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Light				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Shadow			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Sheriff			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Speedy			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Sunset			{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Vrana				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Wasp				{ quality = 1; price = 17000; };
-	class Exile_Chopper_Hummingbird_Civillian_Wave				{ quality = 1; price = 17000; };
+	class Exile_Chopper_Hummingbird_Civillian_Blue				{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Red				{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_ION				{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_BlueLine			{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Digital			{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Elliptical		{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Furious			{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_GrayWatcher		{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Jeans				{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Light				{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Shadow			{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Sheriff			{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Speedy			{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Sunset			{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Vrana				{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Wasp				{ quality = 1; price = 5000; };
+	class Exile_Chopper_Hummingbird_Civillian_Wave				{ quality = 1; price = 5000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Huron
@@ -5145,16 +5145,16 @@ class CfgTerritories
 	prices[] = 
 	{
 		// Purchase Price 		Radius 		Number of Objects
-		{5000,					15,			30 					}, // Level 1
-		{10000,					30,			60 					}, // Level 2 
-		{15000,					45,			90 					}, // Level 3
-		{20000,					60,			120					}, // Level 4
-		{25000,					75,			150					}, // Level 5
-		{30000,					90,			180					}, // Level 6
-		{35000,					105,		210					}, // Level 7
-		{40000,					120,		240					}, // Level 8
-		{45000,					135,		270					}, // Level 9
-		{50000,					150,		300					}  // Level 10
+		{5000,					15,			50 					}, // Level 1
+		{10000,					30,			100 					}, // Level 2 
+		{15000,					45,			200 					}, // Level 3
+		{20000,					60,			300					}, // Level 4
+		{25000,					75,			500					}, // Level 5
+		{30000,					90,			700					}, // Level 6
+		{35000,					105,		900					}, // Level 7
+		{40000,					120,		1200					}, // Level 8
+		{45000,					135,		1500					}, // Level 9
+		{50000,					150,		2000					}  // Level 10
 	};
 
 	// A shortcut of the above maximum radius
